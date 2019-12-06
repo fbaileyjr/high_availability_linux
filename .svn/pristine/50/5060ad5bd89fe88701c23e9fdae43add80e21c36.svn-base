@@ -1,0 +1,180 @@
+#!/bin/bash
+#
+#
+# Author: $Author$
+# Revision:$Revision$
+# Date: $Date$
+#
+
+# global variables - start
+source `dirname $0`/skybox_ha.conf
+SKYBOXLOG=/home/skyboxview/ha/log/skybox_ha.log
+SKYUSERHOME=/home/skyboxview/ha
+state=0
+
+
+
+
+# global variables - end
+
+# removing incrontab files and tabs
+if [ -f "/home/skyboxview/ha/incron.primary" ]
+then
+    echo "Removing incron.primary..."
+    rm -f $SKYUSERHOME/incron.primary
+    if [ $? == 0 ]
+    then
+        echo `date +"%Y-%m-%d %T Incron.primary file was removed successfully"` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y-%m-%d %T Incron.primary file failed to be removed"` | tee -a $SKYBOXLOG
+    fi
+elif [ -f "/home/skyboxview/ha/incron.secondary" ]
+then
+    echo "Removing incron.secondary file..."
+    rm -f $SKYUSERHOME/incron.secondary
+    if [ $? == 0 ]
+    then
+        echo `date +"%Y-%m-%d %T Incron.secondary file was removed successfully"` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y-%m-%d %T Incron.secondary file failed to be removed"` | tee -a $SKYBOXLOG
+    fi
+else
+    echo `date +"%Y-%m-%d %T No incron files were found!"` | tee -a $SKYBOXLOG
+fi
+
+#removing incrontab
+incrontab -r
+
+# adding cron entries for secondary
+echo $SKYBOX_HOME/data/xml_models IN_MOVED_TO /home/skyboxview/ha/load.sh \$@/\$\# >> $SKYUSERHOME/incron.secondary
+echo $SKYBOX_HOME/data/sqlx_models IN_MOVED_TO /home/skyboxview/ha/load.sh \$@/\$\# >> $SKYUSERHOME/incron.secondary
+incrontab $SKYUSERHOME/incron.secondary
+incrontab -d
+#sudo /sbin/iptables-restore < /home/skyboxview/ha/iptables-secondary
+#sudo service iptables restart
+if [ "$1" == "auto" ]; then
+        echo "Resetting skybox crontab and adding watchdog script"
+        crontab -l > /home/skyboxview/ha/cron
+        sed -i '/skybox_watchdog.sh/d' /home/skyboxview/ha/cron
+
+        if ! (grep -Fxq '*/10 * * * * /home/skyboxview/ha/skybox_watchdog.sh >/dev/null 2>&1' /home/skyboxview/ha/cron)
+        then
+            echo "*/10 * * * * /home/skyboxview/ha/skybox_watchdog.sh >/dev/null 2>&1" >> /home/skyboxview/ha/cron
+        else
+            date +"%Y-%m-%d %T Watchdog Cron entry already exist" | tee -a $SKYBOXLOG
+        fi
+        if !(grep -Fxq '*/60 * * * * /home/skyboxview/ha/conf_files_sync.sh >/dev/null 2>&1' /home/skyboxview/ha/cron)
+        then
+            echo "*/60 * * * * /home/skyboxview/ha/conf_files_sync.sh >/dev/null 2>&1" >> /home/skyboxview/ha/cron
+        else
+            echo `date +"%Y-%m-%d %T Conf_files_sync Cron entry already exist"` | tee -a $SKYBOXLOG
+        fi
+        crontab $SKYUSERHOME/cron
+        echo `date +"%Y-%m-%d %T Setsecondary run with auto"` | tee -a $SKYBOXLOG
+else
+        echo "Removing skybox_watchdog.sh from crontab, auto failover is not configured"
+        crontab -l > $SKYUSERHOME/cron
+        sed -i '/skybox_watchdog.sh/d' $SKYUSERHOME/cron
+        crontab $SKYUSERHOME/cron
+        echo "To enable auto failover, rerun this script as follows"
+        echo "$0 auto"
+        echo `date +"%Y/%m/%d %T Setsecondary run without auto"` | tee -a $SKYBOXLOG
+        state=1
+fi
+
+# Set firewalls back to original installation state
+
+# set firewalld to block secondary gui id
+if (( $(ps -ef | grep -v grep | grep firewalld | wc -l) > 0 )) && $DISABLE_SECONDARY_GUI eq true; then
+    echo "Detected Firewalld, loading configuration..."
+    echo "Disable Secondary Gui is set to true..."
+    sudo cp $SKYUSERHOME/firewall/block_secondary_gui.xml /etc/firewalld/zones/public.xml
+    sudo firewall-cmd --reload
+    if [ $? == 0 ]
+    then
+        echo `date +"%Y-%m-%d %T Firewalld configuration was uploaded, firewall with secondary gui disabled was successfully reloaded"` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y-%m-%d %T Firewalld configuration was uploaded, but firewall was not reloaded"` | tee -a $SKYBOXLOG
+        state=1
+    fi
+
+# set firewalld to original configuration
+elif (( $(ps -ef | grep -v grep | grep firewalld | wc -l) > 0 )) && $DISABLE_SECONDARY_GUI eq false; then
+    echo "Detected Firewalld, loading configuration..."
+    echo "Disable Secondary Gui is set to true..."
+    sudo cp $SKYUSERHOME/firewall/original_public.xml /etc/firewalld/zones/public.xml
+    sudo firewall-cmd --reload
+    if [ $? == 0 ]
+    then
+        echo `date +"%Y-%m-%d %T Firewalld configuration was uploaded, firewall with secondary gui disabled was successfully reloaded"` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y-%m-%d %T Firewalld configuration was uploaded, but firewall was not reloaded"` | tee -a $SKYBOXLOG
+        state=1
+    fi
+
+
+# if secondary and gui disable is true, disable port 8443
+elif $DISABLE_SECONDARY_GUI eq true; then
+    echo "Detected IPTables, loading configuration..."
+    if sudo /sbin/iptables-restore < $SKYUSERHOME/firewall/iptables-secondary-no-gui; then
+        echo `date +"%Y-%m-%d %T Iptables configuration with no secondary gui was uploaded..."`| tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y-%m-%d %T Iptables configuration with no secondary gui failed to load..."` | tee -a $SKYBOXLOG
+        state=1
+    fi
+
+
+else
+    echo "Detected IPTables, loading configuration..."
+    if sudo /sbin/iptables-restore < $SKYUSERHOME/firewall/iptables-secondary; then
+        echo `date +"%Y-%m-%d %T Iptables configuration was uploaded..."`| tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y-%m-%d %T Iptables configuration failed to load..."` | tee -a $SKYBOXLOG
+        state=1
+    fi
+fi
+
+# disabling task scheduler in sb_server.properties
+cd $SKYBOX_HOME/server/bin/
+
+if ./settaskschedulingactivation.sh disable >/dev/null; then
+        echo `date +"%Y-%m-%d %T, Task Scheduling has been disabled"` | tee -a $SKYBOX_HOME/server/log/debug/debug.log $SKYBOXLOG
+        state=0
+    else
+        echo `date +"%Y-%m-%d %T, ERROR: Task Scheduling has not been set to false. Please rerun the setsecondary script again."` |
+        tee -a  $SKYBOX_HOME/server/log/debug/debug.log $SKYBOXLOG
+        state=1
+fi
+
+# disabling _collectors_auto_update flag in sb_server.properties
+cd $SKYBOX_HOME/server/bin/
+if grep -rni "enable_collectors_auto_update=true" $SKYBOX_HOME/server/conf/sb_server.properties
+    then
+        echo `date +"%Y-%m-%d %T, enable_collectors_auto_update flag is set to true, changing flag to false"` |
+        tee -a $SKYBOX_HOME/server/log/debug/debug.log
+        sed -i 's/enable_collectors_auto_update=true/enable_collectors_auto_update=false/g' $SKYBOX_HOME/server/conf/sb_server.properties
+        if [ $? == 0 ]
+            then
+                echo `date +"%Y-%m-%d %T, enable_collectors_auto_update flag has been successfully set to false..."` |
+                tee -a $SKYBOX_HOME/server/log/debug/debug.log $SKYBOXLOG
+                state=0
+            else
+                echo `date +"%Y-%m-%d %T, enable_collectors_auto_update flag has not been set to false, please rerun script"` |
+                tee -a $SKYBOX_HOME/server/log/debug/debug.log $SKYBOXLOG
+                state=1
+        fi
+    else
+        echo `date +"%Y-%m-%d %T, enable_collectors_auto_update flag is set to false, no change needed..."` |
+        tee -a $SKYBOX_HOME/server/log/debug/debug.log  $SKYBOXLOG
+fi
+
+#
+# checks state variable to see if all of the scripts were ran correctly
+#
+if [ $state == 0 ]
+then
+   echo `date +"%Y-%m-%d %T Host has been successfully set as secondary"` | tee -a $SKYBOXLOG
+else
+   echo `date +"%Y-%m-%d %T Host failed to be set as secondary"` | tee -a $SKYBOXLOG
+fi
+

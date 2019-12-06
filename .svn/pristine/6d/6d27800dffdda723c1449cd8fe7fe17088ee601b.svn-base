@@ -1,0 +1,34 @@
+#!/bin/bash
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+
+# global variables - start
+
+# sourcing configuration file
+source /home/skyboxview/ha/skybox_ha.conf
+
+#global variables - stop
+
+# main code - start
+
+#scp file from other server to /tmp folder
+scp skyboxview@$OTHER_SERVER:/opt/skyboxview/server/conf/sb_server.properties /tmp/sb_server.properties
+scp skyboxview@$OTHER_SERVER:/opt/skyboxview/server/conf/sb_common.properties /tmp/sb_common.properties
+
+# copy temp files to current configuration folder
+cp /tmp/sb_server.properties /opt/skyboxview/server/conf/sb_server.properties
+cp /tmp/sb_common.properties /opt/skyboxview/server/conf/sb_common.properties
+
+# disabling task scheduling
+cd /opt/skyboxview/server/bin/
+./settaskschedulingactivation.sh disable >/dev/null
+date +"%Y/%m/%d %H-%M-%S Configuration files synced successfully" >> /home/skyboxview/ha/log/skybox_ha.log
+
+
+
+# main code - stop

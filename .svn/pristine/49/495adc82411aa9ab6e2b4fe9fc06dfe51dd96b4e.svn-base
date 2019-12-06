@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+cd /home/skyboxview/ha
+#source `dirname $0`/skybox_ha.conf
+
+prifile="/home/skyboxview/ha/incron.primary"
+MYSQLDUMP=`find /opt/skyboxview/thirdparty -path "*bin/mysqldump"`
+
+
+
+# Check if this server is either Primary or secondary (if not exist)
+    if [ -e $prifile ]; then
+            echo "Production Primary Skybox Server Ok"
+        #I'm primary export ticket
+	now=$(date +"%Y%d%m%H%M%S")
+	$MYSQLDUMP --user root --password=manager -S /opt/skyboxview/data/db/mysql/mysql.sock skyboxview_live sbv_tickets sbv_ticket_events sbv_ticket_fields sbv_attachments sbv_phases > /opt/skyboxview/data/xml_models/ticket_backup.sql.$now
+	echo $now
+    date +"%Y/%m/%d %H-%M-%S Backup tickets finished successfully" >> /home/skyboxview/ha/log/skybox_ha.log
+	else
+        echo "Not Primary Skybox Server"
+        exit 255
+    fi

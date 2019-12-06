@@ -1,0 +1,31 @@
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+March 21, 2018
+
+Fix in rev. 25:
+-  Erroneous character found in skybox_watchdog.sh, removed character
+- Removed soap_ping.pl and soap_ping.py
+- Updated skybox_watchdog.sh with the function to perform the soap ping as part of its script
+- Add req.xml (this is part of the API ping request)
+- Updated setprimary.sh logic to allow the secondary to become active, even if there is an incron.primary file on the Primary server
+- Correct redirect statement for setsecondary.sh script
+- Path for mysqldump backupTicket.sh updated to reflect proper path depending on installed version
+
+
+
+====================================================================================================================================
+
+Dec 27, 2017
+	
+Fixes in rev. 24:
+- Updated the MAIL_RECEIVER in skybox_ha.conf. The variable was misspelled causing other scripts to fail
+
+Fixes of rev. 23:
+- Updated the e-mail check in setprimary.sh. The false notification was caused by script was running. The proper logic has been put in place to check if the mail parameters have  been set.
+- Updated skybox_watch.sh with the proper e-mail notification function. Only in the event of a failover will the e-mail be sent. I have tested and verified that this is working.
+- Updated setprimary.sh, setsecondary.sh, and skybox_watchdog.sh with better logging logic. The code is cleaner and nicer to read

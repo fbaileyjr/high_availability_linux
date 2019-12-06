@@ -1,0 +1,59 @@
+#!/bin/sh
+#rm /home/skyboxview/ha/t
+source `dirname $0`/skybox_ha.conf
+cd $SKYBOX_HOME/server/bin
+loadstatus=/home/skyboxview/ha/log/ticket-statusfile.log
+modelstatus=/home/skyboxview/ha/log/model-statusfile.log
+skyboxlog=/home/skyboxview/ha/log/skybox_ha.log
+filename=${1##*/}
+
+#if [ ${1: -5} == ".xmlx" ] 
+if [[ ${1: -5} == ".sqlx" ]] 
+then
+        echo sqlxrestore.sh $1 -model
+        #echo "TIME=$(date)" > $modelstatus
+        date +"%Y-%m-%d %T: FILENAME=$1" >> $modelstatus
+
+        ./sqlxrestore.sh $1 2>&1 >> $skyboxlog
+        if [ $? == 0 ]
+        then
+                date +"%Y-%m-%d %T: TASKSTATUS=OK" >> $modelstatus
+		date +"%Y-%m-%d %T: Restoration of sql file: $filename - SUCCESS" >> $skyboxlog
+        else
+                date +"%Y-%m-%d %T: TASKSTATUS=FAILED" >> $modelstatus
+		date +"%Y-%m-%d %T: Restoration of sql file: $filename - FAILED" >> $skyboxlog
+        fi
+elif [[ ${1%*.*} == "/opt/skyboxview/data/xml_models/ticket_backup.sql" ]]
+        then
+                echo "mysql.sh $1"
+                #echo "TIME=$(date)" > $loadstatus
+                date +"%Y-%m-%d %T: FILENAME=$1" >> $loadstatus
+                ./mysql.sh --database=skyboxview_live --password=manager < $1 2>&1 >> $skyboxlog
+
+                if [ $? == 0 ]
+                then
+                        date +"%Y-%m-%d %T: TASKSTATUS=OK" >> $loadstatus
+                        ./invalidate.sh
+			date +"%Y-%m-%d %T:  Restoration of backup_sql file: $filename - SUCCESS" >> $skyboxlog
+                else
+                        date +"%Y-%m-%d %T: TASKSTATUS=FAILED" >> $loadstatus
+			date +"%Y-%m-%d %T: Restoration of backup_sql file: $filename - FAILED" >> $skyboxlog
+                fi
+else
+        if [[ ${1: -5} == ".xmlx" ]] 
+        then
+                echo "load.sh $1 -model"
+                echo "TIME=$(date)" >> $modelstatus
+                echo "FILENAME=$1" >> $modelstatus
+
+                ./load.sh $1 -model -coreusers -core 2>&1 >> $skyboxlog
+                if [ $? == 0 ]
+                        then
+                                echo "TASKSTATUS=OK" >> $modelstatus
+				date +"%Y-%m-%d %T: Model Upload Status - $filename - SUCCESS" >> $skyboxlog
+                        else
+                                echo "TASKSTATUS=FAILED" >> $modelstatus
+				date +"%Y-%m-%d %T: Model Upload Status - $filename - FAILED" >> $skyboxlog
+                fi
+        fi
+fi

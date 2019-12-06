@@ -1,0 +1,79 @@
+#!/bin/bash
+source `dirname $0`/skybox_ha.conf
+skyboxlog=/home/skyboxview/ha/log/skybox_ha.log
+skyuserhome=/home/skyboxview/ha
+
+# create blank cron file and import
+echo '' > /home/skyboxview/ha/cron
+crontab /home/skyboxview/ha/cron
+if [ $? == 0 ]
+then
+    date +"%Y-%m-%d %T Crontab cleared successfully" >> $skyboxlog
+    echo $(date) " Crontab cleared successfully"
+else
+    date +"%Y-%m-%d %T Crontab failed to be cleared - try again" >> $skyboxlog
+    echo $(date) "Crontab failed to be cleared - try again"
+fi
+
+# create blank incron.primary and secondary files
+if [ -f "/home/skyboxview/ha/incron.primary" ]
+then
+    echo '' > /home/skyboxview/ha/incron.primary
+    date +"%Y-%m-%d %T Clearing incron.primary" >> $skyboxlog
+    incrontab /home/skyboxview/ha/incron.primary
+    if [ $? == 0 ]
+    then
+	date +"%Y-%m-%d %T Incrontab on primary cleared successfully" >> $skyboxlog
+	echo $(date) " Incrontab on primary cleared successfully"
+    else
+   	date +"%Y-%m-%d %T Incrontab on primary failed to be cleared" >> $skyboxlog
+	echo $(date) " Icrontab on primary failed to be cleared"
+    fi
+elif [ -f "/home/skyboxview/ha/incron.secondary" ]
+then
+    echo '' > /home/skyboxview/ha/incron.secondary
+    echo $(date) " Clearing incron.secondary"
+    incrontab /home/skyboxview/ha/incron.secondary
+    if [ $? == 0 ]
+    then
+    	date +"%Y-%m-%d %T Incrontab on secondary cleared successfully" >> $skyboxlog
+	echo $(date) " Incrontab on secondary cleared successfully"
+    else
+        date +"%Y-%m-%d %T Incrontab on secondary failed to be cleared" >> $skyboxlog
+	echo $(date) " Incrontab on secondary failed to be cleared"
+    fi
+else
+    date +"%Y-%m-%d %T No incron files were found!" >> $skyboxlog
+fi
+
+if grep -iq 'release 6' "/etc/centos-release"
+then
+    echo "The is version 6"
+    sudo /sbin/iptables-restore < $skyuserhome/firewall/iptables-secondary
+    if [ $? == 0 ]
+    then
+        date +"%Y-%m-%d %T Iptables configuration was uploaded..." >> $skyboxlog
+        echo "Iptables configuration was uploaded..."
+    else
+        date +"%Y-%m-%d %T Iptables configuration failed to load..." >> $skyboxlog
+        echo "Iptables configuration failed to load..."
+        state=1
+    fi
+elif grep -iq 'release 7' "/etc/centos-release"
+then
+    echo "This is version 7"
+    sudo cp $skyuserhome/firewall/original_public.xml /etc/firewalld/zones/public.xml
+    sudo firewall-cmd --reload
+    if [ $? == 0 ]
+    then
+        date +"%Y-%m-%d %T Firewalld configuration was uploaded,firewall was successfully reloaded" >> $skyboxlog
+        echo "Firewalld configuration was uploaded and firewall was successfully reloaded..." 
+    else
+        date +"%Y-%m-%d %T Firewalld configuration was uploaded, but firewall was not reloaded" >> $skyboxlog
+        echo "Firewalld configuration was uploaded, but firewall was not reloaded..."
+        state=1
+    fi
+else
+    date +"%Y-%m-%d %T This is not a recognized version" >> $skyboxlog
+    echo "This is not a recognized version"
+fi

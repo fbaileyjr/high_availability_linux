@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<direct>
+  <rule priority="1" table="filter" ipv="ipv4" chain="OUTPUT">-p tcp -m tcp --dport=25 -j REJECT</rule>
+</direct>

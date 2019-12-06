@@ -1,0 +1,75 @@
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+Feb 20, 2019
+Fixes in rev. 28
+- add directory symmetry for fw_config and ticket_attachments folder
+- added task schedule disabling to conf_files_sync.sh script
+- updated load.sh to include sqlx restore of user/model tables
+- changed default timeout values in skybox_ha.conf
+- changed SOAP ping to REST ping
+- added capability to install in other directories, besides /home/skyboxview
+- corrected MAIL_RECiVER spelling to MAIL_RECEIVER in skybox_watchdog.sh
+- corrected issue found in skybox_watchdog.sh
+- removed unnecessary files
+- added logic to test if the user is skyboxview for setprimary.sh and setsecondary.sh to prevent scripts from running as other users, like root
+- removed disabling task scheduling from conf_files_sync.sh
+- moved Skybox logs and home location to skybox_ha.conf for easier configuration
+- add new proxy settings for curl command
+- fixed missing incron tab
+- updated additional logic to setsecondary.sh - FD
+- corrected unset.sh script - append flag was missing
+- setprimary.sh - corrected MAIL_RECEIVER variable
+- added test email notification when mail parameters are set correctly
+
+====================================================================================================================================
+
+May 22, 2018
+Fixes in rev. 27
+- fixed load.sh script, updated with better logic and logging
+- added new field to skybox_ha.conf - DISABLE_SECONDARY_GUI
+- changed default OTHER_SERVER ip address to a default string
+- added logic to setsecondary.sh to load new iptables.secondary-no-gui tables in firewall directory
+- added logic to setsecondary.sh to load new block_secondary_gui.xml tables in firewall director for firewalld service
+- put .gitignore list on svn ignore list, as it's not needed
+- added .idea directory to svn ignore list, as it's not needed for HA
+
+====================================================================================================================================
+
+May 16, 2018
+
+Fixes in rev. 26
+- conf_files_sync.sh script updated with copying sb_server.properties and sb_common.properties to configuration folder
+
+
+====================================================================================================================================
+
+
+March 21, 2018
+
+Fix in rev. 25:
+- Erroneous character found in skybox_watchdog.sh, removed character
+- Removed soap_ping.pl and soap_ping.py
+- Updated skybox_watchdog.sh with the function to perform the soap ping as part of its script
+- Add req.xml (this is part of the API ping request)
+- Updated setprimary.sh logic to allow the secondary to become active, even if there is an incron.primary file on the Primary server
+- Correct redirect statement for setsecondary.sh script
+- Path for mysqldump backupTicket.sh updated to reflect proper path depending on installed version
+
+
+
+====================================================================================================================================
+
+Dec 27, 2017
+	
+Fixes in rev. 24:
+- Updated the MAIL_RECEIVER in skybox_ha.conf. The variable was misspelled causing other scripts to fail
+
+Fixes of rev. 23:
+- Updated the e-mail check in setprimary.sh. The false notification was caused by script was running. The proper logic has been put in place to check if the mail parameters have  been set.
+- Updated skybox_watch.sh with the proper e-mail notification function. Only in the event of a failover will the e-mail be sent. I have tested and verified that this is working.
+- Updated setprimary.sh, setsecondary.sh, and skybox_watchdog.sh with better logging logic. The code is cleaner and nicer to read

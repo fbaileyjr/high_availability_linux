@@ -1,0 +1,39 @@
+#!/bin/sh
+#rm /home/skyboxview/ha/t
+cd /opt/skyboxview/server/bin
+loadstatus=/home/skyboxview/ha/log/ticket-statusfile.log
+modelstatus=/home/skyboxview/ha/log/model-statusfile.log
+
+#if [ ${1: -5} == ".xmlx" ] 
+if [ ${1: -5} == ".sqlx" ] 
+then
+	echo sqlxrestore.sh $1 -model
+	#echo "TIME=`date`" > $modelstatus
+	date +"FILENAME=$1" >> $modelstatus
+	
+	#./load.sh $1 -model -coreusers -core
+	./sqlxrestore.sh $1
+	if [ $? == 0 ]
+	then
+		date +"TASKSTATUS=OK" >> $modelstatus
+	else
+		date +"TASKSTATUS=FAILED" >> $modelstatus
+	fi
+else
+	if [ ${1%*.*} == "/opt/skyboxview/data/xml_models/ticket_backup.sql" ]
+	then
+		echo mysql.sh $1
+		#echo "TIME=`date`" > $loadstatus
+		date +"FILENAME=$1" >> $loadstatus
+		./mysql.sh --database=skyboxview_live --password=manager < $1
+
+		if [ $? == 0 ]
+		then
+			date +"TASKSTATUS=OK" >> $loadstatus
+			./invalidate.sh
+		else
+			date +"TASKSTATUS=FAILED" >> $loadstatus
+		fi
+		
+	fi
+fi

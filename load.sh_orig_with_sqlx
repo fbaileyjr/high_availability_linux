@@ -1,0 +1,54 @@
+#!/bin/sh
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+# global variables - start
+
+source `dirname $0`/skybox_ha.conf
+
+# global variables - stop
+
+# main code - start
+
+
+cd /opt/skyboxview/server/bin
+
+#if [ ${1: -5} == ".xmlx" ] 
+if [ ${1: -5} == ".sqlx" ] 
+then
+	echo sqlxrestore.sh $1 -model
+	#echo "TIME=`date`" > $MODELSTATUS
+	date +"FILENAME=$1" >> $MODELSTATUS
+	
+	#./load.sh $1 -model -coreusers -core
+	./sqlxrestore.sh $1
+	if [ $? == 0 ]
+	then
+		date +"%Y-%m-%d %T - TASKSTATUS=OK" >> $MODELSTATUS
+	else
+		date +"%Y-%m-%d %T - TASKSTATUS=FAILED" >> $MODELSTATUS
+	fi
+else
+	if [ ${1%*.*} == "/opt/skyboxview/data/xml_models/ticket_backup.sql" ]
+	then
+		echo mysql.sh $1
+		#echo "TIME=`date`" > $LOADSTATUS
+		date +"%Y-%m-%d %T - FILENAME=$1" >> $LOADSTATUS
+		./mysql.sh --database=skyboxview_live --password=manager < $1
+
+		if [ $? == 0 ]
+		then
+			date +"%Y-%m-%d %T - TASKSTATUS=OK" >> $LOADSTATUS
+			./invalidate.sh
+		else
+			date +"%Y-%m-%d %T - TASKSTATUS=FAILED" >> $LOADSTATUS
+		fi
+		
+	fi
+fi
+
+# main code - stop

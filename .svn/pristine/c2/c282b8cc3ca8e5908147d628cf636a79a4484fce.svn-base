@@ -1,0 +1,154 @@
+#!/bin/bash
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+# global variables
+source `dirname $0`/skybox_ha.conf
+SKYBOXLOG=/home/skyboxview/ha/log/skybox_ha.log
+SKYUSERHOME=/home/skyboxview/ha
+WATCHDOGLOG=/home/skyboxview/ha/log/watchdog.log
+
+
+cd /home/skyboxview/ha/
+source /home/skyboxview/ha/skybox_ha.conf
+
+# function definitions - start
+
+# declaring function for mailsender
+function sendmail(){
+        if [ -n $MAIL_SENDER ] || [ -n $MAIL_RECIVER ]; then
+        echo `date +"%Y/%m/%d %H:%M:%S Fail Over has occurred. Sending notification to $MAIL_RECEIVER"` | tee -a $SKYBOXLOG
+                cd $SKYBOX_HOME/server/bin/
+                ./skyboxmail.sh -from $MAIL_SENDER -to $MAIL_RECEIVER -subject "Fail Over has occurred on $(date)" | tee -a $SKYBOXLOG
+        else
+                echo `date +"%Y/%m/%d %H:%M:%S No mail parameters supplied"` | tee -a $SKYBOXLOG
+        fi
+}
+
+# declaring function to ping server via soap
+funcPingServer(){
+
+RESPONSE=`curl --insecure --connect-timeout $3 -X POST -H "Content-type: text/xml" -d  @req.xml "https://$1:$2/skybox/webservice/jaxwsinternal/centralupdater?wsdl"`
+RESULT=`echo $RESPONSE | grep -oP '(?<=return>)[^<]+'`
+return $RESULT
+
+}
+
+
+# function definitions - stop
+
+# start script
+
+# check my role
+
+if [ -e '/home/skyboxview/ha/incron.primary' ]
+then
+    #I'm primary check if I'm dead
+    TEST_SERVER=127.0.0.1
+    IS_PRIMARY=1
+else
+    #I'm secondary check if other server is dead
+    TEST_SERVER=$OTHER_SERVER
+    IS_PRIMARY=0
+fi
+
+# calling case statement for SERVER_ROLE
+
+case $SERVER_ROLE in
+    1)
+    RETRY_COUNT=0
+    while [ "$RETRY_COUNT" -lt "$RETRIES" ]; do
+        if [ "$IS_PRIMARY" -eq 1 ]; then
+            funcPingServer "$TEST_SERVER" 8443 "$TIMEOUT"
+            STATUS_8443=$?
+            funcPingServer "$OTHER_SERVER" 443 "$TIMEOUT"
+            STATUS_443=$?
+            echo "8443 status is $STATUS_8443"
+            echo "443 status is $STATUS_443"
+            if [ $STATUS_8443 -eq 0 ] && [ $STATUS_443 -eq 1 ]; then
+                RETRY_COUNT=$RETRIES
+                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is reachable and $OTHER_SERVER port 443 is not up, as designed"` | tee -a "$WATCHDOGLOG"
+            elif [ $STATUS_8443 -eq 0 ] && [ $STATUS_443 -eq 0 ]; then
+                            (( RETRY_COUNT += 1 ))
+                                sleep $WAIT_BETWEEN_RETRIES
+                                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is reachable, but $OTHER_SERVER port 443 is up!"` | tee -a "$WATCHDOGLOG"
+                        else
+                (( RETRY_COUNT += 1 ))
+                sleep $WAIT_BETWEEN_RETRIES
+                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is unreachable"` | tee -a "$WATCHDOGLOG"
+            fi
+        else
+            funcPingServer "$TEST_SERVER" 8443 "$TIMEOUT"
+            STATUS_8443=$?
+            if [ $STATUS_8443 -eq 0 ]; then
+                RETRY_COUNT="$RETRIES"
+                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is OK"` | tee -a "$WATCHDOGLOG"
+            else
+                (( RETRY_COUNT += 1 ))
+                sleep "$WAIT_BETWEEN_RETRIES"
+                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is unreachable"` | tee -a "$WATCHDOGLOG"
+            fi
+        fi
+    done
+
+    if [ "$STATUS_8443" -eq 1 ] && [ "$STATUS_443" -eq 1 ] && [ "$IS_PRIMARY" -eq 1 ]; then
+        echo "Local Skybox service is unreachable, changing role to Secondary" | tee -a "$WATCHDOGLOG"
+        . /home/skyboxview/ha/setsecondary.sh auto
+        crontab -l > cron
+        sed -i '/skybox_watchdog/d' cron
+        crontab cron
+    elif [ "$STATUS_8443" -eq 0 ]  || [ "$STATUS_8443" -eq 1 ] && [ "$STATUS_443" -eq 0 ] && [ "$IS_PRIMARY" -eq 1 ]; then
+        echo "Secondary appears to become the Active member, switching role to Secondary" | tee -a $WATCHDOGLOG
+        . /home/skyboxview/ha/setsecondary.sh auto
+        crontab -l > cron
+        sed -i '/skybox_watchdog/d' cron
+        crontab cron
+    else
+        echo `date +"%Y/%m/%d %H:%M:%S SOAP Ping was successful"` | tee -a $WATCHDOGLOG
+        exit 0
+    fi
+    ;;
+
+    2)
+        RETRY_COUNT=0
+        while [ "$RETRY_COUNT" -lt "$RETRIES" ]; do
+                        funcPingServer "$TEST_SERVER" 8443 "$TIMEOUT"
+                        STATUS_8443=$?
+                        if [ "$STATUS_8443" -eq 0 ]; then
+                                RETRY_COUNT="$RETRIES"
+                                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is reachable"` | tee -a "$WATCHDOGLOG"
+                        else
+                                (( RETRY_COUNT += 1 ))
+                                sleep "$WAIT_BETWEEN_RETRIES"
+                                echo `date +"%Y/%m/%d %H:%M:%S $TEST_SERVER is unreachable"` | tee -a "$WATCHDOGLOG"
+                        fi
+        done
+
+        if [ "$STATUS_8443" -eq 1 ] && [ "$IS_PRIMARY" -eq 1 ]; then
+            echo "Local Skybox service is unreachable, changing role to Secondary" | tee -a "$WATCHDOGLOG"
+            . /home/skyboxview/ha/setsecondary.sh auto
+            crontab -l > cron
+            sed -i '/skybox_watchdog/d' cron
+            crontab cron
+        elif [ "$STATUS_8443" -eq 1 ] &&  [ "$IS_PRIMARY" -eq 0 ]; then
+            echo "Primary appears to have become unresponsive. Switching role to Active." | tee -a "$WATCHDOGLOG"
+            . $SKYUSERHOME/setprimary.sh auto
+            crontab -l > cron
+            sed -i '/skybox_watchdog/d' cron
+            crontab cron
+                        sendmail
+        else
+            echo `date +"%Y/%m/%d %H:%M:%S SOAP Ping was successful"` | tee -a "$WATCHDOGLOG"
+            exit 0
+        fi
+        ;;
+
+        *)
+                echo `date +"%Y/%m/%d %H:%M:%S Server options are not set correctly. Configure the skybox_ha.conf with the correct SERVER_ROLE"` | tee -a "$WATCHDOGLOG"
+                ;;
+esac
+

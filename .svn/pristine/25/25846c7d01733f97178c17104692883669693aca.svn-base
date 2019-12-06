@@ -1,0 +1,138 @@
+#!/bin/sh
+source `dirname $0`/skybox_ha.conf
+skyboxlog=/home/skyboxview/ha/log/skybox_ha.log
+skyuserhome=/home/skyboxview/ha
+state=0
+
+if  ssh -o ConnectTimeout=10 skyboxview@$OTHER_SERVER "ls /home/skyboxview/ha/incron.primary" >/dev/null 2>&1
+then 
+	echo "Other server is already primary... aborting"
+	exit
+fi
+
+# removing incrontab files and lllltabs
+rm -f incron.primary
+rm -f incron.secondary
+incrontab -r
+
+# recreating incrontab.primary
+for dir in ${DIRECTORIES[@]}
+ do
+    	echo $dir/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av \$@/$\# $OTHER_SERVER:$dir/ >> incron.primary
+ done
+
+echo $SKYBOX_HOME/data/Live/reports/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av \$@/$\# $OTHER_SERVER:$SKYBOX_HOME/data/Live/reports/ >> incron.primary
+echo $SKYBOX_HOME/data/collector/data_collector/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av \$@/$\# $OTHER_SERVER:$SKYBOX_HOME/data/collector/data_collector >> incron.primary
+
+incrontab incron.primary
+incrontab -d
+
+# Reset skyboxcrontab and add watchdog script, else remove auto failover if not configured
+if [ "$1" == "auto" ]; then
+	echo "Resetting skybox crontab and adding watchdog script"
+	crontab -l > $skyuserhome/cron
+	#sed -i '/skybox_watchdog.sh/d' /home/skyboxview/ha/cron
+	if ! (grep -Fxq '*/10 * * * * /home/skyboxview/ha/skybox_watchdog.sh >/dev/null 2>&1' /home/skyboxview/ha/cron)
+	then
+            echo "*/10 * * * * /home/skyboxview/ha/skybox_watchdog.sh >/dev/null 2>&1" >> /home/skyboxview/ha/cron
+	else
+	    date +"%Y-%m-%d %T Watchdog Cron entry already exist" >> $skyboxlog
+	fi
+	if !(grep -Fxq '*/60 * * * * /home/skyboxview/ha/backupTicket.sh >/dev/null 2>&1' /home/skyboxview/ha/cron)
+	then
+	    echo "*/60 * * * * /home/skyboxview/ha/backupTicket.sh >/dev/null 2>&1" >> /home/skyboxview/ha/cron
+	else
+	    date +"%Y-%m-%d %T BackupTicket Cron entry already exist" >> $skyboxlog
+	fi
+	if !(grep -Fxq '*/60 * * * * /home/skyboxview/ha/replicate_fw_config.sh >/dev/null 2>&1' /home/skyboxview/ha/cron)
+	then
+	    echo "*/60 * * * * /home/skyboxview/ha/replicate_fw_config.sh >/dev/null 2>&1" >> /home/skyboxview/ha/cron
+        else
+	    date +"%Y-%m-%d %T ReplicateFirewalls Cron entry already exist" >> $skyboxlog
+	fi
+
+	crontab $skyuserhome/cron
+
+else
+	echo "Removing skybox_watchdog.sh from crontab, auto failover is not configured"
+        crontab -l > /home/skyboxview/ha/cron
+        sed -i '/skybox_watchdog.sh/d' /home/skyboxview/ha/cron
+        crontab /home/skyboxview/ha/cron
+	echo "To enable auto failover, rerun this script as follows"
+	echo "$0 auto"
+  	state=1
+fi
+
+# Set iptables to nat 443 to 8443 with floating IP for primary
+
+
+if grep -iq 'release 6' "/etc/centos-release"
+then
+    echo "The is version 6"
+    sudo /sbin/iptables-restore < $skyuserhome/firewall/iptables-primary
+    if [ $? == 0 ]
+    then
+ 	date +"%Y-%m-%d %T Iptables configuration was uploaded..." >> $skyboxlog
+        echo "Iptables configuration was uploaded..."
+    else
+  	date +"%Y-%m-%d %T Iptables configuration failed to load..." >> $skyboxlog
+	echo "Iptables configuration failed to load..."
+        state=1
+    fi
+elif grep -iq 'release 7' "/etc/centos-release"
+then
+    echo "This is version 7"
+    sudo cp $skyuserhome/firewall/masq_public.xml /etc/firewalld/zones/public.xml
+    sudo firewall-cmd --reload
+    if [ $? == 0 ]
+    then
+        date +"%Y-%m-%d %T Firewalld configuration was uploaded,firewall was successfully reloaded" >> $skyboxlog
+        echo "Firewalld configuration was uploaded and firewall was successfully reloaded..." 
+    else
+        date +"%Y-%m-%d %T Firewalld configuration was uploaded, but firewall was not reloaded" >> $skyboxlog
+        echo "Firewalld configuration was uploaded, but firewall was not reloaded..."
+        state=1
+    fi
+else
+    date +"%Y-%m-%d %T This is not a recognized version" >> $skyboxlog
+    echo "This is not a recognized version"
+fi
+
+#sudo /sbin/iptables-restore < /home/skyboxview/ha/iptables-primary
+
+# log entry in skybox_ha.log
+date +"%Y-%m-%d %T SetPrimary finished successfully" >> /home/skyboxview/ha/log/skybox_ha.log
+
+
+# set email options for notification
+cd $SKYBOX_HOME/server/bin/
+current_date=date
+sh skyboxmail.sh -from $MAIL_SENDER -to $MAIL_RECIVER -subject 'Fail Over occurred' >>/home/skyboxview/ha/log/skybox_ha.log >/dev/null
+if [ -z $MAIL_SENDER ] || [ -z $MAIL_RECIVER ]; then
+        echo "No mail parameters supplied"
+fi
+
+# activate task scheduling in sb_server.properties
+if ! crontab -l | grep -Fxq '*/60 * * * * /home/skyboxview/ha/conf_files_sync.sh >/dev/null 2>&1'
+then
+    date +"%Y-%m-%d %T Enabling Task Scheduling..." >> $skyboxlog
+    echo "Enabling Task Scheduling..."
+    cd /opt/skyboxview/server/bin/
+    ./settaskschedulingactivation.sh enable >/dev/null
+else
+    date +"%Y-%m-%d %T Disabling Task Scheduling as conf_files_sync exists in cron..." >> $skyboxlog
+    echo "Disabling Task Scheduling as conf_files_sync exists in cron..."
+    cd /opt/skyboxview/server/bin/
+    ./settaskschedulingactivation.sh disable >/dev/null
+    state=1
+fi
+
+# Verification if any checks failed
+if [ $state == 0 ]
+then
+   date +"%Y-%m-%d %T Host has been successfully set as primary" >> $skyboxlog
+   echo "Host has been successfully set as primary"
+else
+   date +"%Y-%m-%d %T Host failed to be set as primary" >> $skyboxlog
+   echo "Host has failed to be set as primary"
+fi

@@ -1,0 +1,9 @@
+#!/bin/bash
+service=firewalld
+
+if (( $(ps -ef | grep -v grep | grep $service | wc -l) > 0 ))
+then
+echo "$service is running!!!"
+else
+echo "$service is NOT running!!!"
+fi

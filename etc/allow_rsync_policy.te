@@ -1,0 +1,39 @@
+
+module allow_rsync_policy 1.0;
+
+require {
+	type ssh_exec_t;
+	type ssh_port_t;
+	type ssh_home_t;
+	type user_home_t;
+	type rsync_t;
+	type user_home_dir_t;
+	class tcp_socket name_connect;
+	class dir { search getattr };
+	class file { execute read open getattr execute_no_trans };
+}
+
+#============= rsync_t ==============
+
+#!!!! This avc is allowed in the current policy
+allow rsync_t ssh_exec_t:file { read execute open execute_no_trans };
+
+#!!!! This avc is allowed in the current policy
+allow rsync_t ssh_home_t:dir { search getattr };
+
+#!!!! This avc is allowed in the current policy
+allow rsync_t ssh_home_t:file { read getattr open };
+
+#!!!! This avc is allowed in the current policy
+allow rsync_t ssh_port_t:tcp_socket name_connect;
+
+#!!!! This avc is allowed in the current policy
+allow rsync_t user_home_dir_t:dir search;
+
+#!!!! This avc can be allowed using one of the these booleans:
+#     rsync_export_all_ro, rsync_full_access
+allow rsync_t user_home_t:dir search;
+
+#!!!! This avc can be allowed using one of the these booleans:
+#     rsync_export_all_ro, rsync_full_access
+allow rsync_t user_home_t:file open;

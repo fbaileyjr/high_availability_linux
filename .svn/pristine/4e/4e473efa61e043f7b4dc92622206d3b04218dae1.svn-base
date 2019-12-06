@@ -1,0 +1,76 @@
+#!/bin/bash
+#
+#
+# Author: $Author$
+# Revision: $Revision$
+# Date: $Date$
+#
+
+# source the configuration file
+
+source `dirname $0`/skybox_ha.conf
+
+# create blank cron file and import
+echo '' > $SKYUSERHOME/cron
+crontab $SKYUSERHOME/cron
+if [ $? == 0 ]
+then
+    echo `date +"%Y/%m/%d %H:%M:%S - Crontab cleared successfully"` | tee -a $SKYBOXLOG
+else
+    echo `date +"%Y/%m/%d %H:%M:%S - Crontab failed to be cleared - try again"` | tee -a $SKYBOXLOG
+fi
+
+# delete all iptables
+sudo iptables -t nat -F
+echo "Removing current IPtables configuration" | tee -a $SKYBOXLOG
+
+# create blank incron.primary and secondary files
+if [ -f "$SKYUSERHOME/incron.primary" ]
+then
+    echo '' > $SKYUSERHOME/incron.primary
+    echo `date +"%Y/%m/%d %H:%M:%S - Clearing incron.primary"` | tee -a $SKYBOXLOG
+    incrontab $SKYUSERHOME/incron.primary
+    if [ $? == 0 ]
+    then
+	    echo `date +"%Y/%m/%d %H:%M:%S - Incrontab on primary cleared successfully"` | tee -a $SKYBOXLOG
+    else
+   	    echo `date +"%Y/%m/%d %H:%M:%S - Incrontab on primary failed to be cleared"` | tee -a $SKYBOXLOG
+    fi
+elif [ -f "$SKYUSERHOME/incron.secondary" ]
+then
+    echo '' > $SKYUSERHOME/incron.secondary
+    incrontab $SKYUSERHOME/incron.secondary
+    if [ $? == 0 ]
+    then
+    	echo `date +"%Y/%m/%d %H:%M:%S - Incrontab on secondary cleared successfully"` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y/%m/%d %H:%M:%S - Incrontab on secondary failed to be cleared"` | tee -a $SKYBOXLOG
+    fi
+else
+    echo `date +"%Y/%m/%d %H:%M:%S - No incron files were found!"` | tee -a $SKYBOXLOG
+fi
+
+if (( $(service iptables status | grep Active | awk '{ print $2 }' | wc -l) > 0 )); then
+    echo "IPtables service is running, prepraing to load configuration"
+    sudo /sbin/iptables-restore < $SKYUSERHOME/firewall/iptables-secondary
+    if [ $? == 0 ]
+    then
+        echo `date +"%Y/%m/%d %H:%M:%S - Iptables configuration was uploaded..."` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y/%m/%d %H:%M:%S - Iptables configuration failed to load..."` | tee -a $SKYBOXLOG
+        state=1
+    fi
+elif (( $(service firewalld status | grep Active | awk '{ print $2 }' | wc -l) > 0 )); then
+    echo "This is version 7"
+    sudo cp $SKYUSERHOME/firewall/original_public.xml /etc/firewalld/zones/public.xml
+    sudo firewall-cmd --reload
+    if [ $? == 0 ]
+    then
+        echo `date +"%Y/%m/%d %H:%M:%S - Firewalld configuration was uploaded,firewall was successfully reloaded"` | tee -a $SKYBOXLOG
+    else
+        echo `date +"%Y/%m/%d %H:%M:%S - Firewalld configuration was uploaded, but firewall was not reloaded"` | tee -a $SKYBOXLOG
+        state=1
+    fi
+else
+    echo `date +"%Y/%m/%d %H:%M:%S - This is not a recognized version"` | tee -a $SKYBOXLOG
+fi

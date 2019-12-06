@@ -1,0 +1,16 @@
+#!/bin/bash
+cd /home/skyboxview/ha
+source `dirname $0`/skybox_ha.conf
+
+prifile="/home/skyboxview/ha/incron.primary"
+
+if [ -e $prifile ]; then
+    date +"%Y/%m/%d %H-%M-%S $TEST_SERVER Skybox Server Ok" >> /home/skyboxview/ha/log/fw_config_sync.log
+	date +"%Y/%m/%d %H-%M-%S rsyncing the fw_config with the remote server $OTHER_SERVER" >> /home/skyboxview/ha/log/fw_config_sync.log
+	#fw_config_sync.log
+    /usr/bin/rsync --log-file=/home/skyboxview/ha/log/fw_config_sync.log -av $SKYBOX_HOME/data/fw_configs/ $OTHER_SERVER:$SKYBOX_HOME/data/fw_configs/ >/dev/null
+#	else
+#		echo "Remote server config mis-match - check script and skybox_ha.conf"
+#		exit 255
+fi
+		

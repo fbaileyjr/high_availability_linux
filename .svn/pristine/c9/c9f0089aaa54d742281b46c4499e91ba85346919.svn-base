@@ -1,0 +1,42 @@
+# Configure the following for server role: 1 = Primary; 2 = Secondary
+SERVER_ROLE=1
+
+# Configure the following for REST ping to counterpart server
+OTHER_SERVER='insert_ip_address_here'
+TIMEOUT=10
+RETRIES=6
+WAIT_BETWEEN_RETRIES=3
+
+# Configure REST ping intervals
+REST_PING_INTERVAL=10
+
+# Configure the following value of where the Skybox installation is located
+SKYBOX_HOME=/opt/skyboxview
+
+# Configure the following value of where the HA directory is located - remember this is case sensitive
+SKYUSERHOME=/home/skyboxview/ha
+
+# Configure the following log locations
+WATCHDOGLOG=$SKYUSERHOME/log/watchdog.log
+SKYBOXLOG=$SKYUSERHOME/log/skybox_ha.log
+LOADSTATUS=$SKYUSERHOME/log/ticket-statusfile.log
+MODELSTATUS=$SKYUSERHOME/log/model-statusfile.log
+FWCONFSYNCLOG=$SKYUSERHOME/log/fw_config_sync.log
+
+# Directory locations - Do not change!
+DIRECTORIES=($SKYBOX_HOME/data/xml_models $SKYBOX_HOME/data/ticket_attachments $SKYBOX_HOME/data/sqlx_models)
+
+# Configure the following below to enable the mail settings
+MAIL_SENDER=
+MAIL_RECEIVER=
+
+# Enable this flag to disable the GUI port on the secondary (only configure on the secondary configuration) - Values: true/false
+DISABLE_SECONDARY_GUI=false
+
+# Configure the following if you are using a proxy between the Primary and Secondary - Values: true/false
+PROXYVAR=false
+PROXYUSER=
+PROXYPASSWORD=
+PROXYHOST=
+PROXYPORT=
+

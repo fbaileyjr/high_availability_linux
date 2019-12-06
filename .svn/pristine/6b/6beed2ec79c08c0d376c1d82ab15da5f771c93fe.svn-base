@@ -1,0 +1,13 @@
+
+module mypol 1.0;
+
+require {
+	type lib_t;
+	type firewalld_t;
+	type var_run_t;
+	class dir { write create };
+}
+
+#============= firewalld_t ==============
+allow firewalld_t lib_t:dir write;
+allow firewalld_t var_run_t:dir create;

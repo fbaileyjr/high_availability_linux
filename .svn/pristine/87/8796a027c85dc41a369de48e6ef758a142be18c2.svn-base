@@ -1,0 +1,77 @@
+#!/usr/bin/python2.7
+__author__ = 'Yogev Barom'
+import re
+import ssl
+from suds.plugin import *
+from suds.sax.text import Raw
+from suds.client import *
+import sys
+import logging
+
+#logging.basicConfig(level=logging.INFO)
+#logging.getLogger('suds.client').setLevel(logging.DEBUG)
+
+xml = Raw('<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">')
+class MyPlugin(MessagePlugin):
+    def received(self, context):
+        answer = context.reply
+        answerDecoded = answer.decode()
+        xmlMessage = re.findall(r'(<soap\:Envelope.*</soap\:Envelope>)', answerDecoded)[0]
+        context.reply = xmlMessage
+
+#finding SB installation location
+#script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+#rel_path = "../conf/RmsAgent.Properties"
+#confFilePath = os.path.join(script_dir, rel_path)
+#confFile = open(confFilePath)
+
+
+# Declaring configuration file source
+confFile = "/home/skyboxview/ha/skybox_ha.conf"
+confFile = open(confFile)
+
+# Declaring values for global variables
+SEPARATOR = ";"
+client = None
+TYPES_TO_IGNORE = [7]
+tt = None
+
+
+# This function connects to the host via soap request
+def soap_connect(host):
+    """ Returns 0 if the test is successful, otherwise returns 1"""
+    global client
+    global TimeOut
+    hostname = str(host)
+
+    if hasattr(ssl, '_create_unverified_context'):
+        ssl._create_default_https_context = ssl._create_unverified_context
+
+
+    wsdl_url = 'https://' + hostname + ':8443/skybox/webservice/jaxwsinternal/centralupdater?wsdl'
+
+    client = Client(url=wsdl_url,plugins=[MyPlugin()])
+
+# This function checks to see if there is a system argument passed, defaults to using config file
+def returned_host():
+    """ Returns the hostname/IP address specified"""
+    for line in confFile:
+        if len(sys.argv) > 1:
+            return sys.argv[1]
+        elif re.search('OTHER_SERVER=', line):
+            x = line
+            parseValue = re.search (r'\'(\w.*)\'', x)
+            sbDir1 = parseValue.group(1)
+            return sbDir1
+        else:
+            print 'error'
+        if re.search('TIMEOUT=', line):
+           x = line
+           TimeOut = x[8:]
+           TimeOut = int(TimeOut.rstrip())
+
+if __name__ == '__main__':
+    soap_connect(returned_host)
+
+results = client.service.ping()
+print results

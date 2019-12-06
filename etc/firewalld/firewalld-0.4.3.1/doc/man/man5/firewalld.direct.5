@@ -1,0 +1,206 @@
+'\" t
+.\"     Title: firewalld.direct
+.\"    Author: Thomas Woerner <twoerner@redhat.com>
+.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
+.\"      Date: 
+.\"    Manual: firewalld.direct
+.\"    Source: firewalld 0.4.3.1
+.\"  Language: English
+.\"
+.TH "FIREWALLD\&.DIRECT" "5" "" "firewalld 0.4.3.1" "firewalld.direct"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+firewalld.direct \- firewalld direct configuration file
+.SH "SYNOPSIS"
+.PP
+.nf
+\fI/etc/firewalld/direct\&.xml\fR
+      
+.fi
+.sp
+.SH "DESCRIPTION"
+.PP
+Direct configuration gives a more direct access to the firewall\&. It requires user to know basic ip(6)tables/ebtables concepts, i\&.e\&.
+\fItable\fR
+(filter/mangle/nat/\&.\&.\&.),
+\fIchain\fR
+(INPUT/OUTPUT/FORWARD/\&.\&.\&.),
+\fIcommands\fR
+(\-A/\-D/\-I/\&.\&.\&.),
+\fIparameters\fR
+(\-p/\-s/\-d/\-j/\&.\&.\&.) and
+\fItargets\fR
+(ACCEPT/DROP/REJECT/\&.\&.\&.)\&. Direct configuration should be used only as a last resort when it\*(Aqs not possible to use
+\fBfirewalld.zone\fR(5)\&. See also
+\fIDirect Options\fR
+in
+\fBfirewall-cmd\fR(1)\&.
+.PP
+A firewalld direct configuration file contains informations about permanent direct chains, rules and passthrough \&.\&.\&.
+.PP
+This is the structure of a direct configuration file:
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+<?xml version="1\&.0" encoding="utf\-8"?>
+<direct>
+  [ <chain ipv="\fIipv4\fR|\fIipv6\fR|\fIeb\fR" table="\fItable\fR" chain="\fIchain\fR"/> ]
+  [ <rule ipv="\fIipv4\fR|\fIipv6\fR|\fIeb\fR" table="\fItable\fR" chain="\fIchain\fR" priority="\fIpriority\fR"> args </rule> ]
+  [ <passthrough ipv="\fIipv4\fR|\fIipv6\fR|\fIeb\fR"> args </passthrough> ]
+</direct>
+      
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+.SS "direct"
+.PP
+The mandatory direct start and end tag defines the direct\&. This tag can only be used once in a direct configuration file\&. There are no attributes for direct\&.
+.SS "chain"
+.PP
+Is an optional empty\-element tag and can be used several times\&. It can be used to define names for additional chains\&. A chain entry has exactly three attributes:
+.PP
+ipv="\fIipv4\fR|\fIipv6\fR|\fIeb\fR"
+.RS 4
+The IP family where the chain will be created\&. This can be either
+\fIipv4\fR,
+\fIipv6\fR
+or
+\fIeb\fR\&.
+.RE
+.PP
+table="\fItable\fR"
+.RS 4
+The table name where the chain will be created\&. This can be one of the tables that can be used for iptables, ip6tables or ebtables\&. For the possible values, see TABLES section in the iptables, ip6tables or ebtables man pages\&.
+.RE
+.PP
+chain="\fIchain\fR"
+.RS 4
+The name of the chain, that will be created\&. Please make sure that there is no other chain with this name already\&.
+.RE
+.PP
+Please remember to add a rule or passthrough rule with an
+\fB\-\-jump\fR
+or
+\fB\-\-goto\fR
+option to connect the chain to another one\&.
+.SS "rule"
+.PP
+Is an optional element tag and can be used several times\&. It can be used to add rules to a built\-in or added chain\&. A rule entry has exactly four attributes:
+.PP
+ipv="\fIipv4\fR|\fIipv6\fR|\fIeb\fR"
+.RS 4
+The IP family where the rule will be added\&. This can be either
+\fIipv4\fR,
+\fIipv6\fR
+or
+\fIeb\fR\&.
+.RE
+.PP
+table="\fItable\fR"
+.RS 4
+The table name where the rule will be added\&. This can be one of the tables that can be used for iptables, ip6tables or ebtables\&. For the possible values, see TABLES section in the iptables, ip6tables or ebtables man pages\&.
+.RE
+.PP
+chain="\fIchain\fR"
+.RS 4
+The name of the chain where the rule will be added\&. This can be either a built\-in chain or a chain that has been created with the chain tag\&. If the chain name is a built\-in chain, then the rule will be added to
+\fIchain\fR_direct, else the supplied chain name is used\&.
+\fIchain\fR_direct is created internally for all built\-in chains to make sure that the added rules do not conflict with the rules created by firewalld\&.
+.RE
+.PP
+priority="\fIpriority\fR"
+.RS 4
+The priority is used to order rules\&. Priority 0 means add rule on top of the chain, with a higher priority the rule will be added further down\&. Rules with the same priority are on the same level and the order of these rules is not fixed and may change\&. If you want to make sure that a rule will be added after another one, use a low priority for the first and a higher for the following\&.
+.RE
+.PP
+The
+\fIargs\fR
+can be any arguments of iptables or ip6tables, that do not conflict with the table or chain attributes\&.
+.SS "passthrough"
+.PP
+Is an optional element tag and can be used several times\&. It can be used to add rules to a built\-in or added chain\&. A rule entry has exactly one attribute:
+.PP
+ipv="\fIipv4\fR|\fIipv6\fR|\fIeb\fR"
+.RS 4
+The IP family where the passthrough rule will be added\&. This can be either
+\fIipv4\fR,
+\fIipv6\fR
+or
+\fIeb\fR\&.
+.RE
+.PP
+The
+\fIargs\fR
+can be any arguments of iptables or ip6tables\&.
+.PP
+The passthrough rule will be added to the chain directly\&. There is no mechanism like for the direct
+\fBrule\fR
+above\&. The user of the passthrough rule has to make sure that there will be no conflict with the rules created by firewalld\&.
+.SH "EXAMPLE"
+.PP
+Blacklisting of the networks 192\&.168\&.1\&.0/24 and 192\&.168\&.5\&.0/24 with logging and dropping early in the raw table:
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+<?xml version="1\&.0" encoding="utf\-8"?>
+<direct>
+  <chain ipv="ipv4" table="raw" chain="blacklist"/>
+  <rule ipv="ipv4" table="raw" chain="PREROUTING" priority="0">\-s 192\&.168\&.1\&.0/24 \-j blacklist</rule>
+  <rule ipv="ipv4" table="raw" chain="PREROUTING" priority="1">\-s 192\&.168\&.5\&.0/24 \-j blacklist</rule>
+  <rule ipv="ipv4" table="raw" chain="blacklist" priority="0">\-m limit \-\-limit 1/min \-j LOG \-\-log\-prefix "blacklisted: "</rule>
+  <rule ipv="ipv4" table="raw" chain="blacklist" priority="1">\-j DROP</rule>
+</direct>
+      
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+.SH "SEE ALSO"
+\fBfirewall-applet\fR(1), \fBfirewalld\fR(1), \fBfirewall-cmd\fR(1), \fBfirewall-config\fR(1), \fBfirewallctl\fR(1), \fBfirewalld.conf\fR(5), \fBfirewalld.direct\fR(5), \fBfirewalld.dbus\fR(5), \fBfirewalld.icmptype\fR(5), \fBfirewalld.lockdown-whitelist\fR(5), \fBfirewall-offline-cmd\fR(1), \fBfirewalld.richlanguage\fR(5), \fBfirewalld.service\fR(5), \fBfirewalld.zone\fR(5), \fBfirewalld.zones\fR(5)
+.SH "NOTES"
+.PP
+firewalld home page:
+.RS 4
+\m[blue]\fB\%http://www.firewalld.org\fR\m[]
+.RE
+.PP
+More documentation with examples:
+.RS 4
+\m[blue]\fB\%http://fedoraproject.org/wiki/FirewallD\fR\m[]
+.RE
+.SH "AUTHORS"
+.PP
+\fBThomas Woerner\fR <\&twoerner@redhat\&.com\&>
+.RS 4
+Developer
+.RE
+.PP
+\fBJiri Popelka\fR <\&jpopelka@redhat\&.com\&>
+.RS 4
+Developer
+.RE

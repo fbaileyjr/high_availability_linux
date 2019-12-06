@@ -1,0 +1,5 @@
+/opt/skyboxview/data/xml_models/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av $@/$# 192.168.80.137:/opt/skyboxview/data/xml_models/
+/opt/skyboxview/data/ticket_attachments/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av $@/$# 192.168.80.137:/opt/skyboxview/data/ticket_attachments/
+/opt/skyboxview/data/sqlx_models/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av $@/$# 192.168.80.137:/opt/skyboxview/data/sqlx_models/
+/opt/skyboxview/data/Live/reports/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av $@/$# 192.168.80.137:/opt/skyboxview/data/Live/reports/
+/opt/skyboxview/data/collector/data_collector/ IN_CLOSE_WRITE /usr/bin/rsync --log-file=/home/skyboxview/ha/log/skybox_ha.log -av $@/$# 192.168.80.137:/opt/skyboxview/data/collector/data_collector

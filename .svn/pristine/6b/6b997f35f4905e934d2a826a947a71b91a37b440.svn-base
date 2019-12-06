@@ -1,0 +1,9 @@
+Dec 27, 2017
+	
+Fixes in rev. 24:
+- Updated the MAIL_RECEIVER in skybox_ha.conf. The variable was misspelled causing other scripts to fail
+
+Fixes of rev. 23:
+- Updated the e-mail check in setprimary.sh. The false notification was caused by script was running. The proper logic has been put in place to check if the mai parameters have  been set.
+- Updated skybox_watch.sh with the proper e-mail notification function. Only in the event of a failover will the e-mail be sent. I have tested and verified that this is working.
+- Updated setprimary.sh, setsecondary.sh, and skybox_watchdog.sh with better logging logic. The code is cleaner and nicer to read

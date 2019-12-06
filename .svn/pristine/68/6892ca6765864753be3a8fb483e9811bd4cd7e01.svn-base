@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+# Script Name: settempfiles.sh
+#
+# Author: Frank Bailey
+# Date : 10/24/2016
+#
+# Description: The following script will turn off and on the keep_temp_files flag
+#
+# Run Information: 
+# on	changes the flag to true 
+# off   changes the flag to false
+#
+# Error Log: Any errors or output associated with 
+# the script can be found in /opt/<skybox_home>/server/log/debug/debug.log
+SERVER_LOG=/opt/skyboxview/server/log/debug/debug.log
+
+if [ "$1" == "on" ]; then
+    sed -i -r 's/devices.keep_temp_files=false/devices.keep_temp_files=true/' /opt/skyboxview/collector/conf/sb_collector.properties
+    date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) Setting devices.keep_temp_files to true' >> $SERVER_LOG
+    date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) Setting devices.keep_temp_files to true'
+    if [ $? == 0 ]; then
+        date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) completed successfully' >> $SERVER_LOG
+	date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) completed successfully'
+    else
+        date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) failed, please troubleshoot' >> $SERVER_LOG
+	date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) failed, please troubleshoot'
+    fi
+elif [ "$1" == "off" ]; then
+    sed -i -r 's/devices.keep_temp_files=true/devices.keep_temp_files=false/' /opt/skyboxview/collector/conf/sb_collector.properties
+    date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) Setting devices.keep_temp_files to false' >> $SERVER_LOG
+	date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) Setting devices.keep_temp_files to false'
+    if [ $? == 0 ]; then
+        date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) completed successfully' >> $SERVER_LOG
+	date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) completed successfully'
+    else
+        date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) failed, please troubleshoot' >> $SERVER_LOG
+	date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) failed, please troubleshoot'
+    fi
+else
+    date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) No option was chosen to turn temp files on or off. Script p
+erformed no action' >> $SERVER_LOG
+    date +'%Y-%m-%d %H-%M-%S, INFO [CustomLinuxScript] (settempfiles.sh) No option was chosen to turn temp files on or off. Script p
+erformed no action'
+fi  

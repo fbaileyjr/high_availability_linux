@@ -1,0 +1,114 @@
+'\" t
+.\"     Title: firewalld.conf
+.\"    Author: Thomas Woerner <twoerner@redhat.com>
+.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
+.\"      Date: 
+.\"    Manual: firewalld.conf
+.\"    Source: firewalld 0.4.3.1
+.\"  Language: English
+.\"
+.TH "FIREWALLD\&.CONF" "5" "" "firewalld 0.4.3.1" "firewalld.conf"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+firewalld.conf \- firewalld configuration file
+.SH "SYNOPSIS"
+.PP
+.nf
+\fI/etc/firewalld/firewalld\&.conf\fR
+      
+.fi
+.sp
+.SH "DESCRIPTION"
+.PP
+firewalld\&.conf is loaded by firewalld during the initialization process\&. The file contains the basic configuration options for firewalld\&.
+.SH "OPTIONS"
+.PP
+These are the options that can be set in the config file:
+.PP
+\fBDefaultZone\fR
+.RS 4
+This sets the default zone for connections or interfaces if the zone is not selected or specified by NetworkManager, initscripts or command line tool\&. The default zone is public\&.
+.RE
+.PP
+\fBMinimalMark\fR
+.RS 4
+For some firewall settings several rules are needed in different tables to be able to handle packets in the correct way\&. To achieve that these packets are marked using the MARK target
+\fBiptables\fR(8)
+and
+\fBip6tables\fR(8)\&. With the MinimalMark option a block of marks can be reserved for private use; only marks over this value are used\&. The default MinimalMark value is 100\&.
+.RE
+.PP
+\fBCleanupOnExit\fR
+.RS 4
+If firewalld stops, it cleans up all firewall rules\&. Setting this option to no or false leaves the current firewall rules untouched\&. The default value is yes or true\&.
+.RE
+.PP
+\fBLockdown\fR
+.RS 4
+If this option is enabled, firewall changes with the D\-Bus interface will be limited to applications that are listed in the lockdown whitelist (see
+\fBfirewalld.lockdown-whitelist\fR(5))\&. The default value is no or false\&.
+.RE
+.PP
+\fBIPv6_rpfilter\fR
+.RS 4
+If this option is enabled (it is by default), reverse path filter test on a packet for IPv6 is performed\&. If a reply to the packet would be sent via the same interface that the packet arrived on, the packet will match and be accepted, otherwise dropped\&. For IPv4 the rp_filter is controlled using sysctl\&.
+.RE
+.PP
+\fBIndividualCalls\fR
+.RS 4
+If this option is disabled (it is by default), combined \-restore calls are used and not individual calls to apply changes to the firewall\&. The use of individiual calls increases the time that is needed to apply changes and to start the daemon, but is good for debugging as error messages are more specific\&.
+.RE
+.PP
+\fBLogDenied\fR
+.RS 4
+Add logging rules right before reject and drop rules in the INPUT, FORWARD and OUTPUT chains for the default rules and also final reject and drop rules in zones for the configured link\-layer packet type\&. The possible values are:
+\fIall\fR,
+\fIunicast\fR,
+\fIbroadcast\fR,
+\fImulticast\fR
+and
+\fIoff\fR\&. The default setting is
+\fIoff\fR, which disables the logging\&.
+.RE
+.SH "SEE ALSO"
+\fBfirewall-applet\fR(1), \fBfirewalld\fR(1), \fBfirewall-cmd\fR(1), \fBfirewall-config\fR(1), \fBfirewallctl\fR(1), \fBfirewalld.conf\fR(5), \fBfirewalld.direct\fR(5), \fBfirewalld.dbus\fR(5), \fBfirewalld.icmptype\fR(5), \fBfirewalld.lockdown-whitelist\fR(5), \fBfirewall-offline-cmd\fR(1), \fBfirewalld.richlanguage\fR(5), \fBfirewalld.service\fR(5), \fBfirewalld.zone\fR(5), \fBfirewalld.zones\fR(5)
+.SH "NOTES"
+.PP
+firewalld home page:
+.RS 4
+\m[blue]\fB\%http://www.firewalld.org\fR\m[]
+.RE
+.PP
+More documentation with examples:
+.RS 4
+\m[blue]\fB\%http://fedoraproject.org/wiki/FirewallD\fR\m[]
+.RE
+.SH "AUTHORS"
+.PP
+\fBThomas Woerner\fR <\&twoerner@redhat\&.com\&>
+.RS 4
+Developer
+.RE
+.PP
+\fBJiri Popelka\fR <\&jpopelka@redhat\&.com\&>
+.RS 4
+Developer
+.RE

@@ -1,0 +1,51 @@
+#            Syntax:  skybox_service_monitor.sh                                                                              #
+#      Date Written:  20160721                                                                                               #
+#            Author:  Mark Thomas                                                                                            #
+#             Shell:  bash                                                                                                   #
+#       Description:                                                                                                         #
+#                     Look for the 2 expected Skybox java processes (sbvserver and sbvcollector)and see if they are running  #
+#                     and notify the email address or group listed if one or both services are not running                   #
+#      Package Name:                                                                                                         #
+#          RPM Name:                                                                                                         #
+#  Input Parameters:                                                                                                         #
+# Output Parameters:                                                                                                         #
+#       Limitations:                                                                                                         #
+#      Return Value:                                                                                                         #
+#                                                                                                                            #
+#                                                                                                                            #
+#----------------------------------------------------------------------------------------------------------------------------#
+# Date      CHG#         Name     ID       Ver         Description of Change                                                 #
+#----------------------------------------------------------------------------------------------------------------------------#
+#                                                                                                                            #
+# 20160720  N/A          Thomas            1.0.0       Initial release                                                       #
+# 20160722  CHG0041563   Johnson (umpj)    1.0.1       Adapted for Prod                                                      #
+#----------------------------------------------------------------------------------------------------------------------------#
+
+syslevel=PRD
+email_address=VGSkyBox@vanguard.com
+expected_processes="server collector"
+running_processes=`ps -ef | grep skybox | grep java | grep -v grep | awk '{print $8}' | awk -F/ '{printf $4 " "}'`
+
+process_not_running_list=""
+
+if [[ -z ${running_processes} ]]; then
+        echo "No processes running! Restart was initiated" | mailx -s "${syslevel} Skybox services were Down! Restart was initiated." ${email_address}
+        /etc/init.d/sbvcollector start > /dev/null 2>/dev/null
+        sleep 30
+        /etc/init.d/sbvserver start > /dev/null 2>/dev/null
+        exit 1
+else
+        for expected_process in `echo ${expected_processes}`; do
+                echo ${running_processes} | grep "${expected_process}" > /dev/null 2>&1
+                if (( $? != 0 )); then
+                        process_not_running_list=`echo ${process_not_running_list}; printf ${expected_process}`
+                       /etc/init.d/sbv${expected_process} start > /dev/null 2>/dev/null
+                       sleep 30
+                fi
+        done
+        if [[ -n ${process_not_running_list} ]]; then
+                echo -e "Skybox processes not running & restarted:\n${process_not_running_list}" | mailx -s "A ${syslevel} Skybox process was down and was restarted." ${email_address}
+        fi
+fi
+
+exit

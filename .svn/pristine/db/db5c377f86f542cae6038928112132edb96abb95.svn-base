@@ -1,0 +1,9 @@
+#!/bin/sh
+
+source /home/skyboxview/ha/skybox_ha.conf
+
+scp skyboxview@$OTHER_SERVER:/opt/skyboxview/server/conf/sb_server.properties /tmp/sb_server.properties
+scp skyboxview@$OTHER_SERVER:/opt/skyboxview/server/conf/sb_common.properties /tmp/sb_common.properties
+cd /opt/skyboxview/server/bin/
+./settaskschedulingactivation.sh disable >/dev/null
+date +"%Y/%m/%d %H-%M-%S Configuration files synced successfully" >> /home/skyboxview/ha/log/skybox_ha.log

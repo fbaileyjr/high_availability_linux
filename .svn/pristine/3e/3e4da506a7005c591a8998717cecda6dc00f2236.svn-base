@@ -1,0 +1,4 @@
+
+*/10 * * * * /home/skyboxview/ha/skybox_watchdog.sh >/dev/null 2>&1
+*/60 * * * * /home/skyboxview/ha/backupTicket.sh >/dev/null 2>&1
+*/60 * * * * /home/skyboxview/ha/replicate_fw_config.sh >/dev/null 2>&1

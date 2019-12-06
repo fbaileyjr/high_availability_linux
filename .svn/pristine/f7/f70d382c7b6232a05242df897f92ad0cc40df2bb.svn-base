@@ -1,0 +1,11 @@
+#!/bin/sh
+source /home/skyboxview/ha/skybox_ha.conf
+if  ssh -o ConnectTimeout=10 skyboxview@$OTHER_SERVER "ls /home/skyboxview/ha/incron.primary" >/dev/null 2>&1
+then 
+        echo "Other server is already primary... aborting"
+        exit
+else
+	echo "This is the primary server"
+fi
+
+echo $OTHER_SERVER

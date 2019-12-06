@@ -1,0 +1,2331 @@
+2016/05/05 09-22-01 SetPrimary finished successfully
+2016/05/05 09-42-21 Setsecondary run with auto
+2016/05/05 10-00-03 Configuration files synced successfully
+2016/05/09 05-42-58 SetPrimary finished successfully
+2016/05/09 05-43-18 SetPrimary finished successfully
+2016/05/09 05:44:49 [13984] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:44:49 [13985] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:44:49 [13984] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:44:49 [13985] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:44:51 [13989] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:44:51 [13989] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:44:51 [13988] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:44:51 [13988] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:53:34 [14042] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:53:34 [14043] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:53:34 [14042] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:53:34 [14043] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:53:37 [14049] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:53:37 [14048] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:53:37 [14049] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:53:37 [14048] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:55:35 [14089] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:55:35 [14088] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:55:35 [14089] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:55:35 [14088] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 05:55:38 [14092] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:55:38 [14092] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 05:55:38 [14093] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 05:55:38 [14093] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:01:16 [14229] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:01:16 [14228] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:01:16 [14229] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:01:16 [14228] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:01:18 [14234] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:01:18 [14234] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:01:18 [14235] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:01:18 [14235] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:02:08 [14264] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:02:08 [14264] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:02:08 [14263] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:02:08 [14263] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:02:12 [14267] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:02:12 [14267] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:02:12 [14268] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:02:12 [14268] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:05:45 [14305] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:05:45 [14306] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:05:45 [14305] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:05:45 [14306] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:05:47 [14310] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:05:47 [14310] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:05:47 [14311] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:05:47 [14311] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:08:57 [14328] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:08:57 [14328] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:08:57 [14327] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:08:57 [14327] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:09:01 [14333] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:09:01 [14333] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:09:01 [14334] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:09:01 [14334] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:15:27 [14383] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:15:27 [14383] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:15:27 [14384] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:15:27 [14384] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:15:30 [14389] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:15:30 [14389] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:15:30 [14390] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:15:30 [14390] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:17:01 [14398] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:17:01 [14398] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:17:01 [14399] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:17:01 [14399] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:17:07 [14403] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:17:07 [14403] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:17:07 [14404] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:17:07 [14404] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:21:59 [14892] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:21:59 [14892] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:21:59 [14890] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:21:59 [14890] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:22:05 [14922] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:22:05 [14922] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:22:05 [14923] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:22:05 [14923] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:34:04 [3594] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:34:04 [3593] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:34:04 [3594] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:34:04 [3593] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:34:07 [3599] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:34:07 [3599] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:34:07 [3601] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:34:07 [3601] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:08 [3829] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:08 [3830] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:08 [3829] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:08 [3830] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:10 [3834] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:10 [3834] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:10 [3833] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:10 [3833] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:40 [3875] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:40 [3875] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:40 [3877] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:40 [3877] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:42 [3880] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:42 [3880] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:43:42 [3881] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:43:42 [3881] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 06:48:08 [3930] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:48:08 [3931] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:48:08 [3931] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:48:08 [3930] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:48:10 [3934] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:48:10 [3934] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 06:48:10 [3935] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 06:48:10 [3935] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:42:31 [4236] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:42:31 [4236] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:42:31 [4235] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:42:31 [4235] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:42:36 [4239] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:42:36 [4239] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:42:36 [4240] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:42:36 [4240] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:01 [4247] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:01 [4247] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:01 [4248] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:01 [4248] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:06 [4251] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:06 [4251] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:06 [4252] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:06 [4252] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:35 [4260] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:35 [4260] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:35 [4261] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:35 [4261] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:38 [4266] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:38 [4266] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:43:38 [4267] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:43:38 [4267] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:50:00 [4338] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:50:00 [4338] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 07:50:00 [4337] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:50:00 [4337] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:50:04 [4349] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:50:04 [4349] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 07:50:04 [4348] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 07:50:04 [4348] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 08:19:51 [4539] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:19:51 [4539] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 08:19:51 [4538] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:19:51 [4538] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 08:19:54 [4544] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:19:54 [4544] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 08:19:54 [4545] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:19:54 [4545] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 08:20:10 [4555] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:20:10 [4555] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 08:20:10 [4556] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:20:10 [4556] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/09 08:20:15 [4559] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:20:15 [4559] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/09 08:20:15 [4560] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/09 08:20:15 [4560] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/12 19:58:33 [15303] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 19:58:33 [15303] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/12 19:58:33 [15302] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 19:58:33 [15302] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/05/12 19:58:36 [15308] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 19:58:36 [15308] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/12 19:58:36 [15309] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 19:58:36 [15309] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/12 20:04:05 [15431] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 20:04:05 [15431] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/12 20:04:05 [15430] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 20:04:05 [15430] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/12 20:04:09 [15434] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 20:04:09 [15434] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/05/12 20:04:09 [15435] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/05/12 20:04:09 [15435] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/06/08 18:59:55 [6011] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/08 18:59:55 [6011] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/08 19:00:13 [6597] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/08 19:00:13 [6597] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/09 13:00:36 [13461] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/09 13:00:36 [13461] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/06/09 13:00:36 [13460] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/09 13:00:36 [13460] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/06/09 13:00:38 [13466] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/09 13:00:38 [13466] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/09 13:01:37 [13522] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/09 13:01:37 [13522] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/06/09 13:01:37 [13523] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/09 13:01:37 [13523] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/06/09 13:01:38 [13528] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/09 13:01:38 [13528] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 15:13:12 [19053] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 15:13:12 [19053] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 15:15:04 [19106] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 15:15:04 [19106] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 15:16:25 [19113] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 15:16:25 [19113] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 15:42:44 [19208] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 15:42:44 [19208] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 15:42:45 [19210] rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+2016/06/10 15:42:45 [19210] rsync error: unexplained error (code 255) at io.c(605) [Receiver=3.0.9]
+2016/06/10 15:42:59 [19212] ERROR: The remote path must start with a module name not a /
+2016/06/10 15:42:59 [19212] rsync error: error starting client-server protocol (code 5) at main.c(1516) [Receiver=3.0.9]
+2016/06/10 16:44:18 [19475] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:44:18 [19475] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:45:03 [19484] building file list
+2016/06/10 16:45:03 [19484] <f+++++++++ test.txt
+2016/06/10 16:45:03 [19484] sent 106 bytes  received 31 bytes  21.08 bytes/sec
+2016/06/10 16:45:03 [19484] total size is 5  speedup is 0.04
+2016/06/10 16:53:30 [19539] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:53:30 [19539] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:55:00 [19556] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:55:00 [19556] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:55:11 [19552] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:55:11 [19552] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:04 [19570] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:04 [19570] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:15 [19564] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:15 [19564] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:34 [19577] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:34 [19577] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:34 [19576] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:34 [19576] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:42 [19582] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:42 [19582] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:42 [19584] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:42 [19584] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:56:42 [19585] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:56:42 [19585] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 16:58:26 [19596] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 16:58:26 [19596] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 17:01:05 [19697] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 17:01:05 [19697] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 17:23:24 [19832] building file list
+2016/06/10 17:23:24 [19832] <f.st...... test.txt
+2016/06/10 17:23:24 [19832] sent 111 bytes  received 37 bytes  26.91 bytes/sec
+2016/06/10 17:23:24 [19832] total size is 10  speedup is 0.07
+2016/06/10 17:24:21 [19835] building file list
+2016/06/10 17:24:21 [19835] <f+++++++++ datank.txt
+2016/06/10 17:24:21 [19835] sent 122 bytes  received 31 bytes  102.00 bytes/sec
+2016/06/10 17:24:21 [19835] total size is 19  speedup is 0.12
+2016/06/10 17:50:38 [19876] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 17:50:38 [19876] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 17:50:56 [19878] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/06/10 17:50:56 [19878] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/06/10 17:55:03 [19891] building file list
+2016/06/10 17:55:03 [19891] <f+++++++++ deadpool.txt
+2016/06/10 17:55:03 [19891] sent 110 bytes  received 31 bytes  25.64 bytes/sec
+2016/06/10 17:55:03 [19891] total size is 5  speedup is 0.04
+2016/06/10 18:51:46 [20060] building file list
+2016/06/10 18:51:46 [20060] <f+++++++++ dundee.txt
+2016/06/10 18:51:46 [20060] sent 115 bytes  received 31 bytes  26.55 bytes/sec
+2016/06/10 18:51:46 [20060] total size is 12  speedup is 0.08
+2016/06/13 13:28:49 [29070] building file list
+2016/06/13 13:28:49 [29070] <f+++++++++ xml_backup_task_06-13-2016--13-28-35.xmlx
+2016/06/13 13:28:49 [29070] sent 579902 bytes  received 31 bytes  386622.00 bytes/sec
+2016/06/13 13:28:49 [29070] total size is 579700  speedup is 1.00
+2016/06/13 13:56:33 [29110] building file list
+2016/06/13 13:56:33 [29110] <f+++++++++ xml_backup_task_06-13-2016--13-56-26.xmlx
+2016/06/13 13:56:33 [29110] sent 580030 bytes  received 31 bytes  89240.15 bytes/sec
+2016/06/13 13:56:33 [29110] total size is 579828  speedup is 1.00
+2016/06/13 14:10:40 [29196] building file list
+2016/06/13 14:10:40 [29196] <f+++++++++ xml_backup_task_06-13-2016--14-10-33.xmlx
+2016/06/13 14:10:40 [29196] sent 580110 bytes  received 31 bytes  105480.18 bytes/sec
+2016/06/13 14:10:40 [29196] total size is 579908  speedup is 1.00
+2016/06/13 15:54:11 [29428] building file list
+2016/06/13 15:54:11 [29428] <f+++++++++ xml_backup_task_06-13-2016--15-54-09.xmlx
+2016/06/13 15:54:11 [29428] sent 580158 bytes  received 31 bytes  386792.67 bytes/sec
+2016/06/13 15:54:11 [29428] total size is 579956  speedup is 1.00
+2016/06/13 16:54:08 [29646] building file list
+2016/06/13 16:54:08 [29646] <f+++++++++ xml_backup_task_06-13-2016--16-54-06.xmlx
+2016/06/13 16:54:08 [29646] sent 580222 bytes  received 31 bytes  1160506.00 bytes/sec
+2016/06/13 16:54:08 [29646] total size is 580020  speedup is 1.00
+2016/06/13 17:00:07 [29669] building file list
+2016/06/13 17:00:07 [29669] <f+++++++++ xml_backup_task_06-13-2016--17-00-00.xmlx
+2016/06/13 17:00:07 [29669] sent 580270 bytes  received 31 bytes  105509.27 bytes/sec
+2016/06/13 17:00:07 [29669] total size is 580068  speedup is 1.00
+2016/06/13 17:34:53 [29761] building file list
+2016/06/13 17:34:53 [29761] rsync: link_stat "/opt/skyboxview/data/xml_models/.xml_backup_task_06-13-2016--17-00-00.xmlx.swp" failed: No such file or directory (2)
+2016/06/13 17:34:53 [29761] sent 12 bytes  received 12 bytes  48.00 bytes/sec
+2016/06/13 17:34:53 [29761] total size is 0  speedup is 0.00
+2016/06/13 17:34:53 [29761] rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1052) [sender=3.0.9]
+2016/06/13 17:34:55 [29755] building file list
+2016/06/13 17:34:55 [29755] rsync: link_stat "/opt/skyboxview/data/xml_models/.xml_backup_task_06-13-2016--17-00-00.xmlx.swx" failed: No such file or directory (2)
+2016/06/13 17:34:55 [29755] sent 12 bytes  received 12 bytes  4.36 bytes/sec
+2016/06/13 17:34:55 [29755] total size is 0  speedup is 0.00
+2016/06/13 17:34:55 [29755] rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1052) [sender=3.0.9]
+2016/06/13 17:35:00 [29757] building file list
+2016/06/13 17:35:00 [29757] rsync: link_stat "/opt/skyboxview/data/xml_models/.xml_backup_task_06-13-2016--17-00-00.xmlx.swp" failed: No such file or directory (2)
+2016/06/13 17:35:00 [29757] sent 12 bytes  received 12 bytes  2.29 bytes/sec
+2016/06/13 17:35:00 [29757] total size is 0  speedup is 0.00
+2016/06/13 17:35:00 [29757] rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1052) [sender=3.0.9]
+2016/06/13 17:35:32 [29764] building file list
+2016/06/13 17:35:32 [29764] <f+++++++++ xml_backup_task_06-13-2016--17-35-30.xmlx
+2016/06/13 17:35:32 [29764] sent 580334 bytes  received 31 bytes  1160730.00 bytes/sec
+2016/06/13 17:35:32 [29764] total size is 580132  speedup is 1.00
+2016/06/15 17-01-32 SetPrimary finished successfully
+2016/06/15 17:02:56 [3800] building file list
+2016/06/15 17:02:56 [3800] <f.st...... test.txt
+2016/06/15 17:02:56 [3800] sent 106 bytes  received 37 bytes  286.00 bytes/sec
+2016/06/15 17:02:56 [3800] total size is 5  speedup is 0.03
+2016/06/15 17:04:42 [3805] building file list
+2016/06/15 17:04:42 [3805] <f+++++++++ xml_backup_task_06-15-2016--17-04-40.xmlx
+2016/06/15 17:04:42 [3805] sent 581006 bytes  received 31 bytes  387358.00 bytes/sec
+2016/06/15 17:04:42 [3805] total size is 580804  speedup is 1.00
+2016/06/15 17:04:43 [3810] building file list
+2016/06/15 17:04:43 [3810] <f..t...... test.txt
+2016/06/15 17:04:43 [3810] sent 101 bytes  received 37 bytes  276.00 bytes/sec
+2016/06/15 17:04:43 [3810] total size is 5  speedup is 0.04
+2016/06/16 16:06:23 [5646] building file list
+2016/06/16 16:06:23 [5646] <f+++++++++ xml_backup_task_06-16-2016--16-06-21.xmlx
+2016/06/16 16:06:23 [5646] sent 581310 bytes  received 31 bytes  387560.67 bytes/sec
+2016/06/16 16:06:23 [5646] total size is 581108  speedup is 1.00
+2016/06/16 19:07:30 [6007] building file list
+2016/06/16 19:07:30 [6007] <f+++++++++ xml_backup_task_06-16-2016--19-07-28.xmlx
+2016/06/16 19:07:32 [6007] sent 581390 bytes  received 31 bytes  166120.29 bytes/sec
+2016/06/16 19:07:32 [6007] total size is 581188  speedup is 1.00
+2016/06/16 19:47:21 [6038] building file list
+2016/06/16 19:47:21 [6038] <f+++++++++ xml_backup_task_06-16-2016--19-47-19.xmlx
+2016/06/16 19:47:21 [6038] sent 581438 bytes  received 31 bytes  1162938.00 bytes/sec
+2016/06/16 19:47:21 [6038] total size is 581236  speedup is 1.00
+2016/06/16 19:54:21 [6044] building file list
+2016/06/16 19:54:21 [6044] <f+++++++++ xml_backup_task_06-16-2016--19-54-19.xmlx
+2016/06/16 19:54:21 [6044] sent 581502 bytes  received 31 bytes  1163066.00 bytes/sec
+2016/06/16 19:54:21 [6044] total size is 581300  speedup is 1.00
+2016/06/16 19:59:21 [6049] building file list
+2016/06/16 19:59:21 [6049] <f+++++++++ xml_backup_task_06-16-2016--19-59-19.xmlx
+2016/06/16 19:59:21 [6049] sent 581566 bytes  received 31 bytes  1163194.00 bytes/sec
+2016/06/16 19:59:21 [6049] total size is 581364  speedup is 1.00
+2016/06/16 20:00:43 [6053] building file list
+2016/06/16 20:00:44 [6053] <f+++++++++ xml_backup_task_06-16-2016--20-00-42.xmlx
+2016/06/16 20:00:44 [6053] sent 581614 bytes  received 31 bytes  387763.33 bytes/sec
+2016/06/16 20:00:44 [6053] total size is 581412  speedup is 1.00
+2016/06/16 20:02:08 [6093] building file list
+2016/06/16 20:02:08 [6093] <f+++++++++ xml_backup_task_06-16-2016--20-02-06.xmlx
+2016/06/16 20:02:08 [6093] sent 581678 bytes  received 31 bytes  1163418.00 bytes/sec
+2016/06/16 20:02:08 [6093] total size is 581476  speedup is 1.00
+2016/06/16 20:06:52 [6114] building file list
+2016/06/16 20:06:52 [6114] <f+++++++++ xml_backup_task_06-16-2016--20-06-48.xmlx
+2016/06/16 20:06:52 [6114] sent 581726 bytes  received 31 bytes  232702.80 bytes/sec
+2016/06/16 20:06:52 [6114] total size is 581524  speedup is 1.00
+2016/06/16 20:14:29 [6121] building file list
+2016/06/16 20:14:37 [6121] <f+++++++++ xml_backup_task_06-16-2016--20-13-41.xmlx
+2016/06/16 20:14:37 [6121] sent 95657955 bytes  received 31 bytes  10069261.68 bytes/sec
+2016/06/16 20:14:37 [6121] total size is 95646148  speedup is 1.00
+2016/06/21 20:06:15 [17773] building file list
+2016/06/21 20:06:22 [17773] <f+++++++++ test.sqlx
+2016/06/21 20:06:22 [17773] sent 85751051 bytes  received 31 bytes  10088362.59 bytes/sec
+2016/06/21 20:06:22 [17773] total size is 85740484  speedup is 1.00
+2016/06/21 20:40:13 [18128] building file list
+2016/06/21 20:40:20 [18128] <f.st...... test.sqlx
+2016/06/21 20:40:21 [18128] sent 85751693 bytes  received 64879 bytes  8173006.86 bytes/sec
+2016/06/21 20:40:21 [18128] total size is 85741126  speedup is 1.00
+2016/06/21 20:50:09 [18281] building file list
+2016/06/21 20:50:16 [18281] <f.st...... test.sqlx
+2016/06/21 20:50:17 [18281] sent 85751662 bytes  received 64879 bytes  9033320.11 bytes/sec
+2016/06/21 20:50:17 [18281] total size is 85741095  speedup is 1.00
+2016/06/21 21:02:13 [18469] building file list
+2016/06/21 21:02:21 [18469] <f.st...... test.sqlx
+2016/06/21 21:02:22 [18469] sent 85752332 bytes  received 64879 bytes  9033390.63 bytes/sec
+2016/06/21 21:02:22 [18469] total size is 85741765  speedup is 1.00
+2016/06/21 21:06:17 [18637] building file list
+2016/06/21 21:06:25 [18637] <f.st...... test.sqlx
+2016/06/21 21:06:25 [18637] sent 85751594 bytes  received 64879 bytes  9033312.95 bytes/sec
+2016/06/21 21:06:25 [18637] total size is 85741027  speedup is 1.00
+2016/06/21 21:08:44 [18790] building file list
+2016/06/21 21:08:52 [18790] <f.st...... test.sqlx
+2016/06/21 21:08:53 [18790] sent 85752696 bytes  received 64879 bytes  9033428.95 bytes/sec
+2016/06/21 21:08:53 [18790] total size is 85742129  speedup is 1.00
+2016/06/21 21:23:57 [18959] building file list
+2016/06/21 21:24:08 [18959] <f.st...... test.sqlx
+2016/06/21 21:24:09 [18959] sent 85751546 bytes  received 64879 bytes  6356772.22 bytes/sec
+2016/06/21 21:24:09 [18959] total size is 85740979  speedup is 1.00
+2016/06/21 21:32:05 [18963] building file list
+2016/06/21 21:32:05 [18963] <f+++++++++ franktest.xmlx
+2016/06/21 21:32:05 [18963] sent 582467 bytes  received 31 bytes  1164996.00 bytes/sec
+2016/06/21 21:32:05 [18963] total size is 582292  speedup is 1.00
+2016/06/23 12-47-47 SetPrimary finished successfully
+2016/06/23 12-47-51 SetPrimary finished successfully
+2016/06/23 21-18-51 SetPrimary finished successfully
+2016/06/23 21-29-35 SetPrimary finished successfully
+2016/06/23 21-30-55 SetPrimary finished successfully
+2016/06/23 21-31-28 SetPrimary finished successfully
+2016/06/23 21-33-50 SetPrimary finished successfully
+2016/06/23 21-38-38 SetPrimary finished successfully
+2016/06/23 21-44-21 SetPrimary finished successfully
+2016/06/23 21-46-12 SetPrimary finished successfully
+2016/06/23 22-18-17 SetPrimary finished successfully
+2016/06/23 22-20-25 SetPrimary finished successfully
+2016/06/23 22-23-16 SetPrimary finished successfully
+2016/06/23 22-24-14 SetPrimary finished successfully
+2016/06/23 22-27-00 SetPrimary finished successfully
+2016/06/23 22-28-22 SetPrimary finished successfully
+2016/06/23 22-34-18 SetPrimary finished successfully
+2016/06/23 22-34-36 SetPrimary finished successfully
+2016/06/24 00-00-53 SetPrimary finished successfully
+2016/06/24 00-05-12 SetPrimary finished successfully
+2016/06/24 00-08-27 SetPrimary finished successfully
+2016/06/24 00-10-30 SetPrimary finished successfully
+2016/06/24 00-42-01 SetPrimary finished successfully
+2016/06/24 00-42-16 SetPrimary finished successfully
+2016/06/24 00-43-32 SetPrimary finished successfully
+2016/06/24 00-43-42 SetPrimary finished successfully
+2016/06/24 00-44-23 SetPrimary finished successfully
+2016/06/24 00-44-45 SetPrimary finished successfully
+2016/06/24 00-45-00 SetPrimary finished successfully
+2016/06/24 01-13-46 SetPrimary finished successfully
+2016/06/24 02-05-58 SetPrimary finished successfully
+2016-06-24 02:06:25: BackupTicket Cron entry already exist
+2016-06-24 02:06:25: Cron entries already exist
+2016/06/24 02-06-25 SetPrimary finished successfully
+2016-06-24 02:07:10: BackupTicket Cron entry already exist
+2016-06-24 02:07:10: ReplicateFirewalls Cron entries already exist
+2016/06/24 02-07-10 SetPrimary finished successfully
+2016/06/24 02-40-01 SetPrimary finished successfully
+2016-06-24 02:40:22 BackupTicket Cron entry already exist
+2016-06-24 02:40:22 ReplicateFirewalls Cron entries already exist
+2016/06/24 02-40-22 SetPrimary finished successfully
+2016-06-24 02:42:03 Clearing incron.secondary
+2016-06-24 02:42:03 Incrontab on secondary failed to be cleared
+2016-06-24 02:44:45 Clearing incron.primary
+2016-06-24 02:44:45 Incrontab on primary failed to be cleared
+2016-06-24 02:46:02 Clearing incron.primary
+2016-06-24 02:46:02 Incrontab on primary cleared successfully
+2016-06-24 02:49:28 Clearing incron.primary
+2016-06-24 02:49:28 Incrontab on primary cleared successfully
+2016-06-24 02:56:39 ReplicateFirewalls Cron entry already exist
+2016/06/24 02-56-40 SetPrimary finished successfully
+2016-06-24 02:57:06 BackupTicket Cron entry already exist
+2016-06-24 02:57:06 ReplicateFirewalls Cron entry already exist
+2016/06/24 02-57-06 SetPrimary finished successfully
+2016-06-24 02:57:59 Crontab failed to clear
+2016-06-24 02:57:59 Incrontab on primary cleared successfully
+2016-06-24 02:58:23 Crontab failed to clear
+2016-06-24 02:58:23 Incrontab on primary cleared successfully
+2016-06-24 02:58:48 Clearing incron.primary
+2016-06-24 02:58:48 Incrontab on primary cleared successfully
+2016/06/24 03-10-58 SetPrimary finished successfully
+2016/06/24 03:23:33 [7498] building file list
+2016/06/24 03:23:33 [7498] <f+++++++++ this.txt
+2016/06/24 03:23:33 [7498] sent 97 bytes  received 31 bytes  85.33 bytes/sec
+2016/06/24 03:23:33 [7498] total size is 0  speedup is 0.00
+2016-06-24 16:17:15 Crontab failed to be cleared - try again
+2016-06-24 16:17:15 Clearing incron.primary
+2016-06-24 16:17:15 Incrontab on primary cleared successfully
+2016-06-24 16:17:28 Crontab cleared successfully
+2016-06-24 16:17:28 Clearing incron.primary
+2016-06-24 16:17:28 Incrontab on primary cleared successfully
+2016/06/24 16-17-48 SetPrimary finished successfully
+2016-06-24 16:19:18 Crontab cleared successfully
+2016-06-24 16:19:18 Clearing incron.primary
+2016-06-24 16:19:18 Incrontab on primary cleared successfully
+2016/06/24 16-19-35 SetPrimary finished successfully
+2016-06-24 16:22:51 Crontab cleared successfully
+2016-06-24 16:22:51 Clearing incron.primary
+2016-06-24 16:22:51 Incrontab on primary cleared successfully
+2016-06-24 16:23:49 Crontab cleared successfully
+2016-06-24 16:23:49 Clearing incron.primary
+2016-06-24 16:23:49 Incrontab on primary cleared successfully
+2016/06/24 16-27-53 SetPrimary finished successfully
+2016-06-24 16:29:08 Crontab cleared successfully
+2016-06-24 16:29:08 Clearing incron.primary
+2016-06-24 16:29:08 Incrontab on primary cleared successfully
+2016/06/24 16-29-51 SetPrimary finished successfully
+2016/06/24 16-29-57 SetPrimary finished successfully
+2016-06-24 16:30:36 Crontab cleared successfully
+2016-06-24 16:30:36 Clearing incron.primary
+2016-06-24 16:30:36 Incrontab on primary cleared successfully
+2016/06/24 16-30-51 SetPrimary finished successfully
+2016-06-24 17:21:10 Crontab cleared successfully
+2016-06-24 17:21:10 Clearing incron.primary
+2016-06-24 17:21:10 Incrontab on primary cleared successfully
+2016/06/24 17-21-25 SetPrimary finished successfully
+2016-06-24 17:22:43 Watchdog Cron entry already exist
+2016-06-24 17:22:43 BackupTicket Cron entry already exist
+2016-06-24 17:22:43 ReplicateFirewalls Cron entry already exist
+2016/06/24 17-22-43 SetPrimary finished successfully
+2016/06/24 18-42-52 SetPrimary finished successfully
+2016-06-24 18:42:56 BackupTicket Cron entry already exist
+2016-06-24 18:42:56 ReplicateFirewalls Cron entry already exist
+2016/06/24 18-42-56 SetPrimary finished successfully
+Fri Jun 24 18:42:59 EDT 2016 Disabling Task Scheduling as conf_files_sync exists in cron...
+Fri Jun 24 18:43:01 EDT 2016 Host failed to be set as primary
+2016-06-24 18:46:41 Crontab cleared successfully
+2016-06-24 18:46:41 Clearing incron.primary
+2016-06-24 18:46:41 Incrontab on primary cleared successfully
+2016/06/24 18-46-53 SetPrimary finished successfully
+Fri Jun 24 18:46:56 EDT 2016 Enabling Task Scheduling...
+Fri Jun 24 18:46:58 EDT 2016 Host has been successfully set as primary
+2016-06-24 20:09:57 Watchdog Cron entry already exist
+2016-06-24 20:09:57 BackupTicket Cron entry already exist
+2016-06-24 20:09:57 ReplicateFirewalls Cron entry already exist
+2016/06/24 20-09-57 SetPrimary finished successfully
+date +%Y-%m-%d %T Disabling Task Scheduling as conf_files_sync exists in cron...
+date +%Y-%m-%d %T Host has been successfully set as primary
+2016-06-24 20:10:46 Crontab cleared successfully
+2016-06-24 20:10:46 Clearing incron.primary
+2016-06-24 20:10:46 Incrontab on primary cleared successfully
+2016/06/24 20-10-54 SetPrimary finished successfully
+date +%Y-%m-%d %T Enabling Task Scheduling...
+date +%Y-%m-%d %T Host has been successfully set as primary
+2016-06-24 20:13:17 Watchdog Cron entry already exist
+2016-06-24 20:13:17 BackupTicket Cron entry already exist
+2016-06-24 20:13:17 ReplicateFirewalls Cron entry already exist
+2016/06/24 20-13-17 SetPrimary finished successfully
+2016-06-24 20:13:20 Disabling Task Scheduling as conf_files_sync exists in cron...
+2016-06-24 20:13:22 Host has been successfully set as primary
+2016-06-24 20:13:52 Watchdog Cron entry already exist
+2016-06-24 20:13:52 BackupTicket Cron entry already exist
+2016-06-24 20:13:52 ReplicateFirewalls Cron entry already exist
+2016/06/24 20-13-53 SetPrimary finished successfully
+2016-06-24 20:13:56 Disabling Task Scheduling as conf_files_sync exists in cron...
+2016-06-24 20:13:58 Host failed to be set as primary
+2016-06-24 20:14:28 Crontab cleared successfully
+2016-06-24 20:14:28 Clearing incron.primary
+2016-06-24 20:14:28 Incrontab on primary cleared successfully
+2016/06/24 20-14-33 SetPrimary finished successfully
+2016-06-24 20:14:36 Enabling Task Scheduling...
+2016-06-24 20:14:38 Host has been successfully set as primary
+2016-06-24 22:23:16 Watchdog Cron entry already exist
+2016-06-24 22:23:16 BackupTicket Cron entry already exist
+2016-06-24 22:23:16 ReplicateFirewalls Cron entry already exist
+2016-06-24 22:23:16 SetPrimary finished successfully
+2016-06-24 22:23:20 Enabling Task Scheduling...
+2016-06-24 22:23:22 Host has been successfully set as primary
+2016-06-25 01:49:43 Crontab cleared successfully
+2016-06-25 01:49:43 Clearing incron.primary
+2016-06-25 01:49:43 Incrontab on primary cleared successfully
+2016-06-25 01:50:38 Watchdog Cron entry already exist
+2016-06-25 01:50:38 BackupTicket Cron entry already exist
+2016-06-25 01:50:38 ReplicateFirewalls Cron entry already exist
+2016-06-25 01:50:38 This is not a recognized version
+2016-06-25 01:50:38 SetPrimary finished successfully
+2016-06-25 01:50:41 Enabling Task Scheduling...
+2016-06-25 01:50:43 Host has been successfully set as primary
+2016-06-25 01:51:27 Crontab cleared successfully
+2016-06-25 01:51:27 Clearing incron.primary
+2016-06-25 01:51:27 Incrontab on primary cleared successfully
+2016-06-25 03:02:22 This is not a recognized version
+2016-06-25 03:02:22 SetPrimary finished successfully
+2016-06-25 03:02:25 Enabling Task Scheduling...
+2016-06-25 03:02:27 Host has been successfully set as primary
+2016-06-25 03:02:59 Crontab cleared successfully
+2016-06-25 03:02:59 Clearing incron.primary
+2016-06-25 03:02:59 Incrontab on primary cleared successfully
+2016-06-25 03:05:16 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:05:16 SetPrimary finished successfully
+2016-06-25 03:05:20 Enabling Task Scheduling...
+2016-06-25 03:05:22 Host has been successfully set as primary
+2016-06-25 03:12:27 Crontab cleared successfully
+2016-06-25 03:12:27 Clearing incron.primary
+2016-06-25 03:12:27 Incrontab on primary cleared successfully
+2016-06-25 03:13:32 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:13:32 SetPrimary finished successfully
+2016-06-25 03:13:35 Enabling Task Scheduling...
+2016-06-25 03:13:37 Host has been successfully set as primary
+2016-06-25 03:13:52 Crontab cleared successfully
+2016-06-25 03:13:52 Clearing incron.primary
+2016-06-25 03:13:52 Incrontab on primary cleared successfully
+2016-06-25 03:13:54 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:14:20 Crontab cleared successfully
+2016-06-25 03:14:20 Clearing incron.primary
+2016-06-25 03:14:20 Incrontab on primary cleared successfully
+2016-06-25 03:14:23 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:14:50 Crontab cleared successfully
+2016-06-25 03:14:50 Clearing incron.primary
+2016-06-25 03:14:50 Incrontab on primary cleared successfully
+2016-06-25 03:14:52 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:15:31 Crontab cleared successfully
+2016-06-25 03:15:31 Clearing incron.primary
+2016-06-25 03:15:31 Incrontab on primary cleared successfully
+2016-06-25 03:15:33 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:16:08 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 03:16:08 SetPrimary finished successfully
+2016-06-25 03:16:11 Enabling Task Scheduling...
+2016-06-25 03:16:13 Host has been successfully set as primary
+2016-06-25 12:51:25 Watchdog Cron entry already exist
+2016-06-25 12:51:25 BackupTicket Cron entry already exist
+2016-06-25 12:51:25 ReplicateFirewalls Cron entry already exist
+2016-06-25 12:51:27 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-25 12:51:27 SetPrimary finished successfully
+2016-06-25 12:51:30 Enabling Task Scheduling...
+2016-06-25 12:51:32 Host has been successfully set as primary
+2016/06/25 13-00-02 Backup tickets finished successfully
+2016/06/25 13:00:02 [1166] building file list
+2016/06/25 13:00:02 [1166] <f+++++++++ ticket_backup.sql.20162506130002
+2016/06/25 13:00:02 [1166] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 13:00:02 [1166] total size is 0  speedup is 0.00
+2016/06/25 14-00-01 Backup tickets finished successfully
+2016/06/25 14:00:02 [1274] building file list
+2016/06/25 14:00:02 [1274] <f+++++++++ ticket_backup.sql.20162506140001
+2016/06/25 14:00:02 [1274] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/25 14:00:02 [1274] total size is 0  speedup is 0.00
+2016/06/25 15-00-01 Backup tickets finished successfully
+2016/06/25 15:00:02 [1395] building file list
+2016/06/25 15:00:02 [1395] <f+++++++++ ticket_backup.sql.20162506150001
+2016/06/25 15:00:02 [1395] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/25 15:00:02 [1395] total size is 0  speedup is 0.00
+2016/06/25 16-00-01 Backup tickets finished successfully
+2016/06/25 16:00:01 [1506] building file list
+2016/06/25 16:00:01 [1506] <f+++++++++ ticket_backup.sql.20162506160001
+2016/06/25 16:00:01 [1506] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 16:00:01 [1506] total size is 0  speedup is 0.00
+2016/06/25 17-00-01 Backup tickets finished successfully
+2016/06/25 17:00:01 [1716] building file list
+2016/06/25 17:00:01 [1716] <f+++++++++ ticket_backup.sql.20162506170001
+2016/06/25 17:00:01 [1716] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 17:00:01 [1716] total size is 0  speedup is 0.00
+2016/06/25 18-00-02 Backup tickets finished successfully
+2016/06/25 18:00:02 [1851] building file list
+2016/06/25 18:00:02 [1851] <f+++++++++ ticket_backup.sql.20162506180001
+2016/06/25 18:00:02 [1851] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 18:00:02 [1851] total size is 0  speedup is 0.00
+2016/06/25 19-00-01 Backup tickets finished successfully
+2016/06/25 19:00:02 [1963] building file list
+2016/06/25 19:00:02 [1963] <f+++++++++ ticket_backup.sql.20162506190001
+2016/06/25 19:00:02 [1963] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/25 19:00:02 [1963] total size is 0  speedup is 0.00
+2016/06/25 20-00-01 Backup tickets finished successfully
+2016/06/25 20:00:01 [2078] building file list
+2016/06/25 20:00:01 [2078] <f+++++++++ ticket_backup.sql.20162506200001
+2016/06/25 20:00:01 [2078] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 20:00:01 [2078] total size is 0  speedup is 0.00
+2016/06/25 21-00-01 Backup tickets finished successfully
+2016/06/25 21:00:01 [2196] building file list
+2016/06/25 21:00:01 [2196] <f+++++++++ ticket_backup.sql.20162506210001
+2016/06/25 21:00:01 [2196] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 21:00:01 [2196] total size is 0  speedup is 0.00
+2016/06/25 22-00-01 Backup tickets finished successfully
+2016/06/25 22:00:02 [2381] building file list
+2016/06/25 22:00:02 [2381] <f+++++++++ ticket_backup.sql.20162506220001
+2016/06/25 22:00:02 [2381] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/25 22:00:02 [2381] total size is 0  speedup is 0.00
+2016/06/25 23-00-01 Backup tickets finished successfully
+2016/06/25 23:00:01 [2516] building file list
+2016/06/25 23:00:01 [2516] <f+++++++++ ticket_backup.sql.20162506230001
+2016/06/25 23:00:02 [2516] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/25 23:00:02 [2516] total size is 0  speedup is 0.00
+2016/06/26 00-00-01 Backup tickets finished successfully
+2016/06/26 00:00:01 [2633] building file list
+2016/06/26 00:00:01 [2633] <f+++++++++ ticket_backup.sql.20162606000001
+2016/06/26 00:00:01 [2633] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 00:00:01 [2633] total size is 0  speedup is 0.00
+2016/06/26 01-00-01 Backup tickets finished successfully
+2016/06/26 01:00:02 [2797] building file list
+2016/06/26 01:00:02 [2797] <f+++++++++ ticket_backup.sql.20162606010001
+2016/06/26 01:00:02 [2797] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 01:00:02 [2797] total size is 0  speedup is 0.00
+2016/06/26 02-00-01 Backup tickets finished successfully
+2016/06/26 02:00:02 [2919] building file list
+2016/06/26 02:00:02 [2919] <f+++++++++ ticket_backup.sql.20162606020001
+2016/06/26 02:00:02 [2919] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 02:00:02 [2919] total size is 0  speedup is 0.00
+2016/06/26 03-00-01 Backup tickets finished successfully
+2016/06/26 03:00:01 [3071] building file list
+2016/06/26 03:00:01 [3071] <f+++++++++ ticket_backup.sql.20162606030001
+2016/06/26 03:00:01 [3071] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 03:00:01 [3071] total size is 0  speedup is 0.00
+2016/06/26 04-00-01 Backup tickets finished successfully
+2016/06/26 04:00:01 [3217] building file list
+2016/06/26 04:00:01 [3217] <f+++++++++ ticket_backup.sql.20162606040001
+2016/06/26 04:00:01 [3217] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 04:00:01 [3217] total size is 0  speedup is 0.00
+2016/06/26 05-00-01 Backup tickets finished successfully
+2016/06/26 05:00:02 [3336] building file list
+2016/06/26 05:00:02 [3336] <f+++++++++ ticket_backup.sql.20162606050001
+2016/06/26 05:00:02 [3336] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 05:00:02 [3336] total size is 0  speedup is 0.00
+2016/06/26 06-00-01 Backup tickets finished successfully
+2016/06/26 06:00:02 [3459] building file list
+2016/06/26 06:00:02 [3459] <f+++++++++ ticket_backup.sql.20162606060001
+2016/06/26 06:00:02 [3459] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 06:00:02 [3459] total size is 0  speedup is 0.00
+2016/06/26 07-00-01 Backup tickets finished successfully
+2016/06/26 07:00:01 [3583] building file list
+2016/06/26 07:00:01 [3583] <f+++++++++ ticket_backup.sql.20162606070001
+2016/06/26 07:00:01 [3583] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 07:00:01 [3583] total size is 0  speedup is 0.00
+2016/06/26 08-00-01 Backup tickets finished successfully
+2016/06/26 08:00:01 [3711] building file list
+2016/06/26 08:00:01 [3711] <f+++++++++ ticket_backup.sql.20162606080001
+2016/06/26 08:00:01 [3711] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 08:00:01 [3711] total size is 0  speedup is 0.00
+2016/06/26 09-00-01 Backup tickets finished successfully
+2016/06/26 09:00:02 [3837] building file list
+2016/06/26 09:00:02 [3837] <f+++++++++ ticket_backup.sql.20162606090001
+2016/06/26 09:00:02 [3837] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 09:00:02 [3837] total size is 0  speedup is 0.00
+2016/06/26 10-00-01 Backup tickets finished successfully
+2016/06/26 10:00:02 [3983] building file list
+2016/06/26 10:00:02 [3983] <f+++++++++ ticket_backup.sql.20162606100001
+2016/06/26 10:00:02 [3983] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 10:00:02 [3983] total size is 0  speedup is 0.00
+2016/06/26 11-00-01 Backup tickets finished successfully
+2016/06/26 11:00:01 [4105] building file list
+2016/06/26 11:00:01 [4105] <f+++++++++ ticket_backup.sql.20162606110001
+2016/06/26 11:00:01 [4105] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 11:00:01 [4105] total size is 0  speedup is 0.00
+2016/06/26 12-00-01 Backup tickets finished successfully
+2016/06/26 12:00:01 [4232] building file list
+2016/06/26 12:00:01 [4232] <f+++++++++ ticket_backup.sql.20162606120001
+2016/06/26 12:00:01 [4232] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 12:00:01 [4232] total size is 0  speedup is 0.00
+2016/06/26 13-00-01 Backup tickets finished successfully
+2016/06/26 13:00:02 [4355] building file list
+2016/06/26 13:00:02 [4355] <f+++++++++ ticket_backup.sql.20162606130001
+2016/06/26 13:00:02 [4355] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 13:00:02 [4355] total size is 0  speedup is 0.00
+2016/06/26 14-00-01 Backup tickets finished successfully
+2016/06/26 14:00:01 [4478] building file list
+2016/06/26 14:00:01 [4478] <f+++++++++ ticket_backup.sql.20162606140001
+2016/06/26 14:00:01 [4478] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 14:00:01 [4478] total size is 0  speedup is 0.00
+2016/06/26 15-00-01 Backup tickets finished successfully
+2016/06/26 15:00:01 [4601] building file list
+2016/06/26 15:00:01 [4601] <f+++++++++ ticket_backup.sql.20162606150001
+2016/06/26 15:00:01 [4601] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 15:00:01 [4601] total size is 0  speedup is 0.00
+2016/06/26 16-00-01 Backup tickets finished successfully
+2016/06/26 16:00:01 [4794] building file list
+2016/06/26 16:00:01 [4794] <f+++++++++ ticket_backup.sql.20162606160001
+2016/06/26 16:00:01 [4794] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 16:00:01 [4794] total size is 0  speedup is 0.00
+2016/06/26 17-00-01 Backup tickets finished successfully
+2016/06/26 17:00:01 [5028] building file list
+2016/06/26 17:00:01 [5028] <f+++++++++ ticket_backup.sql.20162606170001
+2016/06/26 17:00:01 [5028] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 17:00:01 [5028] total size is 0  speedup is 0.00
+2016/06/26 18-00-01 Backup tickets finished successfully
+2016/06/26 18:00:01 [5148] building file list
+2016/06/26 18:00:01 [5148] <f+++++++++ ticket_backup.sql.20162606180001
+2016/06/26 18:00:01 [5148] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 18:00:01 [5148] total size is 0  speedup is 0.00
+2016-06-26 18:21:58 Watchdog Cron entry already exist
+2016-06-26 18:21:58 BackupTicket Cron entry already exist
+2016-06-26 18:21:58 ReplicateFirewalls Cron entry already exist
+2016-06-26 18:22:00 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-26 18:22:00 SetPrimary finished successfully
+2016-06-26 18:22:03 Enabling Task Scheduling...
+2016-06-26 18:22:05 Host has been successfully set as primary
+2016/06/26 19-00-01 Backup tickets finished successfully
+2016/06/26 19:00:01 [6054] building file list
+2016/06/26 19:00:01 [6054] <f+++++++++ ticket_backup.sql.20162606190001
+2016/06/26 19:00:01 [6054] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 19:00:01 [6054] total size is 0  speedup is 0.00
+2016/06/26 20-00-02 Backup tickets finished successfully
+2016/06/26 20:00:02 [6202] building file list
+2016/06/26 20:00:02 [6202] <f+++++++++ ticket_backup.sql.20162606200002
+2016/06/26 20:00:02 [6202] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/26 20:00:02 [6202] total size is 0  speedup is 0.00
+2016/06/26 21-00-01 Backup tickets finished successfully
+2016/06/26 21:00:02 [6326] building file list
+2016/06/26 21:00:02 [6326] <f+++++++++ ticket_backup.sql.20162606210001
+2016/06/26 21:00:02 [6326] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 21:00:02 [6326] total size is 0  speedup is 0.00
+2016/06/26 22-00-01 Backup tickets finished successfully
+2016/06/26 22:00:02 [6510] building file list
+2016/06/26 22:00:02 [6510] <f+++++++++ ticket_backup.sql.20162606220001
+2016/06/26 22:00:02 [6510] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 22:00:02 [6510] total size is 0  speedup is 0.00
+2016/06/26 23-00-01 Backup tickets finished successfully
+2016/06/26 23:00:02 [6636] building file list
+2016/06/26 23:00:02 [6636] <f+++++++++ ticket_backup.sql.20162606230001
+2016/06/26 23:00:02 [6636] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/26 23:00:02 [6636] total size is 0  speedup is 0.00
+2016/06/27 00-00-01 Backup tickets finished successfully
+2016/06/27 00:00:01 [6768] building file list
+2016/06/27 00:00:01 [6768] <f+++++++++ ticket_backup.sql.20162706000001
+2016/06/27 00:00:01 [6768] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 00:00:01 [6768] total size is 0  speedup is 0.00
+2016/06/27 01-00-01 Backup tickets finished successfully
+2016/06/27 01:00:01 [7130] building file list
+2016/06/27 01:00:01 [7130] <f+++++++++ ticket_backup.sql.20162706010001
+2016/06/27 01:00:01 [7130] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 01:00:01 [7130] total size is 0  speedup is 0.00
+2016/06/27 02-00-01 Backup tickets finished successfully
+2016/06/27 02:00:01 [7258] building file list
+2016/06/27 02:00:01 [7258] <f+++++++++ ticket_backup.sql.20162706020001
+2016/06/27 02:00:01 [7258] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 02:00:01 [7258] total size is 0  speedup is 0.00
+2016/06/27 03-00-01 Backup tickets finished successfully
+2016/06/27 03:00:02 [7428] building file list
+2016/06/27 03:00:02 [7428] <f+++++++++ ticket_backup.sql.20162706030001
+2016/06/27 03:00:02 [7428] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 03:00:02 [7428] total size is 0  speedup is 0.00
+2016/06/27 04-00-01 Backup tickets finished successfully
+2016/06/27 04:00:02 [7555] building file list
+2016/06/27 04:00:02 [7555] <f+++++++++ ticket_backup.sql.20162706040001
+2016/06/27 04:00:02 [7555] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 04:00:02 [7555] total size is 0  speedup is 0.00
+2016/06/27 05-00-01 Backup tickets finished successfully
+2016/06/27 05:00:01 [7679] building file list
+2016/06/27 05:00:01 [7679] <f+++++++++ ticket_backup.sql.20162706050001
+2016/06/27 05:00:02 [7679] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 05:00:02 [7679] total size is 0  speedup is 0.00
+2016/06/27 06-00-01 Backup tickets finished successfully
+2016/06/27 06:00:01 [7825] building file list
+2016/06/27 06:00:01 [7825] <f+++++++++ ticket_backup.sql.20162706060001
+2016/06/27 06:00:01 [7825] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 06:00:01 [7825] total size is 0  speedup is 0.00
+2016/06/27 07-00-01 Backup tickets finished successfully
+2016/06/27 07:00:01 [7948] building file list
+2016/06/27 07:00:01 [7948] <f+++++++++ ticket_backup.sql.20162706070001
+2016/06/27 07:00:01 [7948] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 07:00:01 [7948] total size is 0  speedup is 0.00
+2016/06/27 08-00-02 Backup tickets finished successfully
+2016/06/27 08:00:02 [8072] building file list
+2016/06/27 08:00:02 [8072] <f+++++++++ ticket_backup.sql.20162706080002
+2016/06/27 08:00:02 [8072] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 08:00:02 [8072] total size is 0  speedup is 0.00
+2016/06/27 09-00-01 Backup tickets finished successfully
+2016/06/27 09:00:02 [8201] building file list
+2016/06/27 09:00:02 [8201] <f+++++++++ ticket_backup.sql.20162706090001
+2016/06/27 09:00:02 [8201] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 09:00:02 [8201] total size is 0  speedup is 0.00
+2016/06/27 10-00-01 Backup tickets finished successfully
+2016/06/27 10:00:02 [8345] building file list
+2016/06/27 10:00:02 [8345] <f+++++++++ ticket_backup.sql.20162706100001
+2016/06/27 10:00:02 [8345] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 10:00:02 [8345] total size is 0  speedup is 0.00
+2016/06/27 11-00-01 Backup tickets finished successfully
+2016/06/27 11:00:02 [8470] building file list
+2016/06/27 11:00:02 [8470] <f+++++++++ ticket_backup.sql.20162706110001
+2016/06/27 11:00:02 [8470] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 11:00:02 [8470] total size is 0  speedup is 0.00
+2016/06/27 12-00-01 Backup tickets finished successfully
+2016/06/27 12:00:01 [8593] building file list
+2016/06/27 12:00:01 [8593] <f+++++++++ ticket_backup.sql.20162706120001
+2016/06/27 12:00:01 [8593] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 12:00:01 [8593] total size is 0  speedup is 0.00
+2016/06/27 13-00-01 Backup tickets finished successfully
+2016/06/27 13:00:01 [8722] building file list
+2016/06/27 13:00:01 [8722] <f+++++++++ ticket_backup.sql.20162706130001
+2016/06/27 13:00:01 [8722] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 13:00:01 [8722] total size is 0  speedup is 0.00
+2016/06/27 14-00-01 Backup tickets finished successfully
+2016/06/27 14:00:01 [8851] building file list
+2016/06/27 14:00:01 [8851] <f+++++++++ ticket_backup.sql.20162706140001
+2016/06/27 14:00:01 [8851] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 14:00:01 [8851] total size is 0  speedup is 0.00
+2016/06/27 15-00-02 Backup tickets finished successfully
+2016/06/27 15:00:02 [8969] building file list
+2016/06/27 15:00:02 [8969] <f+++++++++ ticket_backup.sql.20162706150001
+2016/06/27 15:00:02 [8969] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 15:00:02 [8969] total size is 0  speedup is 0.00
+2016/06/27 16-00-01 Backup tickets finished successfully
+2016/06/27 16:00:02 [9119] building file list
+2016/06/27 16:00:02 [9119] <f+++++++++ ticket_backup.sql.20162706160001
+2016/06/27 16:00:02 [9119] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 16:00:02 [9119] total size is 0  speedup is 0.00
+2016/06/27 17-00-02 Backup tickets finished successfully
+2016/06/27 17:00:02 [9335] building file list
+2016/06/27 17:00:02 [9335] <f+++++++++ ticket_backup.sql.20162706170002
+2016/06/27 17:00:02 [9335] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 17:00:02 [9335] total size is 0  speedup is 0.00
+2016/06/27 18-00-01 Backup tickets finished successfully
+2016/06/27 18:00:02 [9461] building file list
+2016/06/27 18:00:02 [9461] <f+++++++++ ticket_backup.sql.20162706180001
+2016/06/27 18:00:02 [9461] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 18:00:02 [9461] total size is 0  speedup is 0.00
+2016/06/27 19-00-01 Backup tickets finished successfully
+2016/06/27 19:00:02 [9585] building file list
+2016/06/27 19:00:02 [9585] <f+++++++++ ticket_backup.sql.20162706190001
+2016/06/27 19:00:02 [9585] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 19:00:02 [9585] total size is 0  speedup is 0.00
+2016/06/27 20-00-01 Backup tickets finished successfully
+2016/06/27 20:00:02 [9710] building file list
+2016/06/27 20:00:02 [9710] <f+++++++++ ticket_backup.sql.20162706200001
+2016/06/27 20:00:02 [9710] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 20:00:02 [9710] total size is 0  speedup is 0.00
+2016/06/27 21-00-01 Backup tickets finished successfully
+2016/06/27 21:00:02 [9858] building file list
+2016/06/27 21:00:02 [9858] <f+++++++++ ticket_backup.sql.20162706210001
+2016/06/27 21:00:02 [9858] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 21:00:02 [9858] total size is 0  speedup is 0.00
+2016/06/27 22-00-01 Backup tickets finished successfully
+2016/06/27 22:00:01 [10041] building file list
+2016/06/27 22:00:01 [10041] <f+++++++++ ticket_backup.sql.20162706220001
+2016/06/27 22:00:02 [10041] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/27 22:00:02 [10041] total size is 0  speedup is 0.00
+2016/06/27 23-00-01 Backup tickets finished successfully
+2016/06/27 23:00:02 [10163] building file list
+2016/06/27 23:00:02 [10163] <f+++++++++ ticket_backup.sql.20162706230001
+2016/06/27 23:00:02 [10163] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/27 23:00:02 [10163] total size is 0  speedup is 0.00
+2016/06/28 00-00-01 Backup tickets finished successfully
+2016/06/28 00:00:01 [10292] building file list
+2016/06/28 00:00:01 [10292] <f+++++++++ ticket_backup.sql.20162806000001
+2016/06/28 00:00:02 [10292] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 00:00:02 [10292] total size is 0  speedup is 0.00
+2016/06/28 01-00-01 Backup tickets finished successfully
+2016/06/28 01:00:01 [10454] building file list
+2016/06/28 01:00:01 [10454] <f+++++++++ ticket_backup.sql.20162806010001
+2016/06/28 01:00:01 [10454] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 01:00:01 [10454] total size is 0  speedup is 0.00
+2016/06/28 02-00-01 Backup tickets finished successfully
+2016/06/28 02:00:01 [10599] building file list
+2016/06/28 02:00:01 [10599] <f+++++++++ ticket_backup.sql.20162806020001
+2016/06/28 02:00:01 [10599] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 02:00:01 [10599] total size is 0  speedup is 0.00
+2016/06/28 03-00-01 Backup tickets finished successfully
+2016/06/28 03:00:01 [10750] building file list
+2016/06/28 03:00:01 [10750] <f+++++++++ ticket_backup.sql.20162806030001
+2016/06/28 03:00:01 [10750] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 03:00:01 [10750] total size is 0  speedup is 0.00
+2016/06/28 04-00-01 Backup tickets finished successfully
+2016/06/28 04:00:02 [10871] building file list
+2016/06/28 04:00:02 [10871] <f+++++++++ ticket_backup.sql.20162806040001
+2016/06/28 04:00:02 [10871] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 04:00:02 [10871] total size is 0  speedup is 0.00
+2016/06/28 05-00-01 Backup tickets finished successfully
+2016/06/28 05:00:02 [10994] building file list
+2016/06/28 05:00:02 [10994] <f+++++++++ ticket_backup.sql.20162806050001
+2016/06/28 05:00:02 [10994] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 05:00:02 [10994] total size is 0  speedup is 0.00
+2016/06/28 06-00-01 Backup tickets finished successfully
+2016/06/28 06:00:02 [11120] building file list
+2016/06/28 06:00:02 [11120] <f+++++++++ ticket_backup.sql.20162806060001
+2016/06/28 06:00:02 [11120] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 06:00:02 [11120] total size is 0  speedup is 0.00
+2016/06/28 07-00-01 Backup tickets finished successfully
+2016/06/28 07:00:01 [11246] building file list
+2016/06/28 07:00:01 [11246] <f+++++++++ ticket_backup.sql.20162806070001
+2016/06/28 07:00:01 [11246] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 07:00:01 [11246] total size is 0  speedup is 0.00
+2016/06/28 08-00-01 Backup tickets finished successfully
+2016/06/28 08:00:01 [11396] building file list
+2016/06/28 08:00:01 [11396] <f+++++++++ ticket_backup.sql.20162806080001
+2016/06/28 08:00:01 [11396] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 08:00:01 [11396] total size is 0  speedup is 0.00
+2016/06/28 09-00-01 Backup tickets finished successfully
+2016/06/28 09:00:01 [11518] building file list
+2016/06/28 09:00:01 [11518] <f+++++++++ ticket_backup.sql.20162806090001
+2016/06/28 09:00:01 [11518] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 09:00:01 [11518] total size is 0  speedup is 0.00
+2016/06/28 10-00-01 Backup tickets finished successfully
+2016/06/28 10:00:01 [11640] building file list
+2016/06/28 10:00:01 [11640] <f+++++++++ ticket_backup.sql.20162806100001
+2016/06/28 10:00:01 [11640] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 10:00:01 [11640] total size is 0  speedup is 0.00
+2016/06/28 11-00-01 Backup tickets finished successfully
+2016/06/28 11:00:01 [11769] building file list
+2016/06/28 11:00:01 [11769] <f+++++++++ ticket_backup.sql.20162806110001
+2016/06/28 11:00:01 [11769] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 11:00:01 [11769] total size is 0  speedup is 0.00
+2016/06/28 12-00-01 Backup tickets finished successfully
+2016/06/28 12:00:02 [12031] building file list
+2016/06/28 12:00:02 [12031] <f+++++++++ ticket_backup.sql.20162806120001
+2016/06/28 12:00:02 [12031] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 12:00:02 [12031] total size is 0  speedup is 0.00
+2016/06/28 13-00-01 Backup tickets finished successfully
+2016/06/28 13:00:02 [12179] building file list
+2016/06/28 13:00:02 [12179] <f+++++++++ ticket_backup.sql.20162806130001
+2016/06/28 13:00:02 [12179] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 13:00:02 [12179] total size is 0  speedup is 0.00
+2016/06/28 14-00-01 Backup tickets finished successfully
+2016/06/28 14:00:01 [12303] building file list
+2016/06/28 14:00:01 [12303] <f+++++++++ ticket_backup.sql.20162806140001
+2016/06/28 14:00:01 [12303] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 14:00:01 [12303] total size is 0  speedup is 0.00
+2016/06/28 15-00-01 Backup tickets finished successfully
+2016/06/28 15:00:02 [12427] building file list
+2016/06/28 15:00:02 [12427] <f+++++++++ ticket_backup.sql.20162806150001
+2016/06/28 15:00:02 [12427] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 15:00:02 [12427] total size is 0  speedup is 0.00
+2016/06/28 16-00-01 Backup tickets finished successfully
+2016/06/28 16:00:01 [12553] building file list
+2016/06/28 16:00:01 [12553] <f+++++++++ ticket_backup.sql.20162806160001
+2016/06/28 16:00:02 [12553] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 16:00:02 [12553] total size is 0  speedup is 0.00
+2016/06/28 17-00-01 Backup tickets finished successfully
+2016/06/28 17:00:01 [12778] building file list
+2016/06/28 17:00:01 [12778] <f+++++++++ ticket_backup.sql.20162806170001
+2016/06/28 17:00:01 [12778] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 17:00:01 [12778] total size is 0  speedup is 0.00
+2016/06/28 18-00-01 Backup tickets finished successfully
+2016/06/28 18:00:02 [12925] building file list
+2016/06/28 18:00:02 [12925] <f+++++++++ ticket_backup.sql.20162806180001
+2016/06/28 18:00:02 [12925] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 18:00:02 [12925] total size is 0  speedup is 0.00
+2016/06/28 19-00-01 Backup tickets finished successfully
+2016/06/28 19:00:01 [13051] building file list
+2016/06/28 19:00:01 [13051] <f+++++++++ ticket_backup.sql.20162806190001
+2016/06/28 19:00:02 [13051] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 19:00:02 [13051] total size is 0  speedup is 0.00
+2016/06/28 20-00-01 Backup tickets finished successfully
+2016/06/28 20:00:01 [13224] building file list
+2016/06/28 20:00:01 [13224] <f+++++++++ ticket_backup.sql.20162806200001
+2016/06/28 20:00:01 [13224] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 20:00:01 [13224] total size is 0  speedup is 0.00
+2016/06/28 21-00-02 Backup tickets finished successfully
+2016/06/28 21:00:02 [13351] building file list
+2016/06/28 21:00:02 [13351] <f+++++++++ ticket_backup.sql.20162806210002
+2016/06/28 21:00:02 [13351] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 21:00:02 [13351] total size is 0  speedup is 0.00
+2016/06/28 22-00-01 Backup tickets finished successfully
+2016/06/28 22:00:02 [13538] building file list
+2016/06/28 22:00:02 [13538] <f+++++++++ ticket_backup.sql.20162806220001
+2016/06/28 22:00:02 [13538] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/28 22:00:02 [13538] total size is 0  speedup is 0.00
+2016/06/28 23-00-01 Backup tickets finished successfully
+2016/06/28 23:00:01 [13685] building file list
+2016/06/28 23:00:01 [13685] <f+++++++++ ticket_backup.sql.20162806230001
+2016/06/28 23:00:01 [13685] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/28 23:00:01 [13685] total size is 0  speedup is 0.00
+2016/06/29 00-00-01 Backup tickets finished successfully
+2016/06/29 00:00:01 [13814] building file list
+2016/06/29 00:00:01 [13814] <f+++++++++ ticket_backup.sql.20162906000001
+2016/06/29 00:00:01 [13814] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 00:00:01 [13814] total size is 0  speedup is 0.00
+2016/06/29 01-00-01 Backup tickets finished successfully
+2016/06/29 01:00:02 [13980] building file list
+2016/06/29 01:00:02 [13980] <f+++++++++ ticket_backup.sql.20162906010001
+2016/06/29 01:00:02 [13980] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 01:00:02 [13980] total size is 0  speedup is 0.00
+2016/06/29 02-00-01 Backup tickets finished successfully
+2016/06/29 02:00:01 [14106] building file list
+2016/06/29 02:00:01 [14106] <f+++++++++ ticket_backup.sql.20162906020001
+2016/06/29 02:00:01 [14106] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 02:00:01 [14106] total size is 0  speedup is 0.00
+2016/06/29 03-00-01 Backup tickets finished successfully
+2016/06/29 03:00:01 [14252] building file list
+2016/06/29 03:00:01 [14252] <f+++++++++ ticket_backup.sql.20162906030001
+2016/06/29 03:00:01 [14252] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 03:00:01 [14252] total size is 0  speedup is 0.00
+2016/06/29 04-00-01 Backup tickets finished successfully
+2016/06/29 04:00:02 [14376] building file list
+2016/06/29 04:00:02 [14376] <f+++++++++ ticket_backup.sql.20162906040001
+2016/06/29 04:00:02 [14376] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 04:00:02 [14376] total size is 0  speedup is 0.00
+2016/06/29 05-00-01 Backup tickets finished successfully
+2016/06/29 05:00:01 [14521] building file list
+2016/06/29 05:00:01 [14521] <f+++++++++ ticket_backup.sql.20162906050001
+2016/06/29 05:00:02 [14521] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 05:00:02 [14521] total size is 0  speedup is 0.00
+2016/06/29 06-00-01 Backup tickets finished successfully
+2016/06/29 06:00:01 [14645] building file list
+2016/06/29 06:00:01 [14645] <f+++++++++ ticket_backup.sql.20162906060001
+2016/06/29 06:00:01 [14645] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 06:00:01 [14645] total size is 0  speedup is 0.00
+2016/06/29 07-00-01 Backup tickets finished successfully
+2016/06/29 07:00:01 [14767] building file list
+2016/06/29 07:00:01 [14767] <f+++++++++ ticket_backup.sql.20162906070001
+2016/06/29 07:00:01 [14767] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 07:00:01 [14767] total size is 0  speedup is 0.00
+2016/06/29 08-00-01 Backup tickets finished successfully
+2016/06/29 08:00:02 [14892] building file list
+2016/06/29 08:00:02 [14892] <f+++++++++ ticket_backup.sql.20162906080001
+2016/06/29 08:00:02 [14892] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 08:00:02 [14892] total size is 0  speedup is 0.00
+2016/06/29 09-00-01 Backup tickets finished successfully
+2016/06/29 09:00:01 [15009] building file list
+2016/06/29 09:00:01 [15009] <f+++++++++ ticket_backup.sql.20162906090001
+2016/06/29 09:00:01 [15009] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 09:00:01 [15009] total size is 0  speedup is 0.00
+2016/06/29 10-00-01 Backup tickets finished successfully
+2016/06/29 10:00:01 [15161] building file list
+2016/06/29 10:00:01 [15161] <f+++++++++ ticket_backup.sql.20162906100001
+2016/06/29 10:00:01 [15161] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 10:00:01 [15161] total size is 0  speedup is 0.00
+2016/06/29 11-00-01 Backup tickets finished successfully
+2016/06/29 11:00:02 [15279] building file list
+2016/06/29 11:00:02 [15279] <f+++++++++ ticket_backup.sql.20162906110001
+2016/06/29 11:00:02 [15279] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 11:00:02 [15279] total size is 0  speedup is 0.00
+2016/06/29 12-00-01 Backup tickets finished successfully
+2016/06/29 12:00:01 [15410] building file list
+2016/06/29 12:00:01 [15410] <f+++++++++ ticket_backup.sql.20162906120001
+2016/06/29 12:00:01 [15410] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 12:00:01 [15410] total size is 0  speedup is 0.00
+2016/06/29 13-00-01 Backup tickets finished successfully
+2016/06/29 13:00:01 [15672] building file list
+2016/06/29 13:00:01 [15672] <f+++++++++ ticket_backup.sql.20162906130001
+2016/06/29 13:00:01 [15672] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 13:00:01 [15672] total size is 0  speedup is 0.00
+2016/06/29 14-00-02 Backup tickets finished successfully
+2016/06/29 14:00:02 [15798] building file list
+2016/06/29 14:00:02 [15798] <f+++++++++ ticket_backup.sql.20162906140002
+2016/06/29 14:00:02 [15798] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 14:00:02 [15798] total size is 0  speedup is 0.00
+2016/06/29 15-00-01 Backup tickets finished successfully
+2016/06/29 15:00:02 [15921] building file list
+2016/06/29 15:00:02 [15921] <f+++++++++ ticket_backup.sql.20162906150001
+2016/06/29 15:00:02 [15921] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 15:00:02 [15921] total size is 0  speedup is 0.00
+2016/06/29 16-00-01 Backup tickets finished successfully
+2016/06/29 16:00:01 [16068] building file list
+2016/06/29 16:00:01 [16068] <f+++++++++ ticket_backup.sql.20162906160001
+2016/06/29 16:00:01 [16068] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 16:00:01 [16068] total size is 0  speedup is 0.00
+2016/06/29 17-00-01 Backup tickets finished successfully
+2016/06/29 17:00:02 [16294] building file list
+2016/06/29 17:00:02 [16294] <f+++++++++ ticket_backup.sql.20162906170001
+2016/06/29 17:00:02 [16294] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 17:00:02 [16294] total size is 0  speedup is 0.00
+2016/06/29 18-00-01 Backup tickets finished successfully
+2016/06/29 18:00:02 [16418] building file list
+2016/06/29 18:00:02 [16418] <f+++++++++ ticket_backup.sql.20162906180001
+2016/06/29 18:00:02 [16418] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 18:00:02 [16418] total size is 0  speedup is 0.00
+2016/06/29 19-00-01 Backup tickets finished successfully
+2016/06/29 19:00:01 [16541] building file list
+2016/06/29 19:00:01 [16541] <f+++++++++ ticket_backup.sql.20162906190001
+2016/06/29 19:00:01 [16541] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 19:00:01 [16541] total size is 0  speedup is 0.00
+2016/06/29 20-00-01 Backup tickets finished successfully
+2016/06/29 20:00:02 [16685] building file list
+2016/06/29 20:00:02 [16685] <f+++++++++ ticket_backup.sql.20162906200001
+2016/06/29 20:00:02 [16685] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 20:00:02 [16685] total size is 0  speedup is 0.00
+2016/06/29 21-00-01 Backup tickets finished successfully
+2016/06/29 21:00:01 [16810] building file list
+2016/06/29 21:00:01 [16810] <f+++++++++ ticket_backup.sql.20162906210001
+2016/06/29 21:00:01 [16810] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 21:00:01 [16810] total size is 0  speedup is 0.00
+2016/06/29 22-00-01 Backup tickets finished successfully
+2016/06/29 22:00:01 [16991] building file list
+2016/06/29 22:00:01 [16991] <f+++++++++ ticket_backup.sql.20162906220001
+2016/06/29 22:00:01 [16991] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/29 22:00:01 [16991] total size is 0  speedup is 0.00
+2016/06/29 23-00-01 Backup tickets finished successfully
+2016/06/29 23:00:02 [17112] building file list
+2016/06/29 23:00:02 [17112] <f+++++++++ ticket_backup.sql.20162906230001
+2016/06/29 23:00:02 [17112] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/29 23:00:02 [17112] total size is 0  speedup is 0.00
+2016/06/30 00-00-02 Backup tickets finished successfully
+2016/06/30 00:00:02 [17243] building file list
+2016/06/30 00:00:02 [17243] <f+++++++++ ticket_backup.sql.20163006000002
+2016/06/30 00:00:02 [17243] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 00:00:02 [17243] total size is 0  speedup is 0.00
+2016/06/30 01-00-01 Backup tickets finished successfully
+2016/06/30 01:00:02 [17411] building file list
+2016/06/30 01:00:02 [17411] <f+++++++++ ticket_backup.sql.20163006010001
+2016/06/30 01:00:02 [17411] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 01:00:02 [17411] total size is 0  speedup is 0.00
+2016/06/30 02-00-01 Backup tickets finished successfully
+2016/06/30 02:00:01 [17555] building file list
+2016/06/30 02:00:01 [17555] <f+++++++++ ticket_backup.sql.20163006020001
+2016/06/30 02:00:01 [17555] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 02:00:01 [17555] total size is 0  speedup is 0.00
+2016/06/30 03-00-01 Backup tickets finished successfully
+2016/06/30 03:00:01 [17696] building file list
+2016/06/30 03:00:01 [17696] <f+++++++++ ticket_backup.sql.20163006030001
+2016/06/30 03:00:01 [17696] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 03:00:01 [17696] total size is 0  speedup is 0.00
+2016/06/30 04-00-01 Backup tickets finished successfully
+2016/06/30 04:00:01 [17823] building file list
+2016/06/30 04:00:01 [17823] <f+++++++++ ticket_backup.sql.20163006040001
+2016/06/30 04:00:01 [17823] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 04:00:01 [17823] total size is 0  speedup is 0.00
+2016/06/30 05-00-01 Backup tickets finished successfully
+2016/06/30 05:00:02 [17949] building file list
+2016/06/30 05:00:02 [17949] <f+++++++++ ticket_backup.sql.20163006050001
+2016/06/30 05:00:02 [17949] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 05:00:02 [17949] total size is 0  speedup is 0.00
+2016/06/30 06-00-01 Backup tickets finished successfully
+2016/06/30 06:00:02 [18096] building file list
+2016/06/30 06:00:02 [18096] <f+++++++++ ticket_backup.sql.20163006060001
+2016/06/30 06:00:02 [18096] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 06:00:02 [18096] total size is 0  speedup is 0.00
+2016/06/30 07-00-01 Backup tickets finished successfully
+2016/06/30 07:00:01 [18218] building file list
+2016/06/30 07:00:01 [18218] <f+++++++++ ticket_backup.sql.20163006070001
+2016/06/30 07:00:01 [18218] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 07:00:01 [18218] total size is 0  speedup is 0.00
+2016/06/30 08-00-01 Backup tickets finished successfully
+2016/06/30 08:00:01 [18352] building file list
+2016/06/30 08:00:01 [18352] <f+++++++++ ticket_backup.sql.20163006080001
+2016/06/30 08:00:01 [18352] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 08:00:01 [18352] total size is 0  speedup is 0.00
+2016/06/30 09-00-01 Backup tickets finished successfully
+2016/06/30 09:00:01 [18474] building file list
+2016/06/30 09:00:01 [18474] <f+++++++++ ticket_backup.sql.20163006090001
+2016/06/30 09:00:01 [18474] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 09:00:01 [18474] total size is 0  speedup is 0.00
+2016/06/30 10-00-01 Backup tickets finished successfully
+2016/06/30 10:00:02 [18599] building file list
+2016/06/30 10:00:02 [18599] <f+++++++++ ticket_backup.sql.20163006100001
+2016/06/30 10:00:02 [18599] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 10:00:02 [18599] total size is 0  speedup is 0.00
+2016/06/30 11-00-01 Backup tickets finished successfully
+2016/06/30 11:00:01 [18724] building file list
+2016/06/30 11:00:01 [18724] <f+++++++++ ticket_backup.sql.20163006110001
+2016/06/30 11:00:01 [18724] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 11:00:01 [18724] total size is 0  speedup is 0.00
+2016/06/30 12-00-02 Backup tickets finished successfully
+2016/06/30 12:00:02 [18869] building file list
+2016/06/30 12:00:02 [18869] <f+++++++++ ticket_backup.sql.20163006120002
+2016/06/30 12:00:02 [18869] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 12:00:02 [18869] total size is 0  speedup is 0.00
+2016/06/30 13-00-01 Backup tickets finished successfully
+2016/06/30 13:00:02 [18992] building file list
+2016/06/30 13:00:02 [18992] <f+++++++++ ticket_backup.sql.20163006130001
+2016/06/30 13:00:02 [18992] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 13:00:02 [18992] total size is 0  speedup is 0.00
+2016/06/30 14-00-01 Backup tickets finished successfully
+2016/06/30 14:00:01 [19116] building file list
+2016/06/30 14:00:01 [19116] <f+++++++++ ticket_backup.sql.20163006140001
+2016/06/30 14:00:01 [19116] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 14:00:01 [19116] total size is 0  speedup is 0.00
+2016/06/30 15-00-01 Backup tickets finished successfully
+2016/06/30 15:00:01 [19237] building file list
+2016/06/30 15:00:01 [19237] <f+++++++++ ticket_backup.sql.20163006150001
+2016/06/30 15:00:01 [19237] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 15:00:01 [19237] total size is 0  speedup is 0.00
+2016/06/30 16-00-01 Backup tickets finished successfully
+2016/06/30 16:00:02 [19364] building file list
+2016/06/30 16:00:02 [19364] <f+++++++++ ticket_backup.sql.20163006160001
+2016/06/30 16:00:02 [19364] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 16:00:02 [19364] total size is 0  speedup is 0.00
+2016/06/30 17-00-01 Backup tickets finished successfully
+2016/06/30 17:00:01 [19604] building file list
+2016/06/30 17:00:01 [19604] <f+++++++++ ticket_backup.sql.20163006170001
+2016/06/30 17:00:02 [19604] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 17:00:02 [19604] total size is 0  speedup is 0.00
+2016/06/30 18-00-01 Backup tickets finished successfully
+2016/06/30 18:00:01 [19728] building file list
+2016/06/30 18:00:01 [19728] <f+++++++++ ticket_backup.sql.20163006180001
+2016/06/30 18:00:01 [19728] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 18:00:01 [19728] total size is 0  speedup is 0.00
+2016/06/30 19-00-01 Backup tickets finished successfully
+2016/06/30 19:00:01 [19852] building file list
+2016/06/30 19:00:01 [19852] <f+++++++++ ticket_backup.sql.20163006190001
+2016/06/30 19:00:01 [19852] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 19:00:01 [19852] total size is 0  speedup is 0.00
+2016/06/30 20-00-01 Backup tickets finished successfully
+2016/06/30 20:00:02 [19978] building file list
+2016/06/30 20:00:02 [19978] <f+++++++++ ticket_backup.sql.20163006200001
+2016/06/30 20:00:02 [19978] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/06/30 20:00:02 [19978] total size is 0  speedup is 0.00
+2016/06/30 21-00-01 Backup tickets finished successfully
+2016/06/30 21:00:01 [20101] building file list
+2016/06/30 21:00:01 [20101] <f+++++++++ ticket_backup.sql.20163006210001
+2016/06/30 21:00:01 [20101] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 21:00:01 [20101] total size is 0  speedup is 0.00
+2016/06/30 22-00-01 Backup tickets finished successfully
+2016/06/30 22:00:01 [21861] building file list
+2016/06/30 22:00:01 [21861] <f+++++++++ ticket_backup.sql.20163006220001
+2016/06/30 22:00:01 [21861] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/06/30 22:00:01 [21861] total size is 0  speedup is 0.00
+2016-06-30 22:03:42 Crontab cleared successfully
+2016-06-30 22:03:42 Clearing incron.primary
+2016-06-30 22:03:42 Incrontab on primary cleared successfully
+2016-06-30 22:03:44 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-30 22:11:10 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-06-30 22:11:10 SetPrimary finished successfully
+2016-06-30 22:11:12 Enabling Task Scheduling...
+2016-06-30 22:11:14 Host has been successfully set as primary
+2016-07-03 13:17:58 Watchdog Cron entry already exist
+2016-07-03 13:17:58 BackupTicket Cron entry already exist
+2016-07-03 13:17:58 ReplicateFirewalls Cron entry already exist
+2016-07-03 13:18:00 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-03 13:18:00 SetPrimary finished successfully
+2016-07-03 13:18:02 Enabling Task Scheduling...
+2016-07-03 13:18:04 Host has been successfully set as primary
+2016-07-03 13:21:51 Watchdog Cron entry already exist
+2016-07-03 13:21:51 BackupTicket Cron entry already exist
+2016-07-03 13:21:51 ReplicateFirewalls Cron entry already exist
+2016-07-03 13:21:53 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-03 13:21:53 SetPrimary finished successfully
+2016-07-03 13:21:55 Enabling Task Scheduling...
+2016-07-03 13:21:57 Host has been successfully set as primary
+2016-07-03 13:40:25 Watchdog Cron entry already exist
+2016-07-03 13:40:25 BackupTicket Cron entry already exist
+2016-07-03 13:40:25 ReplicateFirewalls Cron entry already exist
+2016-07-03 13:40:28 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-03 13:40:28 SetPrimary finished successfully
+2016-07-03 13:40:30 Enabling Task Scheduling...
+2016-07-03 13:40:32 Host has been successfully set as primary
+2016/07/03 13:41:07 [14372] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 13:41:07 [14372] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 13:41:08 [14373] building file list
+2016/07/03 13:41:08 [14373] <f+++++++++ nir.xml
+2016/07/03 13:41:08 [14373] sent 71 bytes  received 31 bytes  68.00 bytes/sec
+2016/07/03 13:41:08 [14373] total size is 0  speedup is 0.00
+2016/07/03 14-00-01 Backup tickets finished successfully
+2016/07/03 14-00-01 Backup tickets finished successfully
+2016/07/03 14:00:01 [14473] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 14:00:01 [14473] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 14:00:01 [14475] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 14:00:01 [14475] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 14:00:02 [14471] building file list
+2016/07/03 14:00:02 [14474] building file list
+2016/07/03 14:00:02 [14471] <f+++++++++ ticket_backup.sql.20160307140001
+2016/07/03 14:00:02 [14474] <f+++++++++ ticket_backup.sql.20160307140001
+2016/07/03 14:00:02 [14471] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/03 14:00:02 [14471] total size is 0  speedup is 0.00
+2016/07/03 14:00:02 [14474] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/03 14:00:02 [14474] total size is 0  speedup is 0.00
+2016/07/03 15-00-01 Backup tickets finished successfully
+2016/07/03 15-00-01 Backup tickets finished successfully
+2016/07/03 15:00:01 [14714] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 15:00:01 [14714] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 15:00:02 [14715] building file list
+2016/07/03 15:00:02 [14715] <f+++++++++ ticket_backup.sql.20160307150001
+2016/07/03 15:00:02 [14715] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/03 15:00:02 [14715] total size is 0  speedup is 0.00
+2016/07/03 16-00-01 Backup tickets finished successfully
+2016/07/03 16-00-01 Backup tickets finished successfully
+2016/07/03 16:00:01 [14952] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 16:00:01 [14952] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 16:00:01 [14956] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 16:00:01 [14956] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 16:00:02 [14954] building file list
+2016/07/03 16:00:02 [14950] building file list
+2016/07/03 16:00:02 [14950] <f+++++++++ ticket_backup.sql.20160307160001
+2016/07/03 16:00:02 [14954] <f+++++++++ ticket_backup.sql.20160307160001
+2016/07/03 16:00:02 [14950] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/03 16:00:02 [14950] total size is 0  speedup is 0.00
+2016/07/03 16:00:02 [14954] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/03 16:00:02 [14954] total size is 0  speedup is 0.00
+2016/07/03 17-00-01 Backup tickets finished successfully
+2016/07/03 17-00-01 Backup tickets finished successfully
+2016/07/03 17:00:01 [15320] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 17:00:01 [15320] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 17:00:01 [15327] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 17:00:01 [15327] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 17:00:01 [15326] building file list
+2016/07/03 17:00:01 [15319] building file list
+2016/07/03 17:00:01 [15319] <f+++++++++ ticket_backup.sql.20160307170001
+2016/07/03 17:00:01 [15326] <f+++++++++ ticket_backup.sql.20160307170001
+2016/07/03 17:00:02 [15319] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/03 17:00:02 [15319] total size is 0  speedup is 0.00
+2016/07/03 17:00:02 [15326] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/03 17:00:02 [15326] total size is 0  speedup is 0.00
+2016/07/03 18-00-01 Backup tickets finished successfully
+2016/07/03 18-00-01 Backup tickets finished successfully
+2016/07/03 18:00:01 [15588] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 18:00:01 [15588] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 18:00:01 [15590] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 18:00:01 [15590] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 18:00:01 [15589] building file list
+2016/07/03 18:00:01 [15589] <f+++++++++ ticket_backup.sql.20160307180001
+2016/07/03 18:00:01 [15589] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/03 18:00:01 [15589] total size is 0  speedup is 0.00
+2016/07/03 19-00-02 Backup tickets finished successfully
+2016/07/03 19-00-02 Backup tickets finished successfully
+2016/07/03 19:00:02 [15823] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 19:00:02 [15823] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 19:00:02 [15831] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 19:00:02 [15831] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 19:00:02 [15830] building file list
+2016/07/03 19:00:02 [15830] <f+++++++++ ticket_backup.sql.20160307190002
+2016/07/03 19:00:02 [15824] building file list
+2016/07/03 19:00:02 [15830] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/03 19:00:02 [15830] total size is 0  speedup is 0.00
+2016/07/03 19:00:02 [15824] sent 82 bytes  received 12 bytes  188.00 bytes/sec
+2016/07/03 19:00:02 [15824] total size is 0  speedup is 0.00
+2016/07/03 20-00-01 Backup tickets finished successfully
+2016/07/03 20-00-01 Backup tickets finished successfully
+2016/07/03 20:00:02 [16064] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 20:00:02 [16064] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 20:00:02 [16065] building file list
+2016/07/03 20:00:02 [16065] <f+++++++++ ticket_backup.sql.20160307200001
+2016/07/03 20:00:02 [16065] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/03 20:00:02 [16065] total size is 0  speedup is 0.00
+2016/07/03 21-00-01 Backup tickets finished successfully
+2016/07/03 21-00-01 Backup tickets finished successfully
+2016/07/03 21:00:01 [16302] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 21:00:01 [16302] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 21:00:02 [16299] building file list
+2016/07/03 21:00:02 [16299] <f+++++++++ ticket_backup.sql.20160307210001
+2016/07/03 21:00:02 [16299] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/03 21:00:02 [16299] total size is 0  speedup is 0.00
+2016/07/03 22-00-01 Backup tickets finished successfully
+2016/07/03 22-00-01 Backup tickets finished successfully
+2016/07/03 22:00:01 [16596] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 22:00:01 [16596] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 22:00:01 [16598] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 22:00:01 [16598] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 22:00:01 [16595] building file list
+2016/07/03 22:00:01 [16599] building file list
+2016/07/03 22:00:01 [16599] <f+++++++++ ticket_backup.sql.20160307220001
+2016/07/03 22:00:01 [16595] <f+++++++++ ticket_backup.sql.20160307220001
+2016/07/03 22:00:01 [16595] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/03 22:00:01 [16595] total size is 0  speedup is 0.00
+2016/07/03 22:00:01 [16599] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/03 22:00:01 [16599] total size is 0  speedup is 0.00
+2016/07/03 23-00-01 Backup tickets finished successfully
+2016/07/03 23-00-01 Backup tickets finished successfully
+2016/07/03 23:00:01 [16860] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/03 23:00:01 [16860] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/03 23:00:01 [16859] building file list
+2016/07/03 23:00:01 [16859] <f+++++++++ ticket_backup.sql.20160307230001
+2016/07/03 23:00:01 [16859] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/03 23:00:01 [16859] total size is 0  speedup is 0.00
+2016/07/04 00-00-01 Backup tickets finished successfully
+2016/07/04 00-00-01 Backup tickets finished successfully
+2016/07/04 00:00:02 [17103] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 00:00:02 [17103] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 00:00:02 [17100] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 00:00:02 [17100] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 00:00:02 [17104] building file list
+2016/07/04 00:00:02 [17097] building file list
+2016/07/04 00:00:02 [17104] <f+++++++++ ticket_backup.sql.20160407000001
+2016/07/04 00:00:02 [17097] <f+++++++++ ticket_backup.sql.20160407000001
+2016/07/04 00:00:02 [17097] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 00:00:02 [17097] total size is 0  speedup is 0.00
+2016/07/04 00:00:02 [17104] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 00:00:02 [17104] total size is 0  speedup is 0.00
+2016/07/04 01-00-01 Backup tickets finished successfully
+2016/07/04 01-00-01 Backup tickets finished successfully
+2016/07/04 01:00:01 [17400] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 01:00:01 [17400] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 01:00:02 [17398] building file list
+2016/07/04 01:00:02 [17398] <f+++++++++ ticket_backup.sql.20160407010001
+2016/07/04 01:00:02 [17398] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/04 01:00:02 [17398] total size is 0  speedup is 0.00
+2016/07/04 02-00-02 Backup tickets finished successfully
+2016/07/04 02-00-02 Backup tickets finished successfully
+2016/07/04 02:00:02 [17638] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 02:00:02 [17638] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 02:00:02 [17640] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 02:00:02 [17640] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 02:00:02 [17636] building file list
+2016/07/04 02:00:02 [17635] building file list
+2016/07/04 02:00:02 [17635] <f+++++++++ ticket_backup.sql.20160407020002
+2016/07/04 02:00:02 [17636] <f+++++++++ ticket_backup.sql.20160407020002
+2016/07/04 02:00:02 [17635] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 02:00:02 [17635] total size is 0  speedup is 0.00
+2016/07/04 02:00:02 [17636] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 02:00:02 [17636] total size is 0  speedup is 0.00
+2016/07/04 03-00-01 Backup tickets finished successfully
+2016/07/04 03-00-01 Backup tickets finished successfully
+2016/07/04 03:00:02 [17902] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 03:00:02 [17902] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 03:00:02 [17905] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 03:00:02 [17905] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 03:00:02 [17901] building file list
+2016/07/04 03:00:02 [17903] building file list
+2016/07/04 03:00:02 [17901] <f+++++++++ ticket_backup.sql.20160407030001
+2016/07/04 03:00:02 [17903] <f+++++++++ ticket_backup.sql.20160407030001
+2016/07/04 03:00:02 [17901] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 03:00:02 [17901] total size is 0  speedup is 0.00
+2016/07/04 03:00:02 [17903] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 03:00:02 [17903] total size is 0  speedup is 0.00
+2016/07/04 04-00-01 Backup tickets finished successfully
+2016/07/04 04-00-01 Backup tickets finished successfully
+2016/07/04 04:00:01 [18162] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 04:00:01 [18162] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 04:00:02 [18163] building file list
+2016/07/04 04:00:02 [18163] <f+++++++++ ticket_backup.sql.20160407040001
+2016/07/04 04:00:02 [18163] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/04 04:00:02 [18163] total size is 0  speedup is 0.00
+2016/07/04 05-00-01 Backup tickets finished successfully
+2016/07/04 05-00-01 Backup tickets finished successfully
+2016/07/04 05:00:01 [18402] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 05:00:01 [18402] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 05:00:01 [18399] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 05:00:01 [18399] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 05:00:01 [18397] building file list
+2016/07/04 05:00:01 [18401] building file list
+2016/07/04 05:00:01 [18397] <f+++++++++ ticket_backup.sql.20160407050001
+2016/07/04 05:00:01 [18401] <f+++++++++ ticket_backup.sql.20160407050001
+2016/07/04 05:00:01 [18397] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 05:00:01 [18397] total size is 0  speedup is 0.00
+2016/07/04 05:00:01 [18401] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 05:00:01 [18401] total size is 0  speedup is 0.00
+2016/07/04 06-00-02 Backup tickets finished successfully
+2016/07/04 06-00-02 Backup tickets finished successfully
+2016/07/04 06:00:02 [18645] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 06:00:02 [18645] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 06:00:02 [18646] building file list
+2016/07/04 06:00:02 [18646] <f+++++++++ ticket_backup.sql.20160407060001
+2016/07/04 06:00:02 [18646] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/04 06:00:02 [18646] total size is 0  speedup is 0.00
+2016/07/04 07-00-01 Backup tickets finished successfully
+2016/07/04 07-00-01 Backup tickets finished successfully
+2016/07/04 07:00:02 [18883] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 07:00:02 [18883] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 07:00:02 [18885] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 07:00:02 [18885] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/07/04 07:00:02 [18886] building file list
+2016/07/04 07:00:02 [18886] <f+++++++++ ticket_backup.sql.20160407070001
+2016/07/04 07:00:02 [18881] building file list
+2016/07/04 07:00:02 [18886] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 07:00:02 [18886] total size is 0  speedup is 0.00
+2016/07/04 07:00:02 [18881] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/04 07:00:02 [18881] total size is 0  speedup is 0.00
+2016/07/04 08-00-01 Backup tickets finished successfully
+2016/07/04 08-00-01 Backup tickets finished successfully
+2016/07/04 08:00:01 [19122] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 08:00:01 [19122] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 08:00:01 [19120] building file list
+2016/07/04 08:00:01 [19120] <f+++++++++ ticket_backup.sql.20160407080001
+2016/07/04 08:00:01 [19120] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/04 08:00:01 [19120] total size is 0  speedup is 0.00
+2016/07/04 09-00-02 Backup tickets finished successfully
+2016/07/04 09-00-02 Backup tickets finished successfully
+2016/07/04 09:00:02 [19364] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 09:00:02 [19364] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 09:00:02 [19360] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 09:00:02 [19360] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 09:00:02 [19363] building file list
+2016/07/04 09:00:02 [19359] building file list
+2016/07/04 09:00:02 [19359] <f+++++++++ ticket_backup.sql.20160407090001
+2016/07/04 09:00:02 [19363] <f+++++++++ ticket_backup.sql.20160407090001
+2016/07/04 09:00:02 [19359] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 09:00:02 [19359] total size is 0  speedup is 0.00
+2016/07/04 09:00:02 [19363] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 09:00:02 [19363] total size is 0  speedup is 0.00
+2016/07/04 10-00-01 Backup tickets finished successfully
+2016/07/04 10-00-01 Backup tickets finished successfully
+2016/07/04 10:00:01 [19625] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 10:00:01 [19625] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 10:00:02 [19623] building file list
+2016/07/04 10:00:02 [19623] <f+++++++++ ticket_backup.sql.20160407100001
+2016/07/04 10:00:02 [19623] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/04 10:00:02 [19623] total size is 0  speedup is 0.00
+2016/07/04 11-00-01 Backup tickets finished successfully
+2016/07/04 11-00-01 Backup tickets finished successfully
+2016/07/04 11:00:01 [19866] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 11:00:01 [19866] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 11:00:01 [19863] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 11:00:01 [19863] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 11:00:01 [19864] building file list
+2016/07/04 11:00:01 [19862] building file list
+2016/07/04 11:00:01 [19862] <f+++++++++ ticket_backup.sql.20160407110001
+2016/07/04 11:00:01 [19864] <f+++++++++ ticket_backup.sql.20160407110001
+2016/07/04 11:00:01 [19864] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 11:00:01 [19864] total size is 0  speedup is 0.00
+2016/07/04 11:00:01 [19862] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 11:00:01 [19862] total size is 0  speedup is 0.00
+2016/07/04 12-00-01 Backup tickets finished successfully
+2016/07/04 12-00-01 Backup tickets finished successfully
+2016/07/04 12:00:02 [20106] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 12:00:02 [20106] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 12:00:02 [20109] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 12:00:02 [20109] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 12:00:02 [20105] building file list
+2016/07/04 12:00:02 [20107] building file list
+2016/07/04 12:00:02 [20107] <f+++++++++ ticket_backup.sql.20160407120001
+2016/07/04 12:00:02 [20105] <f+++++++++ ticket_backup.sql.20160407120001
+2016/07/04 12:00:02 [20105] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 12:00:02 [20105] total size is 0  speedup is 0.00
+2016/07/04 12:00:02 [20107] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 12:00:02 [20107] total size is 0  speedup is 0.00
+2016/07/04 13-00-01 Backup tickets finished successfully
+2016/07/04 13-00-01 Backup tickets finished successfully
+2016/07/04 13:00:01 [20353] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 13:00:01 [20353] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 13:00:01 [20357] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 13:00:01 [20357] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 13:00:02 [20354] building file list
+2016/07/04 13:00:02 [20354] <f+++++++++ ticket_backup.sql.20160407130001
+2016/07/04 13:00:02 [20358] building file list
+2016/07/04 13:00:02 [20354] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 13:00:02 [20354] total size is 0  speedup is 0.00
+2016/07/04 13:00:02 [20358] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/04 13:00:02 [20358] total size is 0  speedup is 0.00
+2016/07/04 14-00-01 Backup tickets finished successfully
+2016/07/04 14-00-01 Backup tickets finished successfully
+2016/07/04 14:00:01 [20596] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 14:00:01 [20596] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 14:00:01 [20599] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 14:00:01 [20599] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 14:00:02 [20594] building file list
+2016/07/04 14:00:02 [20594] <f+++++++++ ticket_backup.sql.20160407140001
+2016/07/04 14:00:02 [20597] building file list
+2016/07/04 14:00:02 [20594] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 14:00:02 [20594] total size is 0  speedup is 0.00
+2016/07/04 14:00:02 [20597] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/04 14:00:02 [20597] total size is 0  speedup is 0.00
+2016/07/04 15-00-01 Backup tickets finished successfully
+2016/07/04 15-00-01 Backup tickets finished successfully
+2016/07/04 15:00:01 [20859] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 15:00:01 [20859] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 15:00:01 [20856] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 15:00:01 [20856] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 15:00:01 [20860] building file list
+2016/07/04 15:00:01 [20857] building file list
+2016/07/04 15:00:01 [20860] <f+++++++++ ticket_backup.sql.20160407150001
+2016/07/04 15:00:01 [20857] <f+++++++++ ticket_backup.sql.20160407150001
+2016/07/04 15:00:01 [20857] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 15:00:01 [20857] total size is 0  speedup is 0.00
+2016/07/04 15:00:01 [20860] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 15:00:01 [20860] total size is 0  speedup is 0.00
+2016/07/04 16-00-01 Backup tickets finished successfully
+2016/07/04 16-00-01 Backup tickets finished successfully
+2016/07/04 16:00:01 [21096] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 16:00:01 [21096] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 16:00:01 [21102] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 16:00:01 [21102] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 16:00:01 [21101] building file list
+2016/07/04 16:00:01 [21101] <f+++++++++ ticket_backup.sql.20160407160001
+2016/07/04 16:00:01 [21097] building file list
+2016/07/04 16:00:01 [21101] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 16:00:01 [21101] total size is 0  speedup is 0.00
+2016/07/04 16:00:01 [21097] sent 82 bytes  received 12 bytes  188.00 bytes/sec
+2016/07/04 16:00:01 [21097] total size is 0  speedup is 0.00
+2016/07/04 17-00-01 Backup tickets finished successfully
+2016/07/04 17-00-01 Backup tickets finished successfully
+2016/07/04 17:00:02 [21440] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 17:00:02 [21440] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 17:00:02 [21436] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 17:00:02 [21436] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 17:00:02 [21441] building file list
+2016/07/04 17:00:02 [21441] <f+++++++++ ticket_backup.sql.20160407170001
+2016/07/04 17:00:02 [21437] building file list
+2016/07/04 17:00:02 [21437] <f+++++++++ ticket_backup.sql.20160407170001
+2016/07/04 17:00:02 [21441] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 17:00:02 [21441] total size is 0  speedup is 0.00
+2016/07/04 17:00:02 [21437] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 17:00:02 [21437] total size is 0  speedup is 0.00
+2016/07/04 18-00-01 Backup tickets finished successfully
+2016/07/04 18-00-01 Backup tickets finished successfully
+2016/07/04 18:00:01 [21683] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 18:00:01 [21683] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 18:00:01 [21681] building file list
+2016/07/04 18:00:01 [21681] <f+++++++++ ticket_backup.sql.20160407180001
+2016/07/04 18:00:02 [21681] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/04 18:00:02 [21681] total size is 0  speedup is 0.00
+2016/07/04 19-00-01 Backup tickets finished successfully
+2016/07/04 19-00-01 Backup tickets finished successfully
+2016/07/04 19:00:01 [21918] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 19:00:01 [21918] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 19:00:01 [21923] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 19:00:01 [21923] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 19:00:01 [21922] building file list
+2016/07/04 19:00:01 [21917] building file list
+2016/07/04 19:00:01 [21917] <f+++++++++ ticket_backup.sql.20160407190001
+2016/07/04 19:00:01 [21922] <f+++++++++ ticket_backup.sql.20160407190001
+2016/07/04 19:00:01 [21922] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 19:00:01 [21917] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 19:00:01 [21922] total size is 0  speedup is 0.00
+2016/07/04 19:00:01 [21917] total size is 0  speedup is 0.00
+2016/07/04 20-00-01 Backup tickets finished successfully
+2016/07/04 20-00-01 Backup tickets finished successfully
+2016/07/04 20:00:02 [22183] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 20:00:02 [22183] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 20:00:02 [22182] building file list
+2016/07/04 20:00:02 [22182] <f+++++++++ ticket_backup.sql.20160407200001
+2016/07/04 20:00:02 [22182] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/04 20:00:02 [22182] total size is 0  speedup is 0.00
+2016/07/04 21-00-01 Backup tickets finished successfully
+2016/07/04 21-00-01 Backup tickets finished successfully
+2016/07/04 21:00:01 [22418] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 21:00:01 [22418] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 21:00:01 [22424] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 21:00:01 [22424] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 21:00:02 [22416] building file list
+2016/07/04 21:00:02 [22421] building file list
+2016/07/04 21:00:02 [22416] <f+++++++++ ticket_backup.sql.20160407210001
+2016/07/04 21:00:02 [22421] <f+++++++++ ticket_backup.sql.20160407210001
+2016/07/04 21:00:02 [22416] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 21:00:02 [22416] total size is 0  speedup is 0.00
+2016/07/04 21:00:02 [22421] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/04 21:00:02 [22421] total size is 0  speedup is 0.00
+2016/07/04 22-00-01 Backup tickets finished successfully
+2016/07/04 22-00-01 Backup tickets finished successfully
+2016/07/04 22:00:01 [22726] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 22:00:01 [22726] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 22:00:01 [22724] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 22:00:01 [22724] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 22:00:01 [22727] building file list
+2016/07/04 22:00:01 [22722] building file list
+2016/07/04 22:00:01 [22722] <f+++++++++ ticket_backup.sql.20160407220001
+2016/07/04 22:00:01 [22727] <f+++++++++ ticket_backup.sql.20160407220001
+2016/07/04 22:00:01 [22722] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 22:00:01 [22722] total size is 0  speedup is 0.00
+2016/07/04 22:00:01 [22727] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/04 22:00:01 [22727] total size is 0  speedup is 0.00
+2016/07/04 23-00-01 Backup tickets finished successfully
+2016/07/04 23-00-01 Backup tickets finished successfully
+2016/07/04 23:00:01 [22968] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/04 23:00:01 [22968] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/04 23:00:01 [22966] building file list
+2016/07/04 23:00:01 [22966] <f+++++++++ ticket_backup.sql.20160407230001
+2016/07/04 23:00:01 [22966] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/04 23:00:01 [22966] total size is 0  speedup is 0.00
+2016/07/05 00-00-01 Backup tickets finished successfully
+2016/07/05 00-00-01 Backup tickets finished successfully
+2016/07/05 00:00:02 [23212] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 00:00:02 [23212] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 00:00:02 [23210] building file list
+2016/07/05 00:00:02 [23210] <f+++++++++ ticket_backup.sql.20160507000001
+2016/07/05 00:00:02 [23210] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/05 00:00:02 [23210] total size is 0  speedup is 0.00
+2016/07/05 01-00-01 Backup tickets finished successfully
+2016/07/05 01-00-01 Backup tickets finished successfully
+2016/07/05 01:00:01 [23625] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 01:00:01 [23625] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 01:00:01 [23630] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 01:00:01 [23630] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 01:00:01 [23626] building file list
+2016/07/05 01:00:01 [23629] building file list
+2016/07/05 01:00:01 [23629] <f+++++++++ ticket_backup.sql.20160507010001
+2016/07/05 01:00:01 [23626] <f+++++++++ ticket_backup.sql.20160507010001
+2016/07/05 01:00:02 [23629] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 01:00:02 [23629] total size is 0  speedup is 0.00
+2016/07/05 01:00:02 [23626] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 01:00:02 [23626] total size is 0  speedup is 0.00
+2016/07/05 02-00-01 Backup tickets finished successfully
+2016/07/05 02-00-01 Backup tickets finished successfully
+2016/07/05 02:00:01 [23873] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 02:00:01 [23873] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 02:00:01 [23870] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 02:00:01 [23870] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 02:00:01 [23869] building file list
+2016/07/05 02:00:01 [23871] building file list
+2016/07/05 02:00:01 [23871] <f+++++++++ ticket_backup.sql.20160507020001
+2016/07/05 02:00:01 [23869] <f+++++++++ ticket_backup.sql.20160507020001
+2016/07/05 02:00:01 [23871] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 02:00:01 [23871] total size is 0  speedup is 0.00
+2016/07/05 02:00:01 [23869] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 02:00:01 [23869] total size is 0  speedup is 0.00
+2016/07/05 03-00-01 Backup tickets finished successfully
+2016/07/05 03-00-01 Backup tickets finished successfully
+2016/07/05 03:00:02 [24161] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 03:00:02 [24161] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 03:00:02 [24159] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 03:00:02 [24159] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 03:00:02 [24158] building file list
+2016/07/05 03:00:02 [24160] building file list
+2016/07/05 03:00:02 [24158] <f+++++++++ ticket_backup.sql.20160507030001
+2016/07/05 03:00:02 [24160] <f+++++++++ ticket_backup.sql.20160507030001
+2016/07/05 03:00:02 [24160] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 03:00:02 [24160] total size is 0  speedup is 0.00
+2016/07/05 03:00:02 [24158] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 03:00:02 [24158] total size is 0  speedup is 0.00
+2016/07/05 04-00-01 Backup tickets finished successfully
+2016/07/05 04-00-01 Backup tickets finished successfully
+2016/07/05 04:00:01 [24398] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 04:00:01 [24398] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 04:00:01 [24405] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 04:00:01 [24405] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 04:00:01 [24404] building file list
+2016/07/05 04:00:01 [24399] building file list
+2016/07/05 04:00:01 [24404] <f+++++++++ ticket_backup.sql.20160507040001
+2016/07/05 04:00:01 [24399] <f+++++++++ ticket_backup.sql.20160507040001
+2016/07/05 04:00:02 [24399] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 04:00:02 [24399] total size is 0  speedup is 0.00
+2016/07/05 04:00:02 [24404] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 04:00:02 [24404] total size is 0  speedup is 0.00
+2016/07/05 05-00-01 Backup tickets finished successfully
+2016/07/05 05-00-01 Backup tickets finished successfully
+2016/07/05 05:00:01 [24642] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 05:00:01 [24642] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 05:00:01 [24643] building file list
+2016/07/05 05:00:01 [24643] <f+++++++++ ticket_backup.sql.20160507050001
+2016/07/05 05:00:01 [24643] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 05:00:01 [24643] total size is 0  speedup is 0.00
+2016/07/05 06-00-01 Backup tickets finished successfully
+2016/07/05 06-00-01 Backup tickets finished successfully
+2016/07/05 06:00:01 [24882] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 06:00:01 [24882] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 06:00:02 [24880] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 06:00:02 [24880] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 06:00:02 [24878] building file list
+2016/07/05 06:00:02 [24881] building file list
+2016/07/05 06:00:02 [24881] <f+++++++++ ticket_backup.sql.20160507060001
+2016/07/05 06:00:02 [24878] <f+++++++++ ticket_backup.sql.20160507060001
+2016/07/05 06:00:02 [24878] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 06:00:02 [24878] total size is 0  speedup is 0.00
+2016/07/05 06:00:02 [24881] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 06:00:02 [24881] total size is 0  speedup is 0.00
+2016/07/05 07-00-01 Backup tickets finished successfully
+2016/07/05 07-00-01 Backup tickets finished successfully
+2016/07/05 07:00:01 [25144] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 07:00:01 [25144] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 07:00:01 [25145] building file list
+2016/07/05 07:00:01 [25145] <f+++++++++ ticket_backup.sql.20160507070001
+2016/07/05 07:00:01 [25145] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 07:00:01 [25145] total size is 0  speedup is 0.00
+2016/07/05 08-00-01 Backup tickets finished successfully
+2016/07/05 08-00-01 Backup tickets finished successfully
+2016/07/05 08:00:02 [25379] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 08:00:02 [25379] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 08:00:02 [25377] building file list
+2016/07/05 08:00:02 [25377] <f+++++++++ ticket_backup.sql.20160507080001
+2016/07/05 08:00:02 [25377] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/05 08:00:02 [25377] total size is 0  speedup is 0.00
+2016/07/05 09-00-01 Backup tickets finished successfully
+2016/07/05 09-00-01 Backup tickets finished successfully
+2016/07/05 09:00:01 [25614] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 09:00:01 [25614] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 09:00:02 [25612] building file list
+2016/07/05 09:00:02 [25612] <f+++++++++ ticket_backup.sql.20160507090001
+2016/07/05 09:00:02 [25612] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/05 09:00:02 [25612] total size is 0  speedup is 0.00
+2016/07/05 10-00-01 Backup tickets finished successfully
+2016/07/05 10-00-01 Backup tickets finished successfully
+2016/07/05 10:00:01 [25852] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 10:00:01 [25852] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 10:00:01 [25850] building file list
+2016/07/05 10:00:01 [25850] <f+++++++++ ticket_backup.sql.20160507100001
+2016/07/05 10:00:01 [25850] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 10:00:01 [25850] total size is 0  speedup is 0.00
+2016/07/05 11-00-01 Backup tickets finished successfully
+2016/07/05 11-00-01 Backup tickets finished successfully
+2016/07/05 11:00:01 [26113] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 11:00:01 [26113] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 11:00:01 [26111] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 11:00:01 [26111] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 11:00:01 [26112] building file list
+2016/07/05 11:00:01 [26108] building file list
+2016/07/05 11:00:01 [26112] <f+++++++++ ticket_backup.sql.20160507110001
+2016/07/05 11:00:01 [26108] <f+++++++++ ticket_backup.sql.20160507110001
+2016/07/05 11:00:01 [26108] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 11:00:01 [26108] total size is 0  speedup is 0.00
+2016/07/05 11:00:01 [26112] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/05 11:00:01 [26112] total size is 0  speedup is 0.00
+2016/07/05 12-00-02 Backup tickets finished successfully
+2016/07/05 12-00-02 Backup tickets finished successfully
+2016/07/05 12:00:02 [26354] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 12:00:02 [26354] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 12:00:02 [26352] building file list
+2016/07/05 12:00:02 [26352] <f+++++++++ ticket_backup.sql.20160507120002
+2016/07/05 12:00:02 [26352] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 12:00:02 [26352] total size is 0  speedup is 0.00
+2016-07-05 12:39:35 Crontab cleared successfully
+2016-07-05 12:39:35 Clearing incron.primary
+2016-07-05 12:39:35 Incrontab on primary cleared successfully
+2016-07-05 12:39:37 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 12:40:08 Crontab cleared successfully
+2016-07-05 12:40:08 Clearing incron.primary
+2016-07-05 12:40:08 Incrontab on primary cleared successfully
+2016-07-05 12:40:10 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 12:40:23 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 12:40:23 SetPrimary finished successfully
+2016-07-05 12:40:25 Enabling Task Scheduling...
+2016-07-05 12:40:27 Host has been successfully set as primary
+2016-07-05 12:41:36 Crontab cleared successfully
+2016-07-05 12:41:36 Clearing incron.primary
+2016-07-05 12:41:36 Incrontab on primary cleared successfully
+2016-07-05 12:41:38 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 12:41:46 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 12:41:46 SetPrimary finished successfully
+2016-07-05 12:41:48 Enabling Task Scheduling...
+2016-07-05 12:41:50 Host has been successfully set as primary
+2016/07/05 13-00-01 Backup tickets finished successfully
+2016/07/05 13-00-01 Backup tickets finished successfully
+2016/07/05 13:00:01 [3929] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 13:00:01 [3929] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 13:00:01 [3930] building file list
+2016/07/05 13:00:01 [3930] <f+++++++++ ticket_backup.sql.20160507130001
+2016/07/05 13:00:01 [3930] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 13:00:01 [3930] total size is 0  speedup is 0.00
+2016/07/05 14-00-02 Backup tickets finished successfully
+2016/07/05 14-00-02 Backup tickets finished successfully
+2016/07/05 14:00:02 [9342] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 14:00:02 [9342] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 14:00:02 [9343] building file list
+2016/07/05 14:00:02 [9343] <f+++++++++ ticket_backup.sql.20160507140002
+2016/07/05 14:00:02 [9343] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 14:00:02 [9343] total size is 0  speedup is 0.00
+2016/07/05 15-00-01 Backup tickets finished successfully
+2016/07/05 15-00-01 Backup tickets finished successfully
+2016/07/05 15:00:01 [11671] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 15:00:01 [11671] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 15:00:02 [11673] building file list
+2016/07/05 15:00:02 [11673] <f+++++++++ ticket_backup.sql.20160507150001
+2016/07/05 15:00:02 [11673] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/05 15:00:02 [11673] total size is 0  speedup is 0.00
+2016/07/05 16-00-01 Backup tickets finished successfully
+2016/07/05 16-00-01 Backup tickets finished successfully
+2016/07/05 16:00:01 [12175] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 16:00:01 [12175] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 16:00:01 [12170] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 16:00:01 [12170] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 16:00:02 [12177] building file list
+2016/07/05 16:00:02 [12177] <f+++++++++ ticket_backup.sql.20160507160001
+2016/07/05 16:00:02 [12171] building file list
+2016/07/05 16:00:02 [12171] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/05 16:00:02 [12171] total size is 0  speedup is 0.00
+2016/07/05 16:00:02 [12177] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 16:00:02 [12177] total size is 0  speedup is 0.00
+2016/07/05 17-00-01 Backup tickets finished successfully
+2016/07/05 17-00-01 Backup tickets finished successfully
+2016/07/05 17:00:01 [25731] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 17:00:01 [25731] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 17:00:02 [25734] building file list
+2016/07/05 17:00:02 [25734] <f+++++++++ ticket_backup.sql.20160507170001
+2016/07/05 17:00:02 [25734] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/05 17:00:02 [25734] total size is 0  speedup is 0.00
+2016-07-05 17:09:08 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 17:09:08 SetPrimary finished successfully
+2016-07-05 17:09:10 Enabling Task Scheduling...
+2016-07-05 17:09:12 Host failed to be set as primary
+2016-07-05 17:09:23 BackupTicket Cron entry already exist
+2016-07-05 17:09:23 ReplicateFirewalls Cron entry already exist
+2016-07-05 17:09:24 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 17:09:24 SetPrimary finished successfully
+2016-07-05 17:09:26 Enabling Task Scheduling...
+2016-07-05 17:09:28 Host has been successfully set as primary
+2016-07-05 17:38:55 Watchdog Cron entry already exist
+2016-07-05 17:38:55 BackupTicket Cron entry already exist
+2016-07-05 17:38:55 ReplicateFirewalls Cron entry already exist
+2016-07-05 17:38:57 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-05 17:38:57 SetPrimary finished successfully
+2016-07-05 17:38:58 Enabling Task Scheduling...
+2016-07-05 17:39:00 Host has been successfully set as primary
+2016/07/05 18-00-01 Backup tickets finished successfully
+2016/07/05 18-00-01 Backup tickets finished successfully
+2016/07/05 18:00:01 [29649] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 18:00:01 [29649] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 18:00:01 [29664] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 18:00:01 [29664] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 18:00:02 [29650] building file list
+2016/07/05 18:00:02 [29650] <f+++++++++ ticket_backup.sql.20160507180001
+2016/07/05 18:00:02 [29650] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 18:00:02 [29650] total size is 0  speedup is 0.00
+2016/07/05 18:00:02 [29663] building file list
+2016/07/05 18:00:02 [29663] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/05 18:00:02 [29663] total size is 0  speedup is 0.00
+2016/07/05 19-00-01 Backup tickets finished successfully
+2016/07/05 19-00-01 Backup tickets finished successfully
+2016/07/05 19:00:01 [29907] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 19:00:01 [29907] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 19:00:01 [29910] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 19:00:01 [29910] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 19:00:02 [29911] building file list
+2016/07/05 19:00:02 [29911] <f+++++++++ ticket_backup.sql.20160507190001
+2016/07/05 19:00:02 [29905] building file list
+2016/07/05 19:00:02 [29911] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 19:00:02 [29911] total size is 0  speedup is 0.00
+2016/07/05 19:00:02 [29905] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/05 19:00:02 [29905] total size is 0  speedup is 0.00
+2016/07/05 20-00-01 Backup tickets finished successfully
+2016/07/05 20-00-01 Backup tickets finished successfully
+2016/07/05 20:00:02 [30142] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 20:00:02 [30142] rsync error: error in rsync protocol data stream (code 12) at io.c(605) [sender=3.0.9]
+2016/07/05 20:00:02 [30145] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 20:00:02 [30145] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 20:00:02 [30146] building file list
+2016/07/05 20:00:02 [30144] building file list
+2016/07/05 20:00:02 [30146] <f+++++++++ ticket_backup.sql.20160507200001
+2016/07/05 20:00:02 [30144] <f+++++++++ ticket_backup.sql.20160507200001
+2016/07/05 20:00:02 [30146] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 20:00:02 [30146] total size is 0  speedup is 0.00
+2016/07/05 20:00:02 [30144] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/05 20:00:02 [30144] total size is 0  speedup is 0.00
+2016/07/05 21-00-01 Backup tickets finished successfully
+2016/07/05 21-00-01 Backup tickets finished successfully
+2016/07/05 21:00:01 [30377] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 21:00:01 [30377] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 21:00:01 [30378] building file list
+2016/07/05 21:00:01 [30378] <f+++++++++ ticket_backup.sql.20160507210001
+2016/07/05 21:00:01 [30378] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 21:00:01 [30378] total size is 0  speedup is 0.00
+2016/07/05 22-00-02 Backup tickets finished successfully
+2016/07/05 22-00-02 Backup tickets finished successfully
+2016/07/05 22:00:02 [30748] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 22:00:02 [30748] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 22:00:02 [30744] building file list
+2016/07/05 22:00:02 [30744] <f+++++++++ ticket_backup.sql.20160507220002
+2016/07/05 22:00:02 [30744] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/05 22:00:02 [30744] total size is 0  speedup is 0.00
+2016/07/05 23-00-01 Backup tickets finished successfully
+2016/07/05 23-00-01 Backup tickets finished successfully
+2016/07/05 23:00:02 [31006] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/05 23:00:02 [31006] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/05 23:00:02 [31003] building file list
+2016/07/05 23:00:02 [31003] <f+++++++++ ticket_backup.sql.20160507230001
+2016/07/05 23:00:02 [31003] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/05 23:00:02 [31003] total size is 0  speedup is 0.00
+2016/07/06 00-00-01 Backup tickets finished successfully
+2016/07/06 00-00-01 Backup tickets finished successfully
+2016/07/06 00:00:01 [31241] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 00:00:01 [31241] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 00:00:01 [31242] building file list
+2016/07/06 00:00:01 [31242] <f+++++++++ ticket_backup.sql.20160607000001
+2016/07/06 00:00:02 [31242] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 00:00:02 [31242] total size is 0  speedup is 0.00
+2016/07/06 01-00-02 Backup tickets finished successfully
+2016/07/06 01-00-02 Backup tickets finished successfully
+2016/07/06 01:00:02 [32558] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 01:00:02 [32558] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 01:00:02 [32566] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 01:00:02 [32566] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 01:00:02 [32557] building file list
+2016/07/06 01:00:02 [32565] building file list
+2016/07/06 01:00:02 [32557] <f+++++++++ ticket_backup.sql.20160607010002
+2016/07/06 01:00:02 [32565] <f+++++++++ ticket_backup.sql.20160607010002
+2016/07/06 01:00:02 [32565] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 01:00:02 [32565] total size is 0  speedup is 0.00
+2016/07/06 01:00:02 [32557] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 01:00:02 [32557] total size is 0  speedup is 0.00
+2016/07/06 02-00-01 Backup tickets finished successfully
+2016/07/06 02-00-01 Backup tickets finished successfully
+2016/07/06 02:00:01 [333] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 02:00:01 [333] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 02:00:02 [331] building file list
+2016/07/06 02:00:02 [331] <f+++++++++ ticket_backup.sql.20160607020001
+2016/07/06 02:00:02 [331] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/06 02:00:02 [331] total size is 0  speedup is 0.00
+2016/07/06 03-00-01 Backup tickets finished successfully
+2016/07/06 03-00-01 Backup tickets finished successfully
+2016/07/06 03:00:01 [597] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 03:00:01 [597] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 03:00:01 [595] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 03:00:01 [595] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 03:00:01 [596] building file list
+2016/07/06 03:00:01 [591] building file list
+2016/07/06 03:00:01 [591] <f+++++++++ ticket_backup.sql.20160607030001
+2016/07/06 03:00:01 [596] <f+++++++++ ticket_backup.sql.20160607030001
+2016/07/06 03:00:01 [591] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 03:00:01 [591] total size is 0  speedup is 0.00
+2016/07/06 03:00:01 [596] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 03:00:01 [596] total size is 0  speedup is 0.00
+2016/07/06 04-00-01 Backup tickets finished successfully
+2016/07/06 04-00-01 Backup tickets finished successfully
+2016/07/06 04:00:02 [878] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 04:00:02 [878] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 04:00:02 [875] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 04:00:02 [875] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 04:00:02 [877] building file list
+2016/07/06 04:00:02 [876] building file list
+2016/07/06 04:00:02 [876] <f+++++++++ ticket_backup.sql.20160607040001
+2016/07/06 04:00:02 [877] <f+++++++++ ticket_backup.sql.20160607040001
+2016/07/06 04:00:02 [876] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 04:00:02 [876] total size is 0  speedup is 0.00
+2016/07/06 04:00:02 [877] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 04:00:02 [877] total size is 0  speedup is 0.00
+2016/07/06 05-00-01 Backup tickets finished successfully
+2016/07/06 05-00-01 Backup tickets finished successfully
+2016/07/06 05:00:01 [1118] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 05:00:01 [1118] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 05:00:01 [1121] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 05:00:01 [1121] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 05:00:02 [1119] building file list
+2016/07/06 05:00:02 [1119] <f+++++++++ ticket_backup.sql.20160607050001
+2016/07/06 05:00:02 [1119] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 05:00:02 [1119] total size is 0  speedup is 0.00
+2016/07/06 06-00-01 Backup tickets finished successfully
+2016/07/06 06-00-01 Backup tickets finished successfully
+2016/07/06 06:00:01 [1371] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 06:00:01 [1371] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 06:00:01 [1374] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 06:00:01 [1374] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 06:00:01 [1375] building file list
+2016/07/06 06:00:01 [1369] building file list
+2016/07/06 06:00:01 [1369] <f+++++++++ ticket_backup.sql.20160607060001
+2016/07/06 06:00:01 [1375] <f+++++++++ ticket_backup.sql.20160607060001
+2016/07/06 06:00:01 [1369] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 06:00:01 [1369] total size is 0  speedup is 0.00
+2016/07/06 06:00:01 [1375] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 06:00:01 [1375] total size is 0  speedup is 0.00
+2016/07/06 07-00-02 Backup tickets finished successfully
+2016/07/06 07-00-02 Backup tickets finished successfully
+2016/07/06 07:00:02 [1622] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 07:00:02 [1622] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 07:00:02 [1620] building file list
+2016/07/06 07:00:02 [1620] <f+++++++++ ticket_backup.sql.20160607070002
+2016/07/06 07:00:02 [1620] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 07:00:02 [1620] total size is 0  speedup is 0.00
+2016/07/06 08-00-01 Backup tickets finished successfully
+2016/07/06 08-00-01 Backup tickets finished successfully
+2016/07/06 08:00:01 [1849] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 08:00:01 [1849] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 08:00:02 [1847] building file list
+2016/07/06 08:00:02 [1847] <f+++++++++ ticket_backup.sql.20160607080001
+2016/07/06 08:00:02 [1847] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/06 08:00:02 [1847] total size is 0  speedup is 0.00
+2016/07/06 09-00-01 Backup tickets finished successfully
+2016/07/06 09-00-01 Backup tickets finished successfully
+2016/07/06 09:00:01 [2110] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 09:00:01 [2110] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 09:00:01 [2104] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 09:00:01 [2104] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 09:00:02 [2109] building file list
+2016/07/06 09:00:02 [2105] building file list
+2016/07/06 09:00:02 [2109] <f+++++++++ ticket_backup.sql.20160607090001
+2016/07/06 09:00:02 [2105] <f+++++++++ ticket_backup.sql.20160607090001
+2016/07/06 09:00:02 [2105] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 09:00:02 [2105] total size is 0  speedup is 0.00
+2016/07/06 09:00:02 [2109] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 09:00:02 [2109] total size is 0  speedup is 0.00
+2016/07/06 10-00-01 Backup tickets finished successfully
+2016/07/06 10-00-01 Backup tickets finished successfully
+2016/07/06 10:00:01 [2354] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 10:00:01 [2354] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 10:00:01 [2351] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 10:00:01 [2351] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 10:00:01 [2356] building file list
+2016/07/06 10:00:01 [2352] building file list
+2016/07/06 10:00:01 [2352] <f+++++++++ ticket_backup.sql.20160607100001
+2016/07/06 10:00:01 [2356] <f+++++++++ ticket_backup.sql.20160607100001
+2016/07/06 10:00:01 [2356] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 10:00:01 [2356] total size is 0  speedup is 0.00
+2016/07/06 10:00:01 [2352] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 10:00:01 [2352] total size is 0  speedup is 0.00
+2016/07/06 11-00-01 Backup tickets finished successfully
+2016/07/06 11-00-01 Backup tickets finished successfully
+2016/07/06 11:00:01 [2578] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 11:00:01 [2578] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 11:00:02 [2599] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 11:00:02 [2599] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 11:00:02 [2598] building file list
+2016/07/06 11:00:02 [2577] building file list
+2016/07/06 11:00:02 [2598] <f+++++++++ ticket_backup.sql.20160607110001
+2016/07/06 11:00:02 [2577] <f+++++++++ ticket_backup.sql.20160607110001
+2016/07/06 11:00:02 [2577] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 11:00:02 [2577] total size is 0  speedup is 0.00
+2016/07/06 11:00:02 [2598] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 11:00:02 [2598] total size is 0  speedup is 0.00
+2016/07/06 12-00-01 Backup tickets finished successfully
+2016/07/06 12-00-01 Backup tickets finished successfully
+2016/07/06 12:00:01 [2827] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 12:00:01 [2827] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 12:00:01 [2828] building file list
+2016/07/06 12:00:01 [2828] <f+++++++++ ticket_backup.sql.20160607120001
+2016/07/06 12:00:01 [2828] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 12:00:01 [2828] total size is 0  speedup is 0.00
+2016/07/06 13-00-02 Backup tickets finished successfully
+2016/07/06 13-00-02 Backup tickets finished successfully
+2016/07/06 13:00:02 [3057] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 13:00:02 [3057] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 13:00:02 [3068] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 13:00:02 [3068] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 13:00:02 [3055] building file list
+2016/07/06 13:00:02 [3067] building file list
+2016/07/06 13:00:02 [3055] <f+++++++++ ticket_backup.sql.20160607130001
+2016/07/06 13:00:02 [3067] <f+++++++++ ticket_backup.sql.20160607130002
+2016/07/06 13:00:02 [3055] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 13:00:02 [3055] total size is 0  speedup is 0.00
+2016/07/06 13:00:02 [3067] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 13:00:02 [3067] total size is 0  speedup is 0.00
+2016/07/06 14-00-01 Backup tickets finished successfully
+2016/07/06 14-00-01 Backup tickets finished successfully
+2016/07/06 14:00:01 [3404] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 14:00:01 [3404] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 14:00:01 [3402] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 14:00:01 [3402] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 14:00:02 [3400] building file list
+2016/07/06 14:00:02 [3400] <f+++++++++ ticket_backup.sql.20160607140001
+2016/07/06 14:00:02 [3405] building file list
+2016/07/06 14:00:02 [3400] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/06 14:00:02 [3400] total size is 0  speedup is 0.00
+2016/07/06 14:00:02 [3405] sent 82 bytes  received 12 bytes  62.67 bytes/sec
+2016/07/06 14:00:02 [3405] total size is 0  speedup is 0.00
+2016/07/06 15-00-01 Backup tickets finished successfully
+2016/07/06 15-00-01 Backup tickets finished successfully
+2016/07/06 15:00:01 [3704] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 15:00:01 [3704] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 15:00:01 [3702] building file list
+2016/07/06 15:00:01 [3702] <f+++++++++ ticket_backup.sql.20160607150001
+2016/07/06 15:00:01 [3702] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 15:00:01 [3702] total size is 0  speedup is 0.00
+2016/07/06 16-00-01 Backup tickets finished successfully
+2016/07/06 16-00-01 Backup tickets finished successfully
+2016/07/06 16:00:02 [3932] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 16:00:02 [3932] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 16:00:02 [3934] building file list
+2016/07/06 16:00:02 [3934] <f+++++++++ ticket_backup.sql.20160607160001
+2016/07/06 16:00:02 [3934] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/06 16:00:02 [3934] total size is 0  speedup is 0.00
+2016/07/06 17-00-01 Backup tickets finished successfully
+2016/07/06 17-00-01 Backup tickets finished successfully
+2016/07/06 17:00:01 [4317] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 17:00:01 [4317] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 17:00:01 [4318] building file list
+2016/07/06 17:00:01 [4318] <f+++++++++ ticket_backup.sql.20160607170001
+2016/07/06 17:00:01 [4318] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 17:00:01 [4318] total size is 0  speedup is 0.00
+2016/07/06 18-00-02 Backup tickets finished successfully
+2016/07/06 18-00-02 Backup tickets finished successfully
+2016/07/06 18:00:02 [4551] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 18:00:02 [4551] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 18:00:02 [4552] building file list
+2016/07/06 18:00:02 [4552] <f+++++++++ ticket_backup.sql.20160607180002
+2016/07/06 18:00:02 [4552] sent 96 bytes  received 31 bytes  254.00 bytes/sec
+2016/07/06 18:00:02 [4552] total size is 0  speedup is 0.00
+2016/07/06 19-00-01 Backup tickets finished successfully
+2016/07/06 19-00-01 Backup tickets finished successfully
+2016/07/06 19:00:01 [4862] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 19:00:01 [4862] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 19:00:01 [4859] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 19:00:01 [4859] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 19:00:01 [4857] building file list
+2016/07/06 19:00:01 [4860] building file list
+2016/07/06 19:00:01 [4860] <f+++++++++ ticket_backup.sql.20160607190001
+2016/07/06 19:00:01 [4857] <f+++++++++ ticket_backup.sql.20160607190001
+2016/07/06 19:00:01 [4857] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 19:00:01 [4857] total size is 0  speedup is 0.00
+2016/07/06 19:00:01 [4860] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 19:00:01 [4860] total size is 0  speedup is 0.00
+2016/07/06 20-00-01 Backup tickets finished successfully
+2016/07/06 20-00-01 Backup tickets finished successfully
+2016/07/06 20:00:01 [5158] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 20:00:01 [5158] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 20:00:02 [5156] building file list
+2016/07/06 20:00:02 [5156] <f+++++++++ ticket_backup.sql.20160607200001
+2016/07/06 20:00:02 [5156] sent 96 bytes  received 31 bytes  84.67 bytes/sec
+2016/07/06 20:00:02 [5156] total size is 0  speedup is 0.00
+2016/07/06 21-00-02 Backup tickets finished successfully
+2016/07/06 21-00-02 Backup tickets finished successfully
+2016/07/06 21:00:02 [5409] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 21:00:02 [5409] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 21:00:02 [5411] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 21:00:02 [5411] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 21:00:02 [5407] building file list
+2016/07/06 21:00:02 [5410] building file list
+2016/07/06 21:00:02 [5407] <f+++++++++ ticket_backup.sql.20160607210002
+2016/07/06 21:00:02 [5410] <f+++++++++ ticket_backup.sql.20160607210002
+2016/07/06 21:00:02 [5410] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 21:00:02 [5410] total size is 0  speedup is 0.00
+2016/07/06 21:00:02 [5407] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 21:00:02 [5407] total size is 0  speedup is 0.00
+2016/07/06 22-00-01 Backup tickets finished successfully
+2016/07/06 22-00-01 Backup tickets finished successfully
+2016/07/06 22:00:01 [5699] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 22:00:01 [5699] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 22:00:01 [5703] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 22:00:01 [5703] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 22:00:01 [5702] building file list
+2016/07/06 22:00:01 [5702] <f+++++++++ ticket_backup.sql.20160607220001
+2016/07/06 22:00:01 [5697] building file list
+2016/07/06 22:00:01 [5702] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 22:00:01 [5702] total size is 0  speedup is 0.00
+2016/07/06 22:00:01 [5697] sent 82 bytes  received 12 bytes  188.00 bytes/sec
+2016/07/06 22:00:01 [5697] total size is 0  speedup is 0.00
+2016-07-06 22:17:43 BackupTicket Cron entry already exist
+2016-07-06 22:17:43 ReplicateFirewalls Cron entry already exist
+2016-07-06 22:18:07 Watchdog Cron entry already exist
+2016-07-06 22:18:07 BackupTicket Cron entry already exist
+2016-07-06 22:18:07 ReplicateFirewalls Cron entry already exist
+2016-07-06 22:18:10 Firewalld configuration was uploaded,firewall was successfully reloaded
+2016-07-06 22:18:19 Enabling Task Scheduling...
+2016-07-06 22:18:25 Host has been successfully set as primary
+2016-07-06 22:18:25 SetPrimary finished successfully
+2016/07/06 23-00-01 Backup tickets finished successfully
+2016/07/06 23-00-01 Backup tickets finished successfully
+2016/07/06 23:00:01 [6342] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 23:00:01 [6342] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 23:00:01 [6345] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/06 23:00:01 [6345] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/06 23:00:01 [6343] building file list
+2016/07/06 23:00:01 [6340] building file list
+2016/07/06 23:00:01 [6340] <f+++++++++ ticket_backup.sql.20160607230001
+2016/07/06 23:00:01 [6343] <f+++++++++ ticket_backup.sql.20160607230001
+2016/07/06 23:00:01 [6343] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 23:00:01 [6343] total size is 0  speedup is 0.00
+2016/07/06 23:00:01 [6340] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/06 23:00:01 [6340] total size is 0  speedup is 0.00
+2016/07/07 00-00-01 Backup tickets finished successfully
+2016/07/07 00-00-01 Backup tickets finished successfully
+2016/07/07 00:00:01 [6573] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 00:00:01 [6573] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 00:00:01 [6578] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 00:00:01 [6578] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 00:00:02 [6572] building file list
+2016/07/07 00:00:02 [6579] building file list
+2016/07/07 00:00:02 [6579] <f+++++++++ ticket_backup.sql.20160707000001
+2016/07/07 00:00:02 [6572] <f+++++++++ ticket_backup.sql.20160707000001
+2016/07/07 00:00:02 [6579] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/07 00:00:02 [6579] total size is 0  speedup is 0.00
+2016/07/07 00:00:02 [6572] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/07 00:00:02 [6572] total size is 0  speedup is 0.00
+2016/07/07 01-00-01 Backup tickets finished successfully
+2016/07/07 01-00-01 Backup tickets finished successfully
+2016/07/07 01:00:01 [6846] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 01:00:01 [6846] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 01:00:01 [6861] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 01:00:01 [6861] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 01:00:01 [6860] building file list
+2016/07/07 01:00:01 [6847] building file list
+2016/07/07 01:00:01 [6860] <f+++++++++ ticket_backup.sql.20160707010001
+2016/07/07 01:00:01 [6847] <f+++++++++ ticket_backup.sql.20160707010001
+2016/07/07 01:00:01 [6847] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/07 01:00:01 [6860] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/07 01:00:01 [6847] total size is 0  speedup is 0.00
+2016/07/07 01:00:01 [6860] total size is 0  speedup is 0.00
+2016-07-07 01:39:33 Watchdog Cron entry already exist
+2016-07-07 01:39:33 BackupTicket Cron entry already exist
+2016-07-07 01:39:33 ReplicateFirewalls Cron entry already exist
+2016-07-07 01:39:33 Iptables configuration was uploaded...
+2016-07-07 01:39:34 Enabling Task Scheduling...
+2016-07-07 01:39:36 Host has been successfully set as primary
+2016-07-07 01:39:36 SetPrimary finished successfully
+2016/07/07 02-00-01 Backup tickets finished successfully
+2016/07/07 02-00-01 Backup tickets finished successfully
+2016/07/07 02:00:01 [7661] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 02:00:01 [7661] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 02:00:01 [7658] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 02:00:01 [7658] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 02:00:01 [7662] building file list
+2016/07/07 02:00:01 [7662] <f+++++++++ ticket_backup.sql.20160707020001
+2016/07/07 02:00:01 [7662] sent 121 bytes  received 31 bytes  304.00 bytes/sec
+2016/07/07 02:00:01 [7662] total size is 0  speedup is 0.00
+2016/07/07 03-00-01 Backup tickets finished successfully
+2016/07/07 03-00-01 Backup tickets finished successfully
+2016/07/07 03:00:01 [7907] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 03:00:01 [7907] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 03:00:01 [7903] rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+2016/07/07 03:00:01 [7903] rsync error: unexplained error (code 255) at io.c(605) [sender=3.0.9]
+2016/07/07 03:00:02 [7906] building file list
+2016/07/07 03:00:02 [7908] building file list
+2016/07/07 03:00:02 [7908] <f+++++++++ ticket_backup.sql.20160707030001
+2016/07/07 03:00:02 [7906] <f+++++++++ ticket_backup.sql.20160707030001
+2016/07/07 03:00:02 [7906] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/07 03:00:02 [7906] total size is 0  speedup is 0.00
+2016/07/07 03:00:02 [7908] sent 121 bytes  received 31 bytes  101.33 bytes/sec
+2016/07/07 03:00:02 [7908] total size is 0  speedup is 0.00
+2016-07-07 03:40:14 Incron.primary file was removed successfully
+2016-07-07 03:40:14 Incron.secondary file was removed successfully
+2016-07-07 03:40:14 Setsecondary run with auto
+2016-07-07 03:40:14 Iptables configuration failed to load...
+2016-07-07 03:40:14 Setsecondary run with auto
+2016-07-07 03:40:14 Iptables configuration was uploaded...
+2016-07-07 03:40:18 Host has been successfully set as secondary
+2016-07-07 03:40:18 Host failed to be set as secondary
+2016/07/07 04-00-04 Configuration files synced successfully
+2016/07/07 05-00-04 Configuration files synced successfully
+2016/07/07 06-00-04 Configuration files synced successfully
+2016/07/07 07-00-04 Configuration files synced successfully
+2016/07/07 08-00-04 Configuration files synced successfully
+2016/07/07 09-00-04 Configuration files synced successfully
+2016/07/07 10-00-03 Configuration files synced successfully
+2016/07/07 11-00-03 Configuration files synced successfully
+2016/07/07 12-00-04 Configuration files synced successfully
+2016/07/07 13-00-04 Configuration files synced successfully
+2016/07/07 14-00-04 Configuration files synced successfully
+2016/07/07 15-00-04 Configuration files synced successfully
+2016/07/07 16-00-05 Configuration files synced successfully
+2016/07/07 17-00-04 Configuration files synced successfully
+2016/07/07 18-00-03 Configuration files synced successfully
+2016/07/07 19-00-04 Configuration files synced successfully
+2016-07-07 19:07:21 Crontab cleared successfully
+2016-07-07 19:07:21 Incrontab on secondary cleared successfully
+2016-07-07 19:07:22 Firewalld configuration was uploaded, but firewall was not reloaded
+2016-07-07 19:07:43 Iptables configuration was uploaded...
+2016-07-07 19:07:45 Enabling Task Scheduling...
+2016-07-07 19:07:47 Host has been successfully set as primary
+2016-07-07 19:07:47 SetPrimary finished successfully

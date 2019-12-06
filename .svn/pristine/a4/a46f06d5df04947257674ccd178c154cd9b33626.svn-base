@@ -1,0 +1,5 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <ping xmlns="http://skyboxsecurity.com"/>
+    </Body>
+</Envelope>

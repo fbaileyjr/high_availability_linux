@@ -1,0 +1,12 @@
+use SOAP::Lite; 
+$SIG{ALRM} = sub { exit 1 };
+$ENV{PERL_LWP_SSL_VERIFY_HOSTNAME}=0;
+alarm $ARGV[1];
+eval {
+
+	$call=SOAP::Lite->proxy("https://$ARGV[0]:8443/skyboxview/webservice/services/VersionRepositoryWebService");
+$call->ping();
+};
+print $@;
+ 
+exit 1 if $@;

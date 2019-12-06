@@ -1,0 +1,53 @@
+#!/bin/bash
+cd /home/skyboxview/ha/
+source /home/skyboxview/ha/skybox_ha.conf
+
+
+# check my role
+
+if [ -e '/home/skyboxview/ha/incron.primary' ]
+then 
+	#I'm primary check if I'm dead
+	TEST_SERVER=127.0.0.1
+	IS_PRIMARY=1
+else
+	#I'm secondary check if other server is dead
+	TEST_SERVER=$OTHER_SERVER
+	IS_PRIMARY=0
+fi
+
+RETRY_COUNT=0
+while [ $RETRY_COUNT -lt $RETRIES ]; do
+	perl -X /home/skyboxview/ha/soap_ping.pl $TEST_SERVER $TIMEOUT
+	STATUS=$?
+	if [ $STATUS -eq 0 ]
+	then
+		RETRY_COUNT=$RETRIES
+		date +"%Y/%m/%d %H-%M-%S $TEST_SERVER is OK" >> /home/skyboxview/ha/log/watchdog.log
+	else
+		(( RETRY_COUNT += 1 ))
+		sleep $WAIT_BETWEEN_RETRIES
+		date +"%Y/%m/%d %H-%M-%S $TEST_SERVER is not responding" >> /home/skyboxview/ha/log/watchdog.log
+	fi
+done
+
+if [ $STATUS -eq 1 ]
+then
+	if [ $IS_PRIMARY -eq 1 ]
+	then
+		echo "I'm dead need to set myself secondery"
+		. /home/skyboxview/ha/setsecondary.sh auto
+	else
+		echo "Primary is dead need to set myself primary"
+		. /home/skyboxview/ha/setprimary.sh auto
+	fi
+	crontab -l > cron
+	sed -i '/skybox_watchdog/d' cron
+	crontab cron
+elsevi 
+	echo "all good"
+	exit 0
+fi
+
+
+
